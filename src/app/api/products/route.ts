@@ -11,6 +11,7 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
     const keyword = searchParams.get('keyword') || '';
+    const categoryId = searchParams.get('categoryId') || '';
     const page = parseInt(searchParams.get('page') || '1');
     const pageSize = parseInt(searchParams.get('pageSize') || '20');
 
@@ -58,39 +59,66 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error in /api/products:', error);
     
-    // Return mock data if API is not configured or fails
-    const mockProducts: Product[] = [
-      {
-        id: '1',
-        productID: 'mock-001',
-        subject: 'Sample Product 1 - Configure API credentials to see real products',
-        price: 99.99,
+    const searchParams = request.nextUrl.searchParams;
+    const categoryId = searchParams.get('categoryId') || '';
+    const keyword = searchParams.get('keyword') || '';
+    const page = parseInt(searchParams.get('page') || '1');
+    
+    // Generate more realistic mock data
+    const mockProducts: Product[] = Array.from({ length: 20 }, (_, i) => {
+      const productNum = (page - 1) * 20 + i + 1;
+      return {
+        id: `mock-${productNum}`,
+        productID: `mock-${productNum}`,
+        subject: `${categoryId || 'Sample'} Product ${productNum} - ${keyword || 'Configure API to see real products'}`,
+        price: Math.floor(Math.random() * 500) + 50,
+        priceRange: {
+          min: Math.floor(Math.random() * 300) + 50,
+          max: Math.floor(Math.random() * 500) + 400,
+        },
         currency: 'CNY',
-        imageUrl: 'https://via.placeholder.com/300x300?text=Product+1',
-        description: 'This is a mock product. Configure your 1688 API credentials in .env.local',
-        moq: 100,
+        imageUrl: `https://picsum.photos/seed/${productNum}/400/400`,
+        images: [
+          `https://picsum.photos/seed/${productNum}/400/400`,
+          `https://picsum.photos/seed/${productNum + 1000}/400/400`,
+          `https://picsum.photos/seed/${productNum + 2000}/400/400`,
+        ],
+        description: `High quality ${categoryId || 'wholesale'} product. Configure your 1688 API credentials in .env.local to see real products from 1688.com.`,
+        supplierName: `Supplier ${Math.floor(Math.random() * 100) + 1} Co., Ltd`,
+        supplierId: `supplier-${Math.floor(Math.random() * 100)}`,
+        supplierInfo: {
+          id: `supplier-${Math.floor(Math.random() * 100)}`,
+          name: `${categoryId || 'Quality'} Manufacturer ${Math.floor(Math.random() * 100) + 1}`,
+          isVerified: Math.random() > 0.3,
+          verificationLevel: ['gold', 'premium', 'basic'][Math.floor(Math.random() * 3)] as 'gold' | 'premium' | 'basic',
+          rating: Math.random() * 1.5 + 3.5,
+          totalTransactions: Math.floor(Math.random() * 50000) + 1000,
+          responseRate: Math.floor(Math.random() * 20) + 80,
+          responseTime: 'within 24 hours',
+          yearEstablished: Math.floor(Math.random() * 20) + 2004,
+          location: ['Guangzhou', 'Shenzhen', 'Shanghai', 'Yiwu', 'Hangzhou'][Math.floor(Math.random() * 5)],
+          badges: [
+            { type: 'verified', label: 'Verified Supplier' },
+            Math.random() > 0.5 ? { type: 'top-seller', label: 'Top Seller' } : { type: 'fast-shipping', label: 'Fast Shipping' },
+          ].filter(Boolean) as any,
+        },
+        moq: [50, 100, 200, 500, 1000][Math.floor(Math.random() * 5)],
         unit: 'piece',
-      },
-      {
-        id: '2',
-        productID: 'mock-002',
-        subject: 'Sample Product 2 - Add your Alibaba App Key',
-        price: 149.99,
-        currency: 'CNY',
-        imageUrl: 'https://via.placeholder.com/300x300?text=Product+2',
-        description: 'Mock product for testing UI',
-        moq: 50,
-        unit: 'piece',
-      },
-    ];
+        categoryId: categoryId || 'general',
+        saleInfo: {
+          soldQuantity: Math.floor(Math.random() * 10000) + 100,
+          reviewCount: Math.floor(Math.random() * 500) + 10,
+        },
+      };
+    });
 
     return NextResponse.json({
       success: true,
       products: mockProducts,
-      total: mockProducts.length,
-      page: 1,
+      total: 500, // Mock total
+      page,
       pageSize: 20,
-      message: 'Using mock data. Configure API credentials to fetch real products.',
+      message: 'Using mock data. Configure API credentials to fetch real products from 1688.com.',
     });
   }
 }
