@@ -59,6 +59,10 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error in /api/products:', error);
     
+    // Check if error is due to missing credentials
+    const errorMessage = error instanceof Error ? error.message : '';
+    const isMissingCredentials = errorMessage.includes('credentials not configured');
+    
     const searchParams = request.nextUrl.searchParams;
     const categoryId = searchParams.get('categoryId') || '';
     const keyword = searchParams.get('keyword') || '';
@@ -112,13 +116,24 @@ export async function GET(request: NextRequest) {
       };
     });
 
+    const message = isMissingCredentials
+      ? '⚠️ MOCK DATA: Real 1688.com API credentials not configured. See API_SETUP_GUIDE.md for instructions on getting real products.'
+      : '⚠️ MOCK DATA: API request failed. Using mock data as fallback.';
+
     return NextResponse.json({
       success: true,
       products: mockProducts,
       total: 500, // Mock total
       page,
       pageSize: 20,
-      message: 'Using mock data. Configure API credentials to fetch real products from 1688.com.',
+      message,
+      isRealData: false,
+      howToGetRealData: {
+        step1: 'Register at https://open.1688.com',
+        step2: 'Create application and get App Key + App Secret',
+        step3: 'Add credentials to .env.local file',
+        step4: 'See API_SETUP_GUIDE.md for detailed instructions',
+      },
     });
   }
 }

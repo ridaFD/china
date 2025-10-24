@@ -125,15 +125,35 @@ export default function Home() {
 
         {/* Info Banner */}
         <div className="max-w-3xl mx-auto mb-8">
-          <div className="bg-blue-100 border border-blue-200 rounded-lg p-6">
-            <h4 className="font-semibold text-blue-900 mb-2">
-              🔧 API Configuration
-            </h4>
-            <p className="text-blue-800 text-sm">
-              To display real products from 1688.com, configure your 
-              Alibaba Open Platform API credentials in the <code className="bg-blue-200 px-2 py-1 rounded">.env.local</code> file. 
-              Currently showing mock data. Check the README for setup instructions.
-            </p>
+          <div className="bg-orange-100 border-2 border-orange-400 rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <div className="text-3xl">⚠️</div>
+              <div className="flex-1">
+                <h4 className="font-bold text-orange-900 mb-2 text-lg">
+                  Currently Showing Mock Data
+                </h4>
+                <p className="text-orange-800 text-sm mb-3">
+                  To display <strong>real products</strong> from 1688.com, you need to configure 
+                  API credentials from Alibaba Open Platform.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link
+                    href="/api-status"
+                    className="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium text-sm"
+                  >
+                    Check API Status
+                  </Link>
+                  <a
+                    href="https://github.com/ridaFD/china/blob/main/API_SETUP_GUIDE.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-white text-orange-600 border-2 border-orange-600 rounded-lg hover:bg-orange-50 transition-colors font-medium text-sm"
+                  >
+                    Setup Guide
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
