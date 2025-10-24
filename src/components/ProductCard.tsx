@@ -62,11 +62,30 @@ export default function ProductCard({ product }: ProductCardProps) {
             )}
           </div>
 
-          {/* Supplier Info */}
-          {product.supplierName && (
-            <p className="text-xs text-gray-500 mb-2 truncate">
-              {product.supplierName}
-            </p>
+          {/* Supplier Info with Verification Badge */}
+          {(product.supplierName || product.supplierInfo) && (
+            <div className="mb-2">
+              <div className="flex items-center gap-2 mb-1">
+                <p className="text-xs text-gray-600 truncate flex-1">
+                  {product.supplierInfo?.name || product.supplierName}
+                </p>
+                {product.supplierInfo?.isVerified && (
+                  <span className="text-xs">
+                    {product.supplierInfo.verificationLevel === 'gold' && '👑'}
+                    {product.supplierInfo.verificationLevel === 'premium' && '⭐'}
+                    {product.supplierInfo.verificationLevel === 'basic' && '✓'}
+                  </span>
+                )}
+              </div>
+              {product.supplierInfo?.rating && (
+                <div className="flex items-center gap-1">
+                  <span className="text-yellow-500 text-xs">★</span>
+                  <span className="text-xs text-gray-600">
+                    {product.supplierInfo.rating.toFixed(1)}
+                  </span>
+                </div>
+              )}
+            </div>
           )}
 
           {/* Sales Info */}

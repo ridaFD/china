@@ -17,6 +17,8 @@ export interface Product {
   description?: string;
   supplierName?: string;
   supplierUrl?: string;
+  supplierId?: string;
+  supplierInfo?: SupplierInfo;
   moq?: number; // Minimum Order Quantity
   unit?: string;
   saleInfo?: {
@@ -64,5 +66,61 @@ export interface SearchParams {
   sortOrder?: 'asc' | 'desc';
   minPrice?: number;
   maxPrice?: number;
+  imageUrl?: string; // For image search
+}
+
+export interface Category {
+  id: string;
+  name: string;
+  nameEn: string;
+  icon: string;
+  description?: string;
+  productCount?: number;
+  subcategories?: Category[];
+}
+
+export interface CategoryListResponse {
+  success: boolean;
+  categories: Category[];
+  message?: string;
+}
+
+export interface SupplierInfo {
+  id: string;
+  name: string;
+  isVerified: boolean;
+  verificationLevel?: 'basic' | 'premium' | 'gold'; // Verification tiers
+  rating?: number; // 1-5 stars
+  totalTransactions?: number;
+  responseRate?: number; // Percentage
+  responseTime?: string; // e.g., "within 24 hours"
+  yearEstablished?: number;
+  location?: string;
+  badges?: SupplierBadge[];
+}
+
+export interface SupplierBadge {
+  type: 'verified' | 'top-seller' | 'fast-shipping' | 'quality-assured' | 'new-supplier';
+  label: string;
+  description?: string;
+}
+
+export interface ImageSearchRequest {
+  imageUrl?: string;
+  imageFile?: File;
+  categoryId?: string;
+}
+
+export interface ImageSearchResponse {
+  success: boolean;
+  products: Product[];
+  total: number;
+  message?: string;
+}
+
+export interface PriceComparisonProduct extends Product {
+  pricePerUnit?: number;
+  savingsPercentage?: number;
+  isBestPrice?: boolean;
 }
 

@@ -1,91 +1,139 @@
 import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
+import CategoryGrid from '@/components/CategoryGrid';
+import ImageSearch from '@/components/ImageSearch';
+import { categories } from '@/data/categories';
 
 export default function Home() {
+  // Get top 12 categories for homepage
+  const topCategories = categories.slice(0, 12);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50">
       {/* Hero Section */}
-      <main className="container mx-auto px-4">
-        <div className="flex flex-col items-center justify-center min-h-screen text-center">
+      <main className="container mx-auto px-4 py-8">
+        <div className="flex flex-col items-center text-center mb-12">
           {/* Logo/Title */}
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
               1688.com
               <span className="block text-blue-600 mt-2">Product Browser</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Browse and source products directly from China&apos;s largest wholesale marketplace
             </p>
           </div>
 
           {/* Search Bar */}
-          <div className="w-full max-w-4xl mb-12">
+          <div className="w-full max-w-4xl mb-8">
             <SearchBar />
           </div>
 
           {/* Features */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-8">
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">🔍</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="text-3xl mb-3">🔍</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Search Products
               </h3>
-              <p className="text-gray-600">
-                Search millions of wholesale products from verified Chinese suppliers
+              <p className="text-sm text-gray-600">
+                Search millions of wholesale products
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="text-3xl mb-3">📷</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                Image Search
+              </h3>
+              <p className="text-sm text-gray-600">
+                Find products by uploading photos
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
+              <div className="text-3xl mb-3">💰</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Best Prices
               </h3>
-              <p className="text-gray-600">
-                Access factory-direct pricing and bulk discounts on all products
+              <p className="text-sm text-gray-600">
+                Access factory-direct pricing
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Easy Sourcing
+              <div className="text-3xl mb-3">✓</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                Verified Suppliers
               </h3>
-              <p className="text-gray-600">
-                Connect directly with suppliers and streamline your wholesale buying
+              <p className="text-sm text-gray-600">
+                Connect with trusted suppliers
               </p>
             </div>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <Link
               href="/products"
-              className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-lg hover:shadow-xl"
             >
               Browse All Products
             </Link>
-            <a
-              href="https://www.1688.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-white text-blue-600 border-2 border-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
+            <Link
+              href="/categories"
+              className="px-8 py-3 bg-white text-blue-600 border-2 border-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-semibold shadow-lg hover:shadow-xl"
             >
-              Visit 1688.com
-            </a>
+              View All Categories
+            </Link>
           </div>
+        </div>
 
-          {/* Info Banner */}
-          <div className="mt-16 max-w-3xl">
-            <div className="bg-blue-100 border border-blue-200 rounded-lg p-6">
-              <h4 className="font-semibold text-blue-900 mb-2">
-                🔧 Setup Required
-              </h4>
-              <p className="text-blue-800 text-sm">
-                To display real products from 1688.com, you need to configure your 
-                Alibaba Open Platform API credentials in the <code className="bg-blue-200 px-2 py-1 rounded">.env.local</code> file. 
-                Currently showing mock data. Check the README for setup instructions.
+        {/* Image Search Section */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">
+              Search by Image
+            </h2>
+            <p className="text-gray-600">
+              Upload a product photo to find similar wholesale items
+            </p>
+          </div>
+          <ImageSearch />
+        </div>
+
+        {/* Categories Section */}
+        <div className="max-w-7xl mx-auto mb-16">
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-2">
+                Browse by Category
+              </h2>
+              <p className="text-gray-600">
+                Explore millions of products across diverse categories
               </p>
             </div>
+            <Link
+              href="/categories"
+              className="text-blue-600 hover:text-blue-700 font-medium"
+            >
+              View All →
+            </Link>
+          </div>
+          <CategoryGrid categories={topCategories} />
+        </div>
+
+        {/* Info Banner */}
+        <div className="max-w-3xl mx-auto mb-8">
+          <div className="bg-blue-100 border border-blue-200 rounded-lg p-6">
+            <h4 className="font-semibold text-blue-900 mb-2">
+              🔧 API Configuration
+            </h4>
+            <p className="text-blue-800 text-sm">
+              To display real products from 1688.com, configure your 
+              Alibaba Open Platform API credentials in the <code className="bg-blue-200 px-2 py-1 rounded">.env.local</code> file. 
+              Currently showing mock data. Check the README for setup instructions.
+            </p>
           </div>
         </div>
       </main>
