@@ -1,36 +1,334 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 1688.com Product Browser
 
-## Getting Started
+A modern Next.js e-commerce platform that integrates with 1688.com (Alibaba's wholesale marketplace) to display and browse products directly from Chinese suppliers.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Real-time Product Search**: Search millions of wholesale products from 1688.com
+- **Product Listings**: Beautiful, responsive grid layout for product browsing
+- **Product Details**: Comprehensive product information including images, pricing, MOQ, and supplier details
+- **API Integration**: Secure server-side API integration with Alibaba's Open Platform
+- **Mock Data Support**: Fallback to mock data when API credentials are not configured
+- **Modern UI**: Built with Tailwind CSS for a clean, professional look
+- **TypeScript**: Full type safety throughout the application
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+- 1688.com/Alibaba Open Platform account (for API access)
+
+### Installation
+
+1. **Clone or navigate to the project directory:**
+   ```bash
+   cd /Users/ridafakherlden/www/china
+   ```
+
+2. **Install dependencies** (already done, but if needed):
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables:**
+   
+   Create a `.env.local` file in the root directory:
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   Edit `.env.local` and add your Alibaba API credentials:
+   ```env
+   ALIBABA_APP_KEY=your_app_key_here
+   ALIBABA_APP_SECRET=your_app_secret_here
+   ALIBABA_API_URL=https://gw.open.1688.com/openapi
+   NEXT_PUBLIC_SITE_URL=http://localhost:3000
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🔑 Getting API Credentials
+
+To use real data from 1688.com, you need to register for API access:
+
+### Step 1: Register an Account
+1. Go to [Alibaba Open Platform](https://open.1688.com)
+2. Create an account or log in with your existing Alibaba account
+3. Complete the business verification process
+
+### Step 2: Create an Application
+1. Navigate to the "Application Management" section
+2. Click "Create Application"
+3. Fill in your application details:
+   - Application name
+   - Description
+   - Website URL
+   - Callback URL (for OAuth)
+
+### Step 3: Get API Credentials
+1. After application approval, you'll receive:
+   - **App Key** (appkey)
+   - **App Secret** (secret)
+2. Copy these credentials to your `.env.local` file
+
+### Step 4: Request API Permissions
+1. Apply for the following API permissions:
+   - Product Search API (`alibaba.product.search`)
+   - Product Detail API (`alibaba.product.get`)
+   - Image API (for product images)
+2. Wait for approval (usually 1-3 business days)
+
+## 📁 Project Structure
+
+```
+/Users/ridafakherlden/www/china/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── products/
+│   │   │       ├── route.ts           # Product listing API
+│   │   │       └── [id]/
+│   │   │           └── route.ts       # Product detail API
+│   │   ├── products/
+│   │   │   ├── page.tsx               # Products listing page
+│   │   │   └── [id]/
+│   │   │       └── page.tsx           # Product detail page
+│   │   ├── layout.tsx                 # Root layout
+│   │   ├── page.tsx                   # Home page
+│   │   └── globals.css                # Global styles
+│   ├── components/
+│   │   ├── ProductCard.tsx            # Product card component
+│   │   ├── SearchBar.tsx              # Search component
+│   │   └── LoadingSpinner.tsx         # Loading state
+│   ├── lib/
+│   │   └── alibaba-api.ts             # API integration utilities
+│   └── types/
+│       └── product.ts                 # TypeScript type definitions
+├── public/                            # Static assets
+├── .env.local                         # Environment variables (create this)
+├── .env.example                       # Environment template
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **API**: Next.js API Routes
+- **Image Optimization**: Next.js Image Component
+- **State Management**: React Hooks
+- **HTTP Client**: Native Fetch API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 API Integration Details
 
-## Learn More
+### Authentication
 
-To learn more about Next.js, take a look at the following resources:
+The application uses HMAC-MD5 signature authentication as required by Alibaba's API:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Request parameters are sorted alphabetically
+2. A signature string is generated by concatenating all parameters
+3. HMAC-MD5 hash is created using the App Secret
+4. The signature is added to the API request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Available Endpoints
 
-## Deploy on Vercel
+#### GET `/api/products`
+Fetch a list of products
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Query Parameters:**
+- `keyword` (optional): Search term
+- `page` (optional): Page number (default: 1)
+- `pageSize` (optional): Items per page (default: 20)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Response:**
+```json
+{
+  "success": true,
+  "products": [...],
+  "total": 100,
+  "page": 1,
+  "pageSize": 20
+}
+```
+
+#### GET `/api/products/[id]`
+Fetch detailed information for a specific product
+
+**Response:**
+```json
+{
+  "success": true,
+  "product": {
+    "id": "123",
+    "subject": "Product name",
+    "price": 99.99,
+    "imageUrl": "https://...",
+    "description": "...",
+    ...
+  }
+}
+```
+
+## 🎨 Customization
+
+### Styling
+
+The application uses Tailwind CSS. To customize the design:
+
+1. Edit `tailwind.config.ts` for theme customization
+2. Modify component styles in their respective files
+3. Update global styles in `src/app/globals.css`
+
+### Mock Data
+
+If you're testing without API credentials, the application automatically uses mock data. You can customize the mock products in:
+- `src/app/api/products/route.ts`
+- `src/app/api/products/[id]/route.ts`
+
+## 🔍 Features in Detail
+
+### Product Search
+- Real-time search through 1688.com products
+- Keyword-based filtering
+- Pagination support
+
+### Product Listings
+- Grid layout with responsive design
+- Product cards showing:
+  - Product image
+  - Title
+  - Price (with CNY to USD conversion)
+  - Minimum Order Quantity (MOQ)
+  - Supplier information
+  - Sales statistics
+
+### Product Details
+- Image gallery with thumbnails
+- Comprehensive product information
+- Supplier details
+- Price range based on quantity
+- Product specifications
+- Contact supplier functionality
+
+## 🌐 Internationalization
+
+The application displays:
+- Prices in Chinese Yuan (CNY) with USD approximation
+- MOQ (Minimum Order Quantity) information
+- Chinese supplier names and details
+
+Future enhancements could include:
+- Multi-language support
+- Real-time currency conversion
+- Translation of product descriptions
+
+## 📦 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import the repository in Vercel
+3. Add environment variables in Vercel dashboard:
+   - `ALIBABA_APP_KEY`
+   - `ALIBABA_APP_SECRET`
+   - `ALIBABA_API_URL`
+   - `NEXT_PUBLIC_SITE_URL`
+4. Deploy!
+
+### Other Platforms
+
+The application can be deployed to any platform that supports Next.js:
+- Netlify
+- Railway
+- AWS Amplify
+- DigitalOcean App Platform
+
+## 🐛 Troubleshooting
+
+### Mock Data Showing Instead of Real Products
+
+**Issue**: The application displays mock products even though you've configured API credentials.
+
+**Solutions**:
+1. Verify your `.env.local` file has the correct credentials
+2. Check that your API application is approved on Alibaba Open Platform
+3. Ensure API permissions are granted for product search and detail endpoints
+4. Check the browser console and server logs for error messages
+
+### API Request Failures
+
+**Issue**: API requests return errors or fail.
+
+**Solutions**:
+1. Verify your App Key and App Secret are correct
+2. Check that your IP address is whitelisted (if required by Alibaba)
+3. Ensure you haven't exceeded API rate limits
+4. Check the API endpoint URL is correct
+
+### Images Not Loading
+
+**Issue**: Product images don't display.
+
+**Solutions**:
+1. Add 1688.com image domains to `next.config.ts`:
+   ```typescript
+   images: {
+     remotePatterns: [
+       {
+         protocol: 'https',
+         hostname: '**.1688.com',
+       },
+     ],
+   }
+   ```
+2. Restart the development server after configuration changes
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 📞 Support
+
+For issues related to:
+- **This application**: Create an issue in the repository
+- **1688 API**: Contact [Alibaba Open Platform Support](https://open.1688.com)
+- **Next.js**: Check [Next.js Documentation](https://nextjs.org/docs)
+
+## 🔮 Future Enhancements
+
+Potential features for future versions:
+- [ ] Shopping cart functionality
+- [ ] User authentication
+- [ ] Order management
+- [ ] Real-time currency conversion API
+- [ ] Product comparison tool
+- [ ] Wishlist/favorites
+- [ ] Advanced filtering (price range, category, supplier rating)
+- [ ] Supplier rating and reviews
+- [ ] Multi-language support
+- [ ] Translation API for product descriptions
+- [ ] Payment gateway integration
+- [ ] Shipping calculator
+- [ ] Bulk order request form
+- [ ] Export product data to CSV/Excel
+
+---
+
+**Built with ❤️ using Next.js and 1688.com API**
