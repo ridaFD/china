@@ -52,6 +52,7 @@ export interface ProductListResponse {
   message?: string;
   isRealData?: boolean;
   storeId?: string;
+  keyword?: string;
   error?: string;
 }
 

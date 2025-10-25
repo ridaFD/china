@@ -202,19 +202,27 @@ export async function getProductReviews(params: {
  */
 export async function searchStoreProducts(params: {
   storeId: string;
+  keyword?: string;
   page?: number;
   pageSize?: number;
 }): Promise<any> {
   try {
+    const requestParams: any = {
+      storeId: params.storeId,
+      page: params.page || 1,
+      pageSize: params.pageSize || 30,
+      sort: 'default',
+    };
+
+    // Add keyword if provided
+    if (params.keyword && params.keyword.trim()) {
+      requestParams.q = params.keyword.trim();
+    }
+
     const response = await rapidAPIRequest({
       method: 'GET',
       endpoint: '/store_item_search',
-      params: {
-        storeId: params.storeId,
-        page: params.page || 1,
-        pageSize: params.pageSize || 30,
-        sort: 'default',
-      },
+      params: requestParams,
     });
 
     return response;

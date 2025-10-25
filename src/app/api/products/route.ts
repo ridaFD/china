@@ -71,11 +71,12 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const pageSize = parseInt(searchParams.get('pageSize') || '20');
 
-    console.log(`Fetching products from store: ${storeId}, page: ${page}`);
+    console.log(`Fetching products from store: ${storeId}, keyword: "${keyword}", page: ${page}`);
 
-    // Call RapidAPI store_item_search endpoint
+    // Call RapidAPI store_item_search endpoint with keyword support
     const response = await searchStoreProducts({
       storeId,
+      keyword,  // Pass keyword to search within store
       page,
       pageSize,
     });
@@ -97,6 +98,10 @@ export async function GET(request: NextRequest) {
 
     console.log(`✅ Fetched ${products.length} real products from store ${storeId}!`);
 
+    const message = keyword 
+      ? `Found ${products.length} products matching "${keyword}" in store`
+      : `Showing products from 1688.com store via RapidAPI`;
+
     const result: ProductListResponse = {
       success: true,
       products,
@@ -104,9 +109,10 @@ export async function GET(request: NextRequest) {
       page,
       pageSize,
       totalPages,
-      message: `Showing real products from 1688.com store via RapidAPI`,
+      message,
       isRealData: true,
       storeId,
+      keyword: keyword || undefined,
     };
 
     return NextResponse.json(result);
