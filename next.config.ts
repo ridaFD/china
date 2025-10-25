@@ -9,7 +9,23 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: '**.alicdn.com',  // All Alibaba CDN domains
+      },
+      {
+        protocol: 'https',
         hostname: 'cbu01.alicdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cbu02.alicdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cbu03.alicdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.alicdn.com',
       },
       {
         protocol: 'https',
