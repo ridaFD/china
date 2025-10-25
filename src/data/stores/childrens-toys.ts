@@ -4,9 +4,9 @@ import { FeaturedStore } from './types';
 export const childrens_toysStores: FeaturedStore[] = [
   {
     id: 'b2b-310000y297gl',
-    name: 'Children's Toys Store',
+    name: "Children's Toys Store",
     nameZh: '儿童玩具批发',
-    category: 'Children's Toys',
+    category: "Children's Toys",
     description: 'Premium children's toys supplier with quality products',
     verified: true,
     estimatedProducts: 300,

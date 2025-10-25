@@ -4,9 +4,9 @@ import { FeaturedStore } from './types';
 export const womens_clothingStores: FeaturedStore[] = [
   {
     id: 'b2b-100000t66za2',
-    name: 'Women's Clothing Store',
+    name: "Women's Clothing Store",
     nameZh: '女装批发',
-    category: 'Women's Clothing',
+    category: "Women's Clothing",
     description: 'Premium women's clothing supplier with quality products',
     verified: true,
     estimatedProducts: 300,

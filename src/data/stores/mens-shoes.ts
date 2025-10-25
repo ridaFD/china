@@ -4,9 +4,9 @@ import { FeaturedStore } from './types';
 export const mens_shoesStores: FeaturedStore[] = [
   {
     id: 'b2b-450000otycfp',
-    name: 'Men's Shoes Store',
+    name: "Men's Shoes Store",
     nameZh: '男鞋批发',
-    category: 'Men's Shoes',
+    category: "Men's Shoes",
     description: 'Premium men's shoes supplier with quality products',
     verified: true,
     estimatedProducts: 300,
