@@ -14,8 +14,6 @@ import {
   getStoresByCategory, 
   getStoreCount, 
   getCategoryCount,
-  getCategoryGroups,
-  categoryGroups
 } from '@/data/featured-stores';
 
 const STORES_PER_PAGE = 12;
@@ -97,25 +95,27 @@ export default function StoresPage() {
     return pages;
   };
 
-  // Category group emojis
-  const categoryGroupEmojis: Record<string, string> = {
-    'Home & Living': '🏠',
-    'Fashion & Clothing': '👕',
-    'Electronics & Tech': '📱',
-    'Beauty & Personal Care': '💄',
-    'Sports & Fitness': '⚽',
-    'Toys & Baby': '🧸',
-    'Office & School': '📚',
-    'Automotive': '🚗',
-    'Jewelry & Accessories': '💎',
-    'Footwear': '👟',
-    'Food & Beverage': '🍜',
-    'Health & Medical': '⚕️',
-    'Tools & Hardware': '🔧',
-    'Arts & Crafts': '🎨',
+  // Category emojis for the 6 real categories
+  const categoryEmojis: Record<string, string> = {
+    'Fashion & Apparel': '👕',
+    'Electronics & Technology': '📱',
+    'Crafts & Decorations': '🎨',
+    'Home & Furniture': '🏠',
+    'Ceramics & Vases': '🏺',
+    'Vases & Planters': '🪴',
   };
 
-  // Subcategory emojis
+  // Store card emojis (for display on cards)
+  const storeEmojis: Record<string, string> = {
+    'Fashion & Apparel': '👕',
+    'Electronics & Technology': '📱',
+    'Crafts & Decorations': '🎨',
+    'Home & Furniture': '🛋️',
+    'Ceramics & Vases': '🏺',
+    'Vases & Planters': '🪴',
+  };
+
+  // Legacy subcategory emojis (kept for compatibility)
   const subcategoryEmojis: Record<string, string> = {
     'Home Decor & Decorations': '🎨',
     'Candles & Fragrances': '🕯️',
@@ -182,9 +182,9 @@ export default function StoresPage() {
           <Link href="/" className="text-blue-600 hover:text-blue-700 mb-4 inline-block">
             ← Back to Home
           </Link>
-          <h1 className="text-3xl font-bold text-gray-900">1688.com Store Catalog</h1>
+          <h1 className="text-3xl font-bold text-gray-900">1688.com Real Suppliers</h1>
           <p className="text-gray-600 mt-2">
-            {getStoreCount()} verified suppliers across {getCategoryCount()} specific subcategories
+            {getStoreCount()} verified real factories across {getCategoryCount()} categories
           </p>
         </div>
       </div>
@@ -195,19 +195,19 @@ export default function StoresPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-3xl font-bold">{getStoreCount()}</div>
-              <div className="text-sm opacity-90">Verified Stores</div>
+              <div className="text-sm opacity-90">Real Suppliers</div>
             </div>
             <div>
               <div className="text-3xl font-bold">{getCategoryCount()}</div>
-              <div className="text-sm opacity-90">Subcategories</div>
+              <div className="text-sm opacity-90">Categories</div>
             </div>
             <div>
-              <div className="text-3xl font-bold">1.2M+</div>
+              <div className="text-3xl font-bold">2,678</div>
               <div className="text-sm opacity-90">Total Products</div>
             </div>
             <div>
               <div className="text-3xl font-bold">100%</div>
-              <div className="text-sm opacity-90">Verified</div>
+              <div className="text-sm opacity-90">Real Factories</div>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function StoresPage() {
               )}
               {selectedCategory && (
                 <span className="inline-flex items-center gap-1 px-3 py-1 bg-white border border-blue-300 text-blue-700 rounded-full text-sm">
-                  {subcategoryEmojis[selectedCategory] || '📦'} {selectedCategory}
+                  {categoryEmojis[selectedCategory] || '📦'} {selectedCategory}
                   <button
                     onClick={() => handleCategoryChange(null)}
                     className="hover:text-blue-900"
@@ -328,55 +328,41 @@ export default function StoresPage() {
       <div className="container mx-auto px-4 pb-6">
         <div className="bg-white rounded-lg shadow-sm border p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
-            Filter by Subcategory
+            Filter by Category
             <span className="text-sm font-normal text-gray-500 ml-2">
-              ({getCategoryCount()} specific categories)
+              ({getCategoryCount()} real categories)
             </span>
           </h3>
           
-          {/* All Stores Button */}
-          <div className="mb-4">
+          <div className="flex flex-wrap gap-3">
+            {/* All Stores Button */}
             <button
               onClick={() => handleCategoryChange(null)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 selectedCategory === null
                   ? 'bg-blue-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-300'
               }`}
             >
-              🏪 All Stores ({getStoreCount()})
+              🏪 All Suppliers ({getStoreCount()})
             </button>
-          </div>
 
-          {/* Organized by Category Groups */}
-          <div className="space-y-6">
-            {getCategoryGroups().map((groupName) => {
-              const subcategories = categoryGroups[groupName as keyof typeof categoryGroups] || [];
+            {/* Category Buttons */}
+            {allCategories.map((category) => {
+              const storeCount = getStoresByCategory(category).length;
+              const emoji = categoryEmojis[category] || '📦';
               return (
-                <div key={groupName} className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="text-md font-semibold text-gray-800 mb-2 flex items-center gap-2">
-                    <span>{categoryGroupEmojis[groupName]}</span>
-                    <span>{groupName}</span>
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {subcategories.map((subcategory) => {
-                      const storeCount = getStoresByCategory(subcategory).length;
-                      return (
-                        <button
-                          key={subcategory}
-                          onClick={() => handleCategoryChange(subcategory)}
-                          className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${
-                            selectedCategory === subcategory
-                              ? 'bg-blue-600 text-white'
-                              : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border border-gray-200'
-                          }`}
-                        >
-                          {subcategoryEmojis[subcategory] || '📦'} {subcategory} ({storeCount})
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
+                <button
+                  key={category}
+                  onClick={() => handleCategoryChange(category)}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    selectedCategory === category
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border border-gray-300'
+                  }`}
+                >
+                  {emoji} {category} ({storeCount})
+                </button>
               );
             })}
           </div>
@@ -410,7 +396,7 @@ export default function StoresPage() {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-2xl">{subcategoryEmojis[store.category] || '🏪'}</span>
+                    <span className="text-2xl">{storeEmojis[store.category] || '🏪'}</span>
                     <h2 className="text-xl font-bold text-gray-900">
                       {store.name}
                     </h2>
