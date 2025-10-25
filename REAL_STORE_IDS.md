@@ -1,10 +1,48 @@
 # 🏪 Real 1688.com Store IDs
 
-## Problem
-The generated store IDs are fake and don't exist in 1688.com database, so clicking on stores shows no products.
+## ✅ Current Status
 
-## Solution
-We need to replace the fake store IDs with **real 1688.com store IDs**.
+**WORKING NOW!** All stores use **2 verified real 1688.com store IDs**:
+
+### **Store ID Distribution (Smart Mapping)**
+
+#### 🔵 **Fashion Store** `b2b-22129686061252fa5d` (425 stores)
+- Women's/Men's/Children's Clothing
+- All Shoes categories
+- Bags, Belts, Scarves
+- Fashion Jewelry & Watches
+- Sportswear, Lingerie, Swimwear, Outerwear, Uniforms
+
+#### 🔵 **Electronics/General Store** `b2b-221162226231463a5d` (955 stores)
+- All Electronics categories
+- Home & Living (Decor, Candles, Vases, Kitchen, Furniture, etc.)
+- Beauty & Personal Care
+- Sports & Fitness
+- Toys, Office, Automotive, Health, Tools, Arts
+
+### **Result:**
+✅ **Fashion stores show fashion products**
+✅ **Other stores show diverse general products**
+✅ **Real data from 1688.com API**
+
+---
+
+## ⚠️ Current Limitation
+
+**Issue:** We only have 2 verified real store IDs, so:
+- All fashion stores show products from the same fashion supplier
+- All non-fashion stores show products from the same general supplier
+- Different stores in the same category show identical products
+
+**Example:**
+- "Women's Clothing Store" → shows products from fashion store
+- "Women's Dress Factory" → shows **same** products from fashion store
+- "Candles & Fragrances Store" → shows products from electronics/general store
+- "Vases & Planters Store" → shows products from electronics/general store (not vases!)
+
+---
+
+## 🎯 How to Improve (Get More Real Store IDs)
 
 ## ✅ Known Working Store IDs
 
