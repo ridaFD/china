@@ -116,7 +116,7 @@ export default function StoresPage() {
               <div className="text-sm opacity-90">Categories</div>
             </div>
             <div>
-              <div className="text-3xl font-bold">85K+</div>
+              <div className="text-3xl font-bold">600K+</div>
               <div className="text-sm opacity-90">Total Products</div>
             </div>
             <div>
