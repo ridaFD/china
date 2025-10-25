@@ -1,10 +1,11 @@
 /**
  * API Route: GET /api/products/[id]
- * Fetch single product details from 1688.com
+ * Fetch single product details from 1688.com via RapidAPI
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { fetchProductDetail } from '@/lib/alibaba-api';
+import { getProductDetail } from '@/lib/rapidapi-1688';
+import { transformProductDetail } from '@/lib/transform-rapidapi-data';
 import { Product, ProductDetailResponse } from '@/types/product';
 
 export async function GET(
@@ -21,40 +22,21 @@ export async function GET(
       );
     }
 
-    // Call 1688 API
-    const response = await fetchProductDetail(productId);
+    console.log(`Fetching product detail from RapidAPI: ${productId}`);
 
-    // Transform the response to match our Product interface
-    const item = response.result;
-    const product: Product = {
-      id: item.productId || item.offerId,
-      productID: item.productId || item.offerId,
-      subject: item.subject || item.title,
-      price: item.price || item.priceRange?.startQuantity || 0,
-      priceRange: item.priceRange ? {
-        min: item.priceRange.startQuantity,
-        max: item.priceRange.endQuantity,
-      } : undefined,
-      currency: 'CNY',
-      imageUrl: item.image?.imgUrl || item.imageUrl || '',
-      images: item.images?.map((img: any) => img.imgUrl || img) || [],
-      description: item.description || item.details,
-      supplierName: item.supplierName,
-      supplierUrl: item.supplierUrl,
-      moq: item.moq,
-      unit: item.unit,
-      saleInfo: {
-        soldQuantity: item.soldQuantity,
-        reviewCount: item.reviewCount,
-      },
-      attributes: item.attributes || [],
-      categoryId: item.categoryId,
-      categoryName: item.categoryName,
-    };
+    // Call RapidAPI 1688-datahub
+    const response = await getProductDetail(productId);
+
+    // Transform RapidAPI response to our format
+    const product = transformProductDetail(response);
+
+    console.log(`✅ Fetched real product details for ${productId}`);
 
     const result: ProductDetailResponse = {
       success: true,
       product,
+      message: 'Real product data from 1688.com via RapidAPI',
+      isRealData: true,
     };
 
     return NextResponse.json(result);

@@ -1,10 +1,11 @@
 /**
  * API Route: GET /api/products
- * Fetch products from 1688.com
+ * Fetch products from 1688.com via RapidAPI
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { fetchProducts } from '@/lib/alibaba-api';
+import { searchProducts } from '@/lib/rapidapi-1688';
+import { transformSearchResponse } from '@/lib/transform-rapidapi-data';
 import { Product, ProductListResponse } from '@/types/product';
 
 export async function GET(request: NextRequest) {
@@ -15,44 +16,29 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const pageSize = parseInt(searchParams.get('pageSize') || '20');
 
-    // Call 1688 API
-    const response = await fetchProducts({
+    console.log(`Fetching products from RapidAPI: keyword="${keyword}", page=${page}`);
+
+    // Call RapidAPI 1688-datahub
+    const response = await searchProducts({
       keyword,
+      categoryId,
       page,
       pageSize,
     });
 
-    // Transform the response to match our Product interface
-    // Note: You'll need to adjust this based on actual 1688 API response format
-    const products: Product[] = (response.result?.products || []).map((item: any) => ({
-      id: item.productId || item.offerId,
-      productID: item.productId || item.offerId,
-      subject: item.subject || item.title,
-      price: item.price || item.priceRange?.startQuantity || 0,
-      priceRange: item.priceRange ? {
-        min: item.priceRange.startQuantity,
-        max: item.priceRange.endQuantity,
-      } : undefined,
-      currency: 'CNY',
-      imageUrl: item.image?.imgUrl || item.imageUrl || '',
-      images: item.images?.map((img: any) => img.imgUrl || img) || [],
-      description: item.description || item.details,
-      supplierName: item.supplierName,
-      supplierUrl: item.supplierUrl,
-      moq: item.moq,
-      unit: item.unit,
-      saleInfo: {
-        soldQuantity: item.soldQuantity,
-        reviewCount: item.reviewCount,
-      },
-    }));
+    // Transform RapidAPI response to our format
+    const { products, total } = transformSearchResponse(response);
+
+    console.log(`✅ Fetched ${products.length} real products from 1688!`);
 
     const result: ProductListResponse = {
       success: true,
       products,
-      total: response.result?.total || products.length,
+      total,
       page,
       pageSize,
+      message: `Showing real products from 1688.com via RapidAPI`,
+      isRealData: true,
     };
 
     return NextResponse.json(result);

@@ -4,7 +4,7 @@
  */
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
-const RAPIDAPI_HOST = '1688-product2.p.rapidapi.com';
+const RAPIDAPI_HOST = '1688-datahub.p.rapidapi.com';
 const RAPIDAPI_BASE_URL = `https://${RAPIDAPI_HOST}`;
 
 interface RapidAPIOptions {
@@ -17,7 +17,7 @@ interface RapidAPIOptions {
 /**
  * Make request to RapidAPI 1688 service
  */
-async function rapidAPIRequest(options: RapidAPIOptions): Promise<any> {
+export async function rapidAPIRequest(options: RapidAPIOptions): Promise<any> {
   const { method = 'GET', endpoint, params, body } = options;
 
   if (!RAPIDAPI_KEY) {
@@ -72,7 +72,7 @@ async function rapidAPIRequest(options: RapidAPIOptions): Promise<any> {
 
 /**
  * Search products on 1688
- * Note: Update endpoint based on actual API documentation
+ * Endpoint: GET /item_search
  */
 export async function searchProducts(params: {
   keyword?: string;
@@ -81,16 +81,14 @@ export async function searchProducts(params: {
   pageSize?: number;
 }): Promise<any> {
   try {
-    // TODO: Update endpoint based on actual API documentation
-    // Common endpoints: /1688/product/search or /api/product/search
     const response = await rapidAPIRequest({
-      method: 'GET', // or 'POST' depending on API
-      endpoint: '/1688/product/search',
+      method: 'GET',
+      endpoint: '/item_search',
       params: {
-        keyword: params.keyword || '',
+        q: params.keyword || '',
         page: params.page || 1,
         pageSize: params.pageSize || 20,
-        ...(params.categoryId && { categoryId: params.categoryId }),
+        sort: 'default',
       },
     });
 
@@ -103,14 +101,15 @@ export async function searchProducts(params: {
 
 /**
  * Get product details
+ * Endpoint: GET /item_detail
  */
-export async function getProductDetail(productId: string): Promise<any> {
+export async function getProductDetail(itemId: string): Promise<any> {
   try {
     const response = await rapidAPIRequest({
       method: 'GET',
-      endpoint: '/1688/product/detail',
+      endpoint: '/item_detail',
       params: {
-        productId,
+        itemId,
       },
     });
 
@@ -122,41 +121,18 @@ export async function getProductDetail(productId: string): Promise<any> {
 }
 
 /**
- * Convert image URL (you already have this endpoint!)
- */
-export async function convertImageUrl(imageUrl: string): Promise<any> {
-  try {
-    const response = await rapidAPIRequest({
-      method: 'POST',
-      endpoint: '/1688/tools/image/convert_url',
-      body: {
-        url: imageUrl,
-      },
-    });
-
-    return response;
-  } catch (error) {
-    console.error('Error converting image URL:', error);
-    throw error;
-  }
-}
-
-/**
  * Image search by URL
- * Note: Update endpoint based on actual API documentation
+ * Endpoint: GET /item_search_image
  */
-export async function searchByImage(imageUrl: string): Promise<any> {
+export async function searchByImage(imageUrl: string, page: number = 1): Promise<any> {
   try {
-    // First convert the image URL
-    const convertedImage = await convertImageUrl(imageUrl);
-    
-    // Then search using the converted URL
-    // TODO: Update endpoint based on actual API documentation
     const response = await rapidAPIRequest({
-      method: 'POST',
-      endpoint: '/1688/tools/image/search',
-      body: {
-        imageUrl: convertedImage.url || imageUrl,
+      method: 'GET',
+      endpoint: '/item_search_image',
+      params: {
+        imgUrl: imageUrl,
+        page,
+        sort: 'default',
       },
     });
 
@@ -168,18 +144,82 @@ export async function searchByImage(imageUrl: string): Promise<any> {
 }
 
 /**
- * Get categories
+ * Get supplier/company contact information
+ * Endpoint: GET /company_contact
  */
-export async function getCategories(): Promise<any> {
+export async function getCompanyContact(storeId: string): Promise<any> {
   try {
     const response = await rapidAPIRequest({
       method: 'GET',
-      endpoint: '/1688/category/list',
+      endpoint: '/company_contact',
+      params: {
+        storeId,
+      },
     });
 
     return response;
   } catch (error) {
-    console.error('Error fetching categories:', error);
+    console.error('Error fetching company contact:', error);
+    throw error;
+  }
+}
+
+/**
+ * Get product reviews
+ * Endpoint: GET /item_review
+ */
+export async function getProductReviews(params: {
+  itemId: string;
+  sellerTitle: string;
+  page?: number;
+  pageSize?: number;
+}): Promise<any> {
+  try {
+    const response = await rapidAPIRequest({
+      method: 'GET',
+      endpoint: '/item_review',
+      params: {
+        itemId: params.itemId,
+        sellerTitle: params.sellerTitle,
+        page: params.page || 1,
+        pageSize: params.pageSize || 10,
+        filter: 'allReviews',
+        sort: 'default',
+        source: 'item',
+      },
+    });
+
+    return response;
+  } catch (error) {
+    console.error('Error fetching product reviews:', error);
+    throw error;
+  }
+}
+
+/**
+ * Search products in a specific store
+ * Endpoint: GET /store_item_search
+ */
+export async function searchStoreProducts(params: {
+  storeId: string;
+  page?: number;
+  pageSize?: number;
+}): Promise<any> {
+  try {
+    const response = await rapidAPIRequest({
+      method: 'GET',
+      endpoint: '/store_item_search',
+      params: {
+        storeId: params.storeId,
+        page: params.page || 1,
+        pageSize: params.pageSize || 30,
+        sort: 'default',
+      },
+    });
+
+    return response;
+  } catch (error) {
+    console.error('Error searching store products:', error);
     throw error;
   }
 }

@@ -123,34 +123,33 @@ export default function Home() {
           <CategoryGrid categories={topCategories} />
         </div>
 
-        {/* Info Banner */}
+        {/* Success Banner - Real Data Configured */}
         <div className="max-w-3xl mx-auto mb-8">
-          <div className="bg-orange-100 border-2 border-orange-400 rounded-lg p-6">
+          <div className="bg-green-100 border-2 border-green-400 rounded-lg p-6">
             <div className="flex items-start gap-4">
-              <div className="text-3xl">⚠️</div>
+              <div className="text-3xl">✅</div>
               <div className="flex-1">
-                <h4 className="font-bold text-orange-900 mb-2 text-lg">
-                  Currently Showing Mock Data
+                <h4 className="font-bold text-green-900 mb-2 text-lg">
+                  Connected to Real 1688.com Data!
                 </h4>
-                <p className="text-orange-800 text-sm mb-3">
-                  To display <strong>real products</strong> from 1688.com, you need to configure 
-                  API credentials from Alibaba Open Platform.
+                <p className="text-green-800 text-sm mb-3">
+                  Your app is now fetching <strong>live products</strong> from 1688.com via RapidAPI.
+                  Browse millions of real wholesale products with real images, prices, and supplier information!
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
-                    href="/api-status"
-                    className="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium text-sm"
+                    href="/products"
+                    className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium text-sm"
                   >
-                    Check API Status
+                    Browse Products
                   </Link>
-                  <a
-                    href="https://github.com/ridaFD/china/blob/main/API_SETUP_GUIDE.md"
+                  <Link
+                    href="/api/test-connection"
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 bg-white text-orange-600 border-2 border-orange-600 rounded-lg hover:bg-orange-50 transition-colors font-medium text-sm"
+                    className="px-4 py-2 bg-white text-green-600 border-2 border-green-600 rounded-lg hover:bg-green-50 transition-colors font-medium text-sm"
                   >
-                    Setup Guide
-                  </a>
+                    Test Connection
+                  </Link>
                 </div>
               </div>
             </div>
