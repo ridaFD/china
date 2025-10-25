@@ -2,7 +2,7 @@
 
 ## ✅ Current Status
 
-**WORKING NOW!** All stores use **5 verified real 1688.com store IDs**: 🆕
+**WORKING NOW!** All stores use **6 verified real 1688.com store IDs**: 🆕
 
 ### **Store ID Distribution (Smart Mapping)**
 
@@ -22,16 +22,23 @@
 - **Products:** 1,071
 - **Categories:** Furniture, Lighting, Kitchen, Bathroom, Bedding, Garden
 
-#### 🏺 **Vases Store** `vase` (20 stores) 🆕
+#### 🏺 **Vases Store (Generic)** `vase` (0 stores)
 - **Products:** 103
 - **Categories:** Vases, Planters, Pottery
+- **Status:** Replaced by beihanmei
+
+#### 🏺 **Beihanmei Ceramics** `beihanmei` (20 stores) 🆕
+- **Products:** 610
+- **Categories:** Ceramic Vases, Planters, Home Decor, Tableware
+- **Factory:** 贝汉美陶瓷 (Jingdezhen, Jiangxi)
+- **Real Store:** https://www.1688.com/factory/beihanmei.html
 
 ### **Result:**
 ✅ **Fashion stores show fashion products** (161 items)
 ✅ **Crafts stores show craft products** (232 items)
 ✅ **Home stores show furniture & decor** (1,071 items)
-✅ **Vases stores show REAL vases** (103 items) 🆕
-✅ **Total: 2,068 real products from 1688.com**
+✅ **Vases stores show REAL Jingdezhen ceramics** (610 items) 🏺 NEW!
+✅ **Total: 2,575 real products from 1688.com**
 
 ---
 
@@ -56,7 +63,7 @@
 
 ## ✅ Known Working Store IDs
 
-Here are **ALL 5 verified 1688.com store IDs** that work with the API:
+Here are **ALL 6 verified 1688.com store IDs** that work with the API:
 
 ### **Working Store IDs:**
 ```
@@ -64,10 +71,11 @@ b2b-22129686061252fa5d     (Fashion - 161 products - TESTED ✅)
 b2b-221162226231463a5d     (Electronics - 501 products - TESTED ✅)
 xingtaisp                  (Crafts/Decor - 232 products - TESTED ✅)
 jiaju                      (Home/Furniture - 1,071 products - TESTED ✅)
-vase                       (Vases/Planters - 103 products - TESTED ✅) 🆕
+vase                       (Vases/Planters - 103 products - TESTED ✅)
+beihanmei                  (Ceramics/Vases - 610 products - TESTED ✅) 🆕
 ```
 
-**Total: 2,068 real products**
+**Total: 2,678 real products** (using 6 stores, but beihanmei replaces vase in production)
 
 ## 🔍 How to Find Real Store IDs
 
