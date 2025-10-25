@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // PACKAGED FOODS & SNACKS - 25 stores
 export const packaged_foods_snacksStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Store",
     nameZh: "食品零食批发",
     category: "Packaged Foods & Snacks",
@@ -25,7 +25,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Factory",
     nameZh: "食品零食商行",
     category: "Packaged Foods & Snacks",
@@ -47,7 +47,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Co 1",
     nameZh: "食品零食店铺",
     category: "Packaged Foods & Snacks",
@@ -68,7 +68,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Shop 1",
     nameZh: "食品零食市场",
     category: "Packaged Foods & Snacks",
@@ -90,7 +90,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Wholesale 1",
     nameZh: "食品零食批发1",
     category: "Packaged Foods & Snacks",
@@ -111,7 +111,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Store 2",
     nameZh: "食品零食商行3",
     category: "Packaged Foods & Snacks",
@@ -133,7 +133,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Co 2",
     nameZh: "食品零食店铺5",
     category: "Packaged Foods & Snacks",
@@ -155,7 +155,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Shop 2",
     nameZh: "食品零食市场7",
     category: "Packaged Foods & Snacks",
@@ -176,7 +176,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Wholesale 2",
     nameZh: "食品零食批发9",
     category: "Packaged Foods & Snacks",
@@ -198,7 +198,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Store 2",
     nameZh: "食品零食商行11",
     category: "Packaged Foods & Snacks",
@@ -219,7 +219,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Co 3",
     nameZh: "食品零食店铺13",
     category: "Packaged Foods & Snacks",
@@ -241,7 +241,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Shop 3",
     nameZh: "食品零食市场15",
     category: "Packaged Foods & Snacks",
@@ -263,7 +263,7 @@ export const packaged_foods_snacksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Packaged Foods Wholesale 3",
     nameZh: "食品零食批发17",
     category: "Packaged Foods & Snacks",

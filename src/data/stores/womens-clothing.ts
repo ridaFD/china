@@ -14,7 +14,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Wholesale",
     nameZh: "女装工厂",
     category: "Women's Clothing",
@@ -36,7 +36,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub",
     nameZh: "女装中心",
     category: "Women's Clothing",
@@ -57,7 +57,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Supply 1",
     nameZh: "女装供应",
     category: "Women's Clothing",
@@ -79,7 +79,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Mart 1",
     nameZh: "女装专营",
     category: "Women's Clothing",
@@ -101,7 +101,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Factory 1",
     nameZh: "女装工厂2",
     category: "Women's Clothing",
@@ -122,7 +122,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub 2",
     nameZh: "女装中心4",
     category: "Women's Clothing",
@@ -144,7 +144,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Supply 2",
     nameZh: "女装供应6",
     category: "Women's Clothing",
@@ -165,7 +165,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Mart 2",
     nameZh: "女装专营8",
     category: "Women's Clothing",
@@ -187,7 +187,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Factory 2",
     nameZh: "女装工厂10",
     category: "Women's Clothing",
@@ -209,7 +209,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub 2",
     nameZh: "女装中心12",
     category: "Women's Clothing",
@@ -230,7 +230,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Supply 3",
     nameZh: "女装供应14",
     category: "Women's Clothing",
@@ -252,7 +252,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Mart 3",
     nameZh: "女装专营16",
     category: "Women's Clothing",
@@ -273,7 +273,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Factory 3",
     nameZh: "女装工厂18",
     category: "Women's Clothing",
@@ -295,7 +295,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub 3",
     nameZh: "女装中心20",
     category: "Women's Clothing",
@@ -317,7 +317,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Supply 3",
     nameZh: "女装供应22",
     category: "Women's Clothing",
@@ -338,7 +338,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Mart 4",
     nameZh: "女装专营24",
     category: "Women's Clothing",
@@ -360,7 +360,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Factory 4",
     nameZh: "女装工厂26",
     category: "Women's Clothing",
@@ -381,7 +381,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub 4",
     nameZh: "女装中心28",
     category: "Women's Clothing",
@@ -403,7 +403,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Supply 4",
     nameZh: "女装供应30",
     category: "Women's Clothing",
@@ -425,7 +425,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Mart 4",
     nameZh: "女装专营32",
     category: "Women's Clothing",
@@ -446,7 +446,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Factory 5",
     nameZh: "女装工厂34",
     category: "Women's Clothing",
@@ -468,7 +468,7 @@ export const womens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Clothing Hub 5",
     nameZh: "女装中心36",
     category: "Women's Clothing",

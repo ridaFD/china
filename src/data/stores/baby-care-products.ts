@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // BABY CARE PRODUCTS - 25 stores
 export const baby_care_productsStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Store",
     nameZh: "婴儿用品批发",
     category: "Baby Care Products",
@@ -25,7 +25,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Factory",
     nameZh: "婴儿用品商行",
     category: "Baby Care Products",
@@ -47,7 +47,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Co 1",
     nameZh: "婴儿用品店铺",
     category: "Baby Care Products",
@@ -68,7 +68,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Shop 1",
     nameZh: "婴儿用品市场",
     category: "Baby Care Products",
@@ -90,7 +90,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Wholesale 1",
     nameZh: "婴儿用品批发1",
     category: "Baby Care Products",
@@ -111,7 +111,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Store 2",
     nameZh: "婴儿用品商行3",
     category: "Baby Care Products",
@@ -133,7 +133,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Co 2",
     nameZh: "婴儿用品店铺5",
     category: "Baby Care Products",
@@ -155,7 +155,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Shop 2",
     nameZh: "婴儿用品市场7",
     category: "Baby Care Products",
@@ -176,7 +176,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Wholesale 2",
     nameZh: "婴儿用品批发9",
     category: "Baby Care Products",
@@ -198,7 +198,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Store 2",
     nameZh: "婴儿用品商行11",
     category: "Baby Care Products",
@@ -219,7 +219,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Co 3",
     nameZh: "婴儿用品店铺13",
     category: "Baby Care Products",
@@ -241,7 +241,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Shop 3",
     nameZh: "婴儿用品市场15",
     category: "Baby Care Products",
@@ -263,7 +263,7 @@ export const baby_care_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Baby Care Products Wholesale 3",
     nameZh: "婴儿用品批发17",
     category: "Baby Care Products",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CABLES & CHARGERS - 15 stores
 export const cables_chargersStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Store",
     nameZh: "线材充电器批发",
     category: "Cables & Chargers",
@@ -25,7 +25,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Factory",
     nameZh: "线材充电器商行",
     category: "Cables & Chargers",
@@ -47,7 +47,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Co 1",
     nameZh: "线材充电器店铺",
     category: "Cables & Chargers",
@@ -68,7 +68,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Shop 1",
     nameZh: "线材充电器市场",
     category: "Cables & Chargers",
@@ -90,7 +90,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Wholesale 1",
     nameZh: "线材充电器批发1",
     category: "Cables & Chargers",
@@ -111,7 +111,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Store 2",
     nameZh: "线材充电器商行3",
     category: "Cables & Chargers",
@@ -133,7 +133,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Co 2",
     nameZh: "线材充电器店铺5",
     category: "Cables & Chargers",
@@ -155,7 +155,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Cables Shop 2",
     nameZh: "线材充电器市场7",
     category: "Cables & Chargers",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // TEA & COFFEE - 15 stores
 export const tea_coffeeStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Store",
     nameZh: "茶叶咖啡批发",
     category: "Tea & Coffee",
@@ -25,7 +25,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Factory",
     nameZh: "茶叶咖啡商行",
     category: "Tea & Coffee",
@@ -47,7 +47,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Co 1",
     nameZh: "茶叶咖啡店铺",
     category: "Tea & Coffee",
@@ -68,7 +68,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Shop 1",
     nameZh: "茶叶咖啡市场",
     category: "Tea & Coffee",
@@ -90,7 +90,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Wholesale 1",
     nameZh: "茶叶咖啡批发1",
     category: "Tea & Coffee",
@@ -111,7 +111,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Store 2",
     nameZh: "茶叶咖啡商行3",
     category: "Tea & Coffee",
@@ -133,7 +133,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Co 2",
     nameZh: "茶叶咖啡店铺5",
     category: "Tea & Coffee",
@@ -155,7 +155,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Tea Shop 2",
     nameZh: "茶叶咖啡市场7",
     category: "Tea & Coffee",

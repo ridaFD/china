@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // PHONE & COMPUTER ACCESSORIES - 30 stores
 export const phone_computer_accessoriesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Store",
     nameZh: "数码配件批发",
     category: "Phone & Computer Accessories",
@@ -25,7 +25,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Factory",
     nameZh: "数码配件商行",
     category: "Phone & Computer Accessories",
@@ -47,7 +47,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Co 1",
     nameZh: "数码配件店铺",
     category: "Phone & Computer Accessories",
@@ -68,7 +68,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Shop 1",
     nameZh: "数码配件市场",
     category: "Phone & Computer Accessories",
@@ -90,7 +90,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Wholesale 1",
     nameZh: "数码配件批发1",
     category: "Phone & Computer Accessories",
@@ -111,7 +111,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Store 2",
     nameZh: "数码配件商行3",
     category: "Phone & Computer Accessories",
@@ -133,7 +133,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Co 2",
     nameZh: "数码配件店铺5",
     category: "Phone & Computer Accessories",
@@ -155,7 +155,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Shop 2",
     nameZh: "数码配件市场7",
     category: "Phone & Computer Accessories",
@@ -176,7 +176,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Wholesale 2",
     nameZh: "数码配件批发9",
     category: "Phone & Computer Accessories",
@@ -198,7 +198,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Store 2",
     nameZh: "数码配件商行11",
     category: "Phone & Computer Accessories",
@@ -219,7 +219,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Co 3",
     nameZh: "数码配件店铺13",
     category: "Phone & Computer Accessories",
@@ -241,7 +241,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Shop 3",
     nameZh: "数码配件市场15",
     category: "Phone & Computer Accessories",
@@ -263,7 +263,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Wholesale 3",
     nameZh: "数码配件批发17",
     category: "Phone & Computer Accessories",
@@ -284,7 +284,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Store 3",
     nameZh: "数码配件商行19",
     category: "Phone & Computer Accessories",
@@ -306,7 +306,7 @@ export const phone_computer_accessoriesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Phone Co 3",
     nameZh: "数码配件店铺21",
     category: "Phone & Computer Accessories",

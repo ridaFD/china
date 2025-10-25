@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // ART SUPPLIES - 20 stores
 export const art_suppliesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Store",
     nameZh: "美术用品批发",
     category: "Art Supplies",
@@ -25,7 +25,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Factory",
     nameZh: "美术用品商行",
     category: "Art Supplies",
@@ -47,7 +47,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Co 1",
     nameZh: "美术用品店铺",
     category: "Art Supplies",
@@ -68,7 +68,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Shop 1",
     nameZh: "美术用品市场",
     category: "Art Supplies",
@@ -90,7 +90,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Wholesale 1",
     nameZh: "美术用品批发1",
     category: "Art Supplies",
@@ -111,7 +111,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Store 2",
     nameZh: "美术用品商行3",
     category: "Art Supplies",
@@ -133,7 +133,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Co 2",
     nameZh: "美术用品店铺5",
     category: "Art Supplies",
@@ -155,7 +155,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Shop 2",
     nameZh: "美术用品市场7",
     category: "Art Supplies",
@@ -176,7 +176,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Wholesale 2",
     nameZh: "美术用品批发9",
     category: "Art Supplies",
@@ -198,7 +198,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Art Supplies Store 2",
     nameZh: "美术用品商行11",
     category: "Art Supplies",

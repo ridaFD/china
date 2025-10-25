@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // HAIR CARE & STYLING - 20 stores
 export const hair_care_stylingStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Store",
     nameZh: "美发护发批发",
     category: "Hair Care & Styling",
@@ -25,7 +25,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Factory",
     nameZh: "美发护发商行",
     category: "Hair Care & Styling",
@@ -47,7 +47,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Co 1",
     nameZh: "美发护发店铺",
     category: "Hair Care & Styling",
@@ -68,7 +68,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Shop 1",
     nameZh: "美发护发市场",
     category: "Hair Care & Styling",
@@ -90,7 +90,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Wholesale 1",
     nameZh: "美发护发批发1",
     category: "Hair Care & Styling",
@@ -111,7 +111,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Store 2",
     nameZh: "美发护发商行3",
     category: "Hair Care & Styling",
@@ -133,7 +133,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Co 2",
     nameZh: "美发护发店铺5",
     category: "Hair Care & Styling",
@@ -155,7 +155,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Shop 2",
     nameZh: "美发护发市场7",
     category: "Hair Care & Styling",
@@ -176,7 +176,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Wholesale 2",
     nameZh: "美发护发批发9",
     category: "Hair Care & Styling",
@@ -198,7 +198,7 @@ export const hair_care_stylingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Hair Care Store 2",
     nameZh: "美发护发商行11",
     category: "Hair Care & Styling",

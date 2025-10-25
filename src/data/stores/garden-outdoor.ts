@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // GARDEN & OUTDOOR - 25 stores
 export const garden_outdoorStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Tools Store",
     nameZh: "园艺户外批发",
     category: "Garden & Outdoor",
@@ -25,7 +25,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Patio Furniture Co",
     nameZh: "园艺户外商行",
     category: "Garden & Outdoor",
@@ -47,7 +47,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Lawn Equipment Store",
     nameZh: "园艺户外店铺",
     category: "Garden & Outdoor",
@@ -68,7 +68,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Accessories Hub",
     nameZh: "园艺户外市场",
     category: "Garden & Outdoor",
@@ -90,7 +90,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Wholesale 1",
     nameZh: "园艺户外批发1",
     category: "Garden & Outdoor",
@@ -111,7 +111,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Store 2",
     nameZh: "园艺户外商行3",
     category: "Garden & Outdoor",
@@ -133,7 +133,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Co 2",
     nameZh: "园艺户外店铺5",
     category: "Garden & Outdoor",
@@ -155,7 +155,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Shop 2",
     nameZh: "园艺户外市场7",
     category: "Garden & Outdoor",
@@ -176,7 +176,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Wholesale 2",
     nameZh: "园艺户外批发9",
     category: "Garden & Outdoor",
@@ -198,7 +198,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Store 2",
     nameZh: "园艺户外商行11",
     category: "Garden & Outdoor",
@@ -219,7 +219,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Co 3",
     nameZh: "园艺户外店铺13",
     category: "Garden & Outdoor",
@@ -241,7 +241,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Shop 3",
     nameZh: "园艺户外市场15",
     category: "Garden & Outdoor",
@@ -263,7 +263,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Garden Wholesale 3",
     nameZh: "园艺户外批发17",
     category: "Garden & Outdoor",

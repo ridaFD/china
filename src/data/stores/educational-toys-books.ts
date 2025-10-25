@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // EDUCATIONAL TOYS & BOOKS - 20 stores
 export const educational_toys_booksStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Store",
     nameZh: "益智玩具书籍批发",
     category: "Educational Toys & Books",
@@ -25,7 +25,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Factory",
     nameZh: "益智玩具书籍商行",
     category: "Educational Toys & Books",
@@ -47,7 +47,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Co 1",
     nameZh: "益智玩具书籍店铺",
     category: "Educational Toys & Books",
@@ -68,7 +68,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Shop 1",
     nameZh: "益智玩具书籍市场",
     category: "Educational Toys & Books",
@@ -90,7 +90,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Wholesale 1",
     nameZh: "益智玩具书籍批发1",
     category: "Educational Toys & Books",
@@ -111,7 +111,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Store 2",
     nameZh: "益智玩具书籍商行3",
     category: "Educational Toys & Books",
@@ -133,7 +133,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Co 2",
     nameZh: "益智玩具书籍店铺5",
     category: "Educational Toys & Books",
@@ -155,7 +155,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Shop 2",
     nameZh: "益智玩具书籍市场7",
     category: "Educational Toys & Books",
@@ -176,7 +176,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Wholesale 2",
     nameZh: "益智玩具书籍批发9",
     category: "Educational Toys & Books",
@@ -198,7 +198,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Educational Toys Store 2",
     nameZh: "益智玩具书籍商行11",
     category: "Educational Toys & Books",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // OUTDOOR & CAMPING - 25 stores
 export const outdoor_campingStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Store",
     nameZh: "户外露营批发",
     category: "Outdoor & Camping",
@@ -25,7 +25,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Factory",
     nameZh: "户外露营商行",
     category: "Outdoor & Camping",
@@ -47,7 +47,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Co 1",
     nameZh: "户外露营店铺",
     category: "Outdoor & Camping",
@@ -68,7 +68,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Shop 1",
     nameZh: "户外露营市场",
     category: "Outdoor & Camping",
@@ -90,7 +90,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Wholesale 1",
     nameZh: "户外露营批发1",
     category: "Outdoor & Camping",
@@ -111,7 +111,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Store 2",
     nameZh: "户外露营商行3",
     category: "Outdoor & Camping",
@@ -133,7 +133,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Co 2",
     nameZh: "户外露营店铺5",
     category: "Outdoor & Camping",
@@ -155,7 +155,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Shop 2",
     nameZh: "户外露营市场7",
     category: "Outdoor & Camping",
@@ -176,7 +176,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Wholesale 2",
     nameZh: "户外露营批发9",
     category: "Outdoor & Camping",
@@ -198,7 +198,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Store 2",
     nameZh: "户外露营商行11",
     category: "Outdoor & Camping",
@@ -219,7 +219,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Co 3",
     nameZh: "户外露营店铺13",
     category: "Outdoor & Camping",
@@ -241,7 +241,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Shop 3",
     nameZh: "户外露营市场15",
     category: "Outdoor & Camping",
@@ -263,7 +263,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Outdoor Wholesale 3",
     nameZh: "户外露营批发17",
     category: "Outdoor & Camping",

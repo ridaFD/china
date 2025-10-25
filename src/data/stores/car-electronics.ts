@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CAR ELECTRONICS - 15 stores
 export const car_electronicsStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Store",
     nameZh: "汽车电子批发",
     category: "Car Electronics",
@@ -25,7 +25,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Factory",
     nameZh: "汽车电子商行",
     category: "Car Electronics",
@@ -47,7 +47,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Co 1",
     nameZh: "汽车电子店铺",
     category: "Car Electronics",
@@ -68,7 +68,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Shop 1",
     nameZh: "汽车电子市场",
     category: "Car Electronics",
@@ -90,7 +90,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Wholesale 1",
     nameZh: "汽车电子批发1",
     category: "Car Electronics",
@@ -111,7 +111,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Store 2",
     nameZh: "汽车电子商行3",
     category: "Car Electronics",
@@ -133,7 +133,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Co 2",
     nameZh: "汽车电子店铺5",
     category: "Car Electronics",
@@ -155,7 +155,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Car Electronics Shop 2",
     nameZh: "汽车电子市场7",
     category: "Car Electronics",

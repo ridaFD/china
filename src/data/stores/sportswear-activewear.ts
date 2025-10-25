@@ -14,7 +14,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Wholesale",
     nameZh: "运动服装工厂",
     category: "Sportswear & Activewear",
@@ -36,7 +36,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Hub",
     nameZh: "运动服装中心",
     category: "Sportswear & Activewear",
@@ -57,7 +57,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     location: "Quanzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Supply 1",
     nameZh: "运动服装供应",
     category: "Sportswear & Activewear",
@@ -79,7 +79,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Mart 1",
     nameZh: "运动服装专营",
     category: "Sportswear & Activewear",
@@ -101,7 +101,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Factory 1",
     nameZh: "运动服装工厂2",
     category: "Sportswear & Activewear",
@@ -122,7 +122,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Hub 2",
     nameZh: "运动服装中心4",
     category: "Sportswear & Activewear",
@@ -144,7 +144,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Supply 2",
     nameZh: "运动服装供应6",
     category: "Sportswear & Activewear",
@@ -165,7 +165,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Mart 2",
     nameZh: "运动服装专营8",
     category: "Sportswear & Activewear",
@@ -187,7 +187,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Factory 2",
     nameZh: "运动服装工厂10",
     category: "Sportswear & Activewear",
@@ -209,7 +209,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Hub 2",
     nameZh: "运动服装中心12",
     category: "Sportswear & Activewear",
@@ -230,7 +230,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Supply 3",
     nameZh: "运动服装供应14",
     category: "Sportswear & Activewear",
@@ -252,7 +252,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Mart 3",
     nameZh: "运动服装专营16",
     category: "Sportswear & Activewear",
@@ -273,7 +273,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     location: "Jinjiang",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Factory 3",
     nameZh: "运动服装工厂18",
     category: "Sportswear & Activewear",
@@ -295,7 +295,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Hub 3",
     nameZh: "运动服装中心20",
     category: "Sportswear & Activewear",
@@ -317,7 +317,7 @@ export const sportswear_activewearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Sportswear Supply 3",
     nameZh: "运动服装供应22",
     category: "Sportswear & Activewear",

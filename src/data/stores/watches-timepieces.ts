@@ -14,7 +14,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Wholesale",
     nameZh: "手表钟表工厂",
     category: "Watches & Timepieces",
@@ -36,7 +36,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Hub",
     nameZh: "手表钟表中心",
     category: "Watches & Timepieces",
@@ -57,7 +57,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Supply 1",
     nameZh: "手表钟表供应",
     category: "Watches & Timepieces",
@@ -79,7 +79,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Mart 1",
     nameZh: "手表钟表专营",
     category: "Watches & Timepieces",
@@ -101,7 +101,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Factory 1",
     nameZh: "手表钟表工厂2",
     category: "Watches & Timepieces",
@@ -122,7 +122,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Hub 2",
     nameZh: "手表钟表中心4",
     category: "Watches & Timepieces",
@@ -144,7 +144,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Supply 2",
     nameZh: "手表钟表供应6",
     category: "Watches & Timepieces",
@@ -165,7 +165,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Mart 2",
     nameZh: "手表钟表专营8",
     category: "Watches & Timepieces",
@@ -187,7 +187,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Factory 2",
     nameZh: "手表钟表工厂10",
     category: "Watches & Timepieces",
@@ -209,7 +209,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Watches Hub 2",
     nameZh: "手表钟表中心12",
     category: "Watches & Timepieces",

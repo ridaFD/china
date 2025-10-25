@@ -14,7 +14,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Wholesale",
     nameZh: "童装工厂",
     category: "Children's Clothing",
@@ -36,7 +36,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Hub",
     nameZh: "童装中心",
     category: "Children's Clothing",
@@ -57,7 +57,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Supply 1",
     nameZh: "童装供应",
     category: "Children's Clothing",
@@ -79,7 +79,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Mart 1",
     nameZh: "童装专营",
     category: "Children's Clothing",
@@ -101,7 +101,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Factory 1",
     nameZh: "童装工厂2",
     category: "Children's Clothing",
@@ -122,7 +122,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Hub 2",
     nameZh: "童装中心4",
     category: "Children's Clothing",
@@ -144,7 +144,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Supply 2",
     nameZh: "童装供应6",
     category: "Children's Clothing",
@@ -165,7 +165,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Mart 2",
     nameZh: "童装专营8",
     category: "Children's Clothing",
@@ -187,7 +187,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Factory 2",
     nameZh: "童装工厂10",
     category: "Children's Clothing",
@@ -209,7 +209,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Hub 2",
     nameZh: "童装中心12",
     category: "Children's Clothing",
@@ -230,7 +230,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Supply 3",
     nameZh: "童装供应14",
     category: "Children's Clothing",
@@ -252,7 +252,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Mart 3",
     nameZh: "童装专营16",
     category: "Children's Clothing",
@@ -273,7 +273,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Zhili",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Factory 3",
     nameZh: "童装工厂18",
     category: "Children's Clothing",
@@ -295,7 +295,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Hub 3",
     nameZh: "童装中心20",
     category: "Children's Clothing",
@@ -317,7 +317,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Children's Clothing Supply 3",
     nameZh: "童装供应22",
     category: "Children's Clothing",

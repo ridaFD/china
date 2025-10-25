@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CANDLES & FRAGRANCES - 25 stores
 export const candles_fragrancesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Scented Candle Factory",
     nameZh: "蜡烛香薰批发",
     category: "Candles & Fragrances",
@@ -25,7 +25,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Luxury Candle Shop",
     nameZh: "蜡烛香薰商行",
     category: "Candles & Fragrances",
@@ -47,7 +47,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Essential Oil Store",
     nameZh: "蜡烛香薰店铺",
     category: "Candles & Fragrances",
@@ -68,7 +68,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Perfume Candle Hub",
     nameZh: "蜡烛香薰市场",
     category: "Candles & Fragrances",
@@ -90,7 +90,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Wholesale 1",
     nameZh: "蜡烛香薰批发1",
     category: "Candles & Fragrances",
@@ -111,7 +111,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Store 2",
     nameZh: "蜡烛香薰商行3",
     category: "Candles & Fragrances",
@@ -133,7 +133,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Co 2",
     nameZh: "蜡烛香薰店铺5",
     category: "Candles & Fragrances",
@@ -155,7 +155,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Shop 2",
     nameZh: "蜡烛香薰市场7",
     category: "Candles & Fragrances",
@@ -176,7 +176,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Wholesale 2",
     nameZh: "蜡烛香薰批发9",
     category: "Candles & Fragrances",
@@ -198,7 +198,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Store 2",
     nameZh: "蜡烛香薰商行11",
     category: "Candles & Fragrances",
@@ -219,7 +219,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Co 3",
     nameZh: "蜡烛香薰店铺13",
     category: "Candles & Fragrances",
@@ -241,7 +241,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Shop 3",
     nameZh: "蜡烛香薰市场15",
     category: "Candles & Fragrances",
@@ -263,7 +263,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Candles Wholesale 3",
     nameZh: "蜡烛香薰批发17",
     category: "Candles & Fragrances",

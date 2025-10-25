@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // HOME DECOR & DECORATIONS - 40 stores
 export const home_decor_decorationsStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Paradise",
     nameZh: "家居饰品批发",
     category: "Home Decor & Decorations",
@@ -25,7 +25,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Modern Home Accents",
     nameZh: "家居饰品商行",
     category: "Home Decor & Decorations",
@@ -47,7 +47,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Classic Home Style",
     nameZh: "家居饰品店铺",
     category: "Home Decor & Decorations",
@@ -68,7 +68,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Artistic Home Collection",
     nameZh: "家居饰品市场",
     category: "Home Decor & Decorations",
@@ -90,7 +90,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Wholesale 1",
     nameZh: "家居饰品批发1",
     category: "Home Decor & Decorations",
@@ -111,7 +111,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Store 2",
     nameZh: "家居饰品商行3",
     category: "Home Decor & Decorations",
@@ -133,7 +133,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Co 2",
     nameZh: "家居饰品店铺5",
     category: "Home Decor & Decorations",
@@ -155,7 +155,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Shop 2",
     nameZh: "家居饰品市场7",
     category: "Home Decor & Decorations",
@@ -176,7 +176,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Wholesale 2",
     nameZh: "家居饰品批发9",
     category: "Home Decor & Decorations",
@@ -198,7 +198,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Store 2",
     nameZh: "家居饰品商行11",
     category: "Home Decor & Decorations",
@@ -219,7 +219,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Co 3",
     nameZh: "家居饰品店铺13",
     category: "Home Decor & Decorations",
@@ -241,7 +241,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Shop 3",
     nameZh: "家居饰品市场15",
     category: "Home Decor & Decorations",
@@ -263,7 +263,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Wholesale 3",
     nameZh: "家居饰品批发17",
     category: "Home Decor & Decorations",
@@ -284,7 +284,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Store 3",
     nameZh: "家居饰品商行19",
     category: "Home Decor & Decorations",
@@ -306,7 +306,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Co 3",
     nameZh: "家居饰品店铺21",
     category: "Home Decor & Decorations",
@@ -327,7 +327,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Shop 4",
     nameZh: "家居饰品市场23",
     category: "Home Decor & Decorations",
@@ -349,7 +349,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Wholesale 4",
     nameZh: "家居饰品批发25",
     category: "Home Decor & Decorations",
@@ -371,7 +371,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Store 4",
     nameZh: "家居饰品商行27",
     category: "Home Decor & Decorations",
@@ -392,7 +392,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Co 4",
     nameZh: "家居饰品店铺29",
     category: "Home Decor & Decorations",
@@ -414,7 +414,7 @@ export const home_decor_decorationsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Decor Shop 4",
     nameZh: "家居饰品市场31",
     category: "Home Decor & Decorations",

@@ -14,7 +14,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Wholesale",
     nameZh: "腰带围巾工厂",
     category: "Belts & Scarves",
@@ -36,7 +36,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Hub",
     nameZh: "腰带围巾中心",
     category: "Belts & Scarves",
@@ -57,7 +57,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Supply 1",
     nameZh: "腰带围巾供应",
     category: "Belts & Scarves",
@@ -79,7 +79,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Mart 1",
     nameZh: "腰带围巾专营",
     category: "Belts & Scarves",
@@ -101,7 +101,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Factory 1",
     nameZh: "腰带围巾工厂2",
     category: "Belts & Scarves",
@@ -122,7 +122,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Hub 2",
     nameZh: "腰带围巾中心4",
     category: "Belts & Scarves",
@@ -144,7 +144,7 @@ export const belts_scarvesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Belts Supply 2",
     nameZh: "腰带围巾供应6",
     category: "Belts & Scarves",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // MOBILE PHONES & TABLETS - 30 stores
 export const mobile_phones_tabletsStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Store",
     nameZh: "手机平板批发",
     category: "Mobile Phones & Tablets",
@@ -25,7 +25,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Factory",
     nameZh: "手机平板商行",
     category: "Mobile Phones & Tablets",
@@ -47,7 +47,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Co 1",
     nameZh: "手机平板店铺",
     category: "Mobile Phones & Tablets",
@@ -68,7 +68,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Shop 1",
     nameZh: "手机平板市场",
     category: "Mobile Phones & Tablets",
@@ -90,7 +90,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Wholesale 1",
     nameZh: "手机平板批发1",
     category: "Mobile Phones & Tablets",
@@ -111,7 +111,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Store 2",
     nameZh: "手机平板商行3",
     category: "Mobile Phones & Tablets",
@@ -133,7 +133,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Co 2",
     nameZh: "手机平板店铺5",
     category: "Mobile Phones & Tablets",
@@ -155,7 +155,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Shop 2",
     nameZh: "手机平板市场7",
     category: "Mobile Phones & Tablets",
@@ -176,7 +176,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Wholesale 2",
     nameZh: "手机平板批发9",
     category: "Mobile Phones & Tablets",
@@ -198,7 +198,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Store 2",
     nameZh: "手机平板商行11",
     category: "Mobile Phones & Tablets",
@@ -219,7 +219,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     location: "Huaqiangbei",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Co 3",
     nameZh: "手机平板店铺13",
     category: "Mobile Phones & Tablets",
@@ -241,7 +241,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Shop 3",
     nameZh: "手机平板市场15",
     category: "Mobile Phones & Tablets",
@@ -263,7 +263,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Wholesale 3",
     nameZh: "手机平板批发17",
     category: "Mobile Phones & Tablets",
@@ -284,7 +284,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Store 3",
     nameZh: "手机平板商行19",
     category: "Mobile Phones & Tablets",
@@ -306,7 +306,7 @@ export const mobile_phones_tabletsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Mobile Phones Co 3",
     nameZh: "手机平板店铺21",
     category: "Mobile Phones & Tablets",

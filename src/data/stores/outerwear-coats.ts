@@ -14,7 +14,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Wholesale",
     nameZh: "外套大衣工厂",
     category: "Outerwear & Coats",
@@ -36,7 +36,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Hub",
     nameZh: "外套大衣中心",
     category: "Outerwear & Coats",
@@ -57,7 +57,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Supply 1",
     nameZh: "外套大衣供应",
     category: "Outerwear & Coats",
@@ -79,7 +79,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Mart 1",
     nameZh: "外套大衣专营",
     category: "Outerwear & Coats",
@@ -101,7 +101,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Factory 1",
     nameZh: "外套大衣工厂2",
     category: "Outerwear & Coats",
@@ -122,7 +122,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Hub 2",
     nameZh: "外套大衣中心4",
     category: "Outerwear & Coats",
@@ -144,7 +144,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Supply 2",
     nameZh: "外套大衣供应6",
     category: "Outerwear & Coats",
@@ -165,7 +165,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Mart 2",
     nameZh: "外套大衣专营8",
     category: "Outerwear & Coats",
@@ -187,7 +187,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Factory 2",
     nameZh: "外套大衣工厂10",
     category: "Outerwear & Coats",
@@ -209,7 +209,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Hub 2",
     nameZh: "外套大衣中心12",
     category: "Outerwear & Coats",
@@ -230,7 +230,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Supply 3",
     nameZh: "外套大衣供应14",
     category: "Outerwear & Coats",
@@ -252,7 +252,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Mart 3",
     nameZh: "外套大衣专营16",
     category: "Outerwear & Coats",
@@ -273,7 +273,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Factory 3",
     nameZh: "外套大衣工厂18",
     category: "Outerwear & Coats",
@@ -295,7 +295,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Hub 3",
     nameZh: "外套大衣中心20",
     category: "Outerwear & Coats",
@@ -317,7 +317,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Supply 3",
     nameZh: "外套大衣供应22",
     category: "Outerwear & Coats",
@@ -338,7 +338,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Mart 4",
     nameZh: "外套大衣专营24",
     category: "Outerwear & Coats",
@@ -360,7 +360,7 @@ export const outerwear_coatsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Outerwear Factory 4",
     nameZh: "外套大衣工厂26",
     category: "Outerwear & Coats",

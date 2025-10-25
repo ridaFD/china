@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CHILDREN'S TOYS - 30 stores
 export const childrens_toysStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Store",
     nameZh: "儿童玩具批发",
     category: "Children's Toys",
@@ -25,7 +25,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Factory",
     nameZh: "儿童玩具商行",
     category: "Children's Toys",
@@ -47,7 +47,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Co 1",
     nameZh: "儿童玩具店铺",
     category: "Children's Toys",
@@ -68,7 +68,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Shop 1",
     nameZh: "儿童玩具市场",
     category: "Children's Toys",
@@ -90,7 +90,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Wholesale 1",
     nameZh: "儿童玩具批发1",
     category: "Children's Toys",
@@ -111,7 +111,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Chenghai",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Store 2",
     nameZh: "儿童玩具商行3",
     category: "Children's Toys",
@@ -133,7 +133,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Co 2",
     nameZh: "儿童玩具店铺5",
     category: "Children's Toys",
@@ -155,7 +155,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Shop 2",
     nameZh: "儿童玩具市场7",
     category: "Children's Toys",
@@ -176,7 +176,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Wholesale 2",
     nameZh: "儿童玩具批发9",
     category: "Children's Toys",
@@ -198,7 +198,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Store 2",
     nameZh: "儿童玩具商行11",
     category: "Children's Toys",
@@ -219,7 +219,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Co 3",
     nameZh: "儿童玩具店铺13",
     category: "Children's Toys",
@@ -241,7 +241,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Shop 3",
     nameZh: "儿童玩具市场15",
     category: "Children's Toys",
@@ -263,7 +263,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Wholesale 3",
     nameZh: "儿童玩具批发17",
     category: "Children's Toys",
@@ -284,7 +284,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Store 3",
     nameZh: "儿童玩具商行19",
     category: "Children's Toys",
@@ -306,7 +306,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Children's Toys Co 3",
     nameZh: "儿童玩具店铺21",
     category: "Children's Toys",

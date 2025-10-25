@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // AUTO PARTS & ACCESSORIES - 25 stores
 export const auto_parts_accessoriesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Store",
     nameZh: "汽车配件批发",
     category: "Auto Parts & Accessories",
@@ -25,7 +25,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Factory",
     nameZh: "汽车配件商行",
     category: "Auto Parts & Accessories",
@@ -47,7 +47,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Co 1",
     nameZh: "汽车配件店铺",
     category: "Auto Parts & Accessories",
@@ -68,7 +68,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Shop 1",
     nameZh: "汽车配件市场",
     category: "Auto Parts & Accessories",
@@ -90,7 +90,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Wholesale 1",
     nameZh: "汽车配件批发1",
     category: "Auto Parts & Accessories",
@@ -111,7 +111,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Store 2",
     nameZh: "汽车配件商行3",
     category: "Auto Parts & Accessories",
@@ -133,7 +133,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Co 2",
     nameZh: "汽车配件店铺5",
     category: "Auto Parts & Accessories",
@@ -155,7 +155,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Shop 2",
     nameZh: "汽车配件市场7",
     category: "Auto Parts & Accessories",
@@ -176,7 +176,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Wholesale 2",
     nameZh: "汽车配件批发9",
     category: "Auto Parts & Accessories",
@@ -198,7 +198,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Store 2",
     nameZh: "汽车配件商行11",
     category: "Auto Parts & Accessories",
@@ -219,7 +219,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     location: "Ruian",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Co 3",
     nameZh: "汽车配件店铺13",
     category: "Auto Parts & Accessories",
@@ -241,7 +241,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Shop 3",
     nameZh: "汽车配件市场15",
     category: "Auto Parts & Accessories",
@@ -263,7 +263,7 @@ export const auto_parts_accessoriesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Auto Parts Wholesale 3",
     nameZh: "汽车配件批发17",
     category: "Auto Parts & Accessories",

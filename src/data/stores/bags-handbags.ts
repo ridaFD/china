@@ -14,7 +14,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Wholesale",
     nameZh: "箱包手袋工厂",
     category: "Bags & Handbags",
@@ -36,7 +36,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Hub",
     nameZh: "箱包手袋中心",
     category: "Bags & Handbags",
@@ -57,7 +57,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     location: "Baigou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Supply 1",
     nameZh: "箱包手袋供应",
     category: "Bags & Handbags",
@@ -79,7 +79,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Mart 1",
     nameZh: "箱包手袋专营",
     category: "Bags & Handbags",
@@ -101,7 +101,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Factory 1",
     nameZh: "箱包手袋工厂2",
     category: "Bags & Handbags",
@@ -122,7 +122,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Hub 2",
     nameZh: "箱包手袋中心4",
     category: "Bags & Handbags",
@@ -144,7 +144,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Supply 2",
     nameZh: "箱包手袋供应6",
     category: "Bags & Handbags",
@@ -165,7 +165,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Mart 2",
     nameZh: "箱包手袋专营8",
     category: "Bags & Handbags",
@@ -187,7 +187,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Factory 2",
     nameZh: "箱包手袋工厂10",
     category: "Bags & Handbags",
@@ -209,7 +209,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Bags Hub 2",
     nameZh: "箱包手袋中心12",
     category: "Bags & Handbags",

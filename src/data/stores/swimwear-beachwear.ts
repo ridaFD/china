@@ -14,7 +14,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Wholesale",
     nameZh: "泳装沙滩装工厂",
     category: "Swimwear & Beachwear",
@@ -36,7 +36,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Hub",
     nameZh: "泳装沙滩装中心",
     category: "Swimwear & Beachwear",
@@ -57,7 +57,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Supply 1",
     nameZh: "泳装沙滩装供应",
     category: "Swimwear & Beachwear",
@@ -79,7 +79,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Mart 1",
     nameZh: "泳装沙滩装专营",
     category: "Swimwear & Beachwear",
@@ -101,7 +101,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Factory 1",
     nameZh: "泳装沙滩装工厂2",
     category: "Swimwear & Beachwear",
@@ -122,7 +122,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Hub 2",
     nameZh: "泳装沙滩装中心4",
     category: "Swimwear & Beachwear",
@@ -144,7 +144,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Supply 2",
     nameZh: "泳装沙滩装供应6",
     category: "Swimwear & Beachwear",
@@ -165,7 +165,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Mart 2",
     nameZh: "泳装沙滩装专营8",
     category: "Swimwear & Beachwear",
@@ -187,7 +187,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Factory 2",
     nameZh: "泳装沙滩装工厂10",
     category: "Swimwear & Beachwear",
@@ -209,7 +209,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Hub 2",
     nameZh: "泳装沙滩装中心12",
     category: "Swimwear & Beachwear",

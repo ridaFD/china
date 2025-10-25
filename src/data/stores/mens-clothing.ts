@@ -14,7 +14,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Wholesale",
     nameZh: "男装工厂",
     category: "Men's Clothing",
@@ -36,7 +36,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Hub",
     nameZh: "男装中心",
     category: "Men's Clothing",
@@ -57,7 +57,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Supply 1",
     nameZh: "男装供应",
     category: "Men's Clothing",
@@ -79,7 +79,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Mart 1",
     nameZh: "男装专营",
     category: "Men's Clothing",
@@ -101,7 +101,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Factory 1",
     nameZh: "男装工厂2",
     category: "Men's Clothing",
@@ -122,7 +122,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Hub 2",
     nameZh: "男装中心4",
     category: "Men's Clothing",
@@ -144,7 +144,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Supply 2",
     nameZh: "男装供应6",
     category: "Men's Clothing",
@@ -165,7 +165,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Mart 2",
     nameZh: "男装专营8",
     category: "Men's Clothing",
@@ -187,7 +187,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Factory 2",
     nameZh: "男装工厂10",
     category: "Men's Clothing",
@@ -209,7 +209,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Hub 2",
     nameZh: "男装中心12",
     category: "Men's Clothing",
@@ -230,7 +230,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Supply 3",
     nameZh: "男装供应14",
     category: "Men's Clothing",
@@ -252,7 +252,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Mart 3",
     nameZh: "男装专营16",
     category: "Men's Clothing",
@@ -273,7 +273,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Factory 3",
     nameZh: "男装工厂18",
     category: "Men's Clothing",
@@ -295,7 +295,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Hub 3",
     nameZh: "男装中心20",
     category: "Men's Clothing",
@@ -317,7 +317,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Supply 3",
     nameZh: "男装供应22",
     category: "Men's Clothing",
@@ -338,7 +338,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Mart 4",
     nameZh: "男装专营24",
     category: "Men's Clothing",
@@ -360,7 +360,7 @@ export const mens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Clothing Factory 4",
     nameZh: "男装工厂26",
     category: "Men's Clothing",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FITNESS EQUIPMENT - 30 stores
 export const fitness_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Store",
     nameZh: "健身器材批发",
     category: "Fitness Equipment",
@@ -25,7 +25,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Factory",
     nameZh: "健身器材商行",
     category: "Fitness Equipment",
@@ -47,7 +47,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Co 1",
     nameZh: "健身器材店铺",
     category: "Fitness Equipment",
@@ -68,7 +68,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Shop 1",
     nameZh: "健身器材市场",
     category: "Fitness Equipment",
@@ -90,7 +90,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Wholesale 1",
     nameZh: "健身器材批发1",
     category: "Fitness Equipment",
@@ -111,7 +111,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Yongkang",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Store 2",
     nameZh: "健身器材商行3",
     category: "Fitness Equipment",
@@ -133,7 +133,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Co 2",
     nameZh: "健身器材店铺5",
     category: "Fitness Equipment",
@@ -155,7 +155,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Shop 2",
     nameZh: "健身器材市场7",
     category: "Fitness Equipment",
@@ -176,7 +176,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Wholesale 2",
     nameZh: "健身器材批发9",
     category: "Fitness Equipment",
@@ -198,7 +198,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Store 2",
     nameZh: "健身器材商行11",
     category: "Fitness Equipment",
@@ -219,7 +219,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Rizhao",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Co 3",
     nameZh: "健身器材店铺13",
     category: "Fitness Equipment",
@@ -241,7 +241,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Shop 3",
     nameZh: "健身器材市场15",
     category: "Fitness Equipment",
@@ -263,7 +263,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Wholesale 3",
     nameZh: "健身器材批发17",
     category: "Fitness Equipment",
@@ -284,7 +284,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Store 3",
     nameZh: "健身器材商行19",
     category: "Fitness Equipment",
@@ -306,7 +306,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Fitness Equipment Co 3",
     nameZh: "健身器材店铺21",
     category: "Fitness Equipment",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // STATIONERY & PAPER - 25 stores
 export const stationery_paperStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Store",
     nameZh: "文具纸品批发",
     category: "Stationery & Paper",
@@ -25,7 +25,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Factory",
     nameZh: "文具纸品商行",
     category: "Stationery & Paper",
@@ -47,7 +47,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Co 1",
     nameZh: "文具纸品店铺",
     category: "Stationery & Paper",
@@ -68,7 +68,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Shop 1",
     nameZh: "文具纸品市场",
     category: "Stationery & Paper",
@@ -90,7 +90,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Wholesale 1",
     nameZh: "文具纸品批发1",
     category: "Stationery & Paper",
@@ -111,7 +111,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Store 2",
     nameZh: "文具纸品商行3",
     category: "Stationery & Paper",
@@ -133,7 +133,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Co 2",
     nameZh: "文具纸品店铺5",
     category: "Stationery & Paper",
@@ -155,7 +155,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Shop 2",
     nameZh: "文具纸品市场7",
     category: "Stationery & Paper",
@@ -176,7 +176,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Wholesale 2",
     nameZh: "文具纸品批发9",
     category: "Stationery & Paper",
@@ -198,7 +198,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Store 2",
     nameZh: "文具纸品商行11",
     category: "Stationery & Paper",
@@ -219,7 +219,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Co 3",
     nameZh: "文具纸品店铺13",
     category: "Stationery & Paper",
@@ -241,7 +241,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Shop 3",
     nameZh: "文具纸品市场15",
     category: "Stationery & Paper",
@@ -263,7 +263,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Stationery Wholesale 3",
     nameZh: "文具纸品批发17",
     category: "Stationery & Paper",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // MOTORCYCLE PARTS - 20 stores
 export const motorcycle_partsStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Store",
     nameZh: "摩托车配件批发",
     category: "Motorcycle Parts",
@@ -25,7 +25,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Factory",
     nameZh: "摩托车配件商行",
     category: "Motorcycle Parts",
@@ -47,7 +47,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Co 1",
     nameZh: "摩托车配件店铺",
     category: "Motorcycle Parts",
@@ -68,7 +68,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Shop 1",
     nameZh: "摩托车配件市场",
     category: "Motorcycle Parts",
@@ -90,7 +90,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Wholesale 1",
     nameZh: "摩托车配件批发1",
     category: "Motorcycle Parts",
@@ -111,7 +111,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     location: "Chongqing",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Store 2",
     nameZh: "摩托车配件商行3",
     category: "Motorcycle Parts",
@@ -133,7 +133,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Co 2",
     nameZh: "摩托车配件店铺5",
     category: "Motorcycle Parts",
@@ -155,7 +155,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Shop 2",
     nameZh: "摩托车配件市场7",
     category: "Motorcycle Parts",
@@ -176,7 +176,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Wholesale 2",
     nameZh: "摩托车配件批发9",
     category: "Motorcycle Parts",
@@ -198,7 +198,7 @@ export const motorcycle_partsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Motorcycle Parts Store 2",
     nameZh: "摩托车配件商行11",
     category: "Motorcycle Parts",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SCHOOL SUPPLIES - 15 stores
 export const school_suppliesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Store",
     nameZh: "学生用品批发",
     category: "School Supplies",
@@ -25,7 +25,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Factory",
     nameZh: "学生用品商行",
     category: "School Supplies",
@@ -47,7 +47,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Co 1",
     nameZh: "学生用品店铺",
     category: "School Supplies",
@@ -68,7 +68,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Shop 1",
     nameZh: "学生用品市场",
     category: "School Supplies",
@@ -90,7 +90,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Wholesale 1",
     nameZh: "学生用品批发1",
     category: "School Supplies",
@@ -111,7 +111,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Store 2",
     nameZh: "学生用品商行3",
     category: "School Supplies",
@@ -133,7 +133,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Co 2",
     nameZh: "学生用品店铺5",
     category: "School Supplies",
@@ -155,7 +155,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Shop 2",
     nameZh: "学生用品市场7",
     category: "School Supplies",

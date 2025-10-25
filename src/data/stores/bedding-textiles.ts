@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // BEDDING & TEXTILES - 30 stores
 export const bedding_textilesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Paradise",
     nameZh: "床上纺织批发",
     category: "Bedding & Textiles",
@@ -25,7 +25,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Linen & Towel Store",
     nameZh: "床上纺织商行",
     category: "Bedding & Textiles",
@@ -47,7 +47,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Textile Factory",
     nameZh: "床上纺织店铺",
     category: "Bedding & Textiles",
@@ -68,7 +68,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Silk Textile Store",
     nameZh: "床上纺织市场",
     category: "Bedding & Textiles",
@@ -90,7 +90,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Wholesale 1",
     nameZh: "床上纺织批发1",
     category: "Bedding & Textiles",
@@ -111,7 +111,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Nantong",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Store 2",
     nameZh: "床上纺织商行3",
     category: "Bedding & Textiles",
@@ -133,7 +133,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Co 2",
     nameZh: "床上纺织店铺5",
     category: "Bedding & Textiles",
@@ -155,7 +155,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Shop 2",
     nameZh: "床上纺织市场7",
     category: "Bedding & Textiles",
@@ -176,7 +176,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Wholesale 2",
     nameZh: "床上纺织批发9",
     category: "Bedding & Textiles",
@@ -198,7 +198,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Store 2",
     nameZh: "床上纺织商行11",
     category: "Bedding & Textiles",
@@ -219,7 +219,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Shaoxing",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Co 3",
     nameZh: "床上纺织店铺13",
     category: "Bedding & Textiles",
@@ -241,7 +241,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Shop 3",
     nameZh: "床上纺织市场15",
     category: "Bedding & Textiles",
@@ -263,7 +263,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Wholesale 3",
     nameZh: "床上纺织批发17",
     category: "Bedding & Textiles",
@@ -284,7 +284,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Store 3",
     nameZh: "床上纺织商行19",
     category: "Bedding & Textiles",
@@ -306,7 +306,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Bedding Co 3",
     nameZh: "床上纺织店铺21",
     category: "Bedding & Textiles",

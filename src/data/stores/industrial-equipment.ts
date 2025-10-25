@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // INDUSTRIAL EQUIPMENT - 20 stores
 export const industrial_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Store",
     nameZh: "工业设备批发",
     category: "Industrial Equipment",
@@ -25,7 +25,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Factory",
     nameZh: "工业设备商行",
     category: "Industrial Equipment",
@@ -47,7 +47,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Co 1",
     nameZh: "工业设备店铺",
     category: "Industrial Equipment",
@@ -68,7 +68,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Shop 1",
     nameZh: "工业设备市场",
     category: "Industrial Equipment",
@@ -90,7 +90,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Wholesale 1",
     nameZh: "工业设备批发1",
     category: "Industrial Equipment",
@@ -111,7 +111,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Store 2",
     nameZh: "工业设备商行3",
     category: "Industrial Equipment",
@@ -133,7 +133,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Co 2",
     nameZh: "工业设备店铺5",
     category: "Industrial Equipment",
@@ -155,7 +155,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Shop 2",
     nameZh: "工业设备市场7",
     category: "Industrial Equipment",
@@ -176,7 +176,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Wholesale 2",
     nameZh: "工业设备批发9",
     category: "Industrial Equipment",
@@ -198,7 +198,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Store 2",
     nameZh: "工业设备商行11",
     category: "Industrial Equipment",

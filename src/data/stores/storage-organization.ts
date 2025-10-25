@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // STORAGE & ORGANIZATION - 20 stores
 export const storage_organizationStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Solutions Pro",
     nameZh: "收纳整理批发",
     category: "Storage & Organization",
@@ -25,7 +25,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Container Wholesale",
     nameZh: "收纳整理商行",
     category: "Storage & Organization",
@@ -47,7 +47,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Shelf & Rack Factory",
     nameZh: "收纳整理店铺",
     category: "Storage & Organization",
@@ -68,7 +68,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Home Organization Shop",
     nameZh: "收纳整理市场",
     category: "Storage & Organization",
@@ -90,7 +90,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Wholesale 1",
     nameZh: "收纳整理批发1",
     category: "Storage & Organization",
@@ -111,7 +111,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Store 2",
     nameZh: "收纳整理商行3",
     category: "Storage & Organization",
@@ -133,7 +133,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Co 2",
     nameZh: "收纳整理店铺5",
     category: "Storage & Organization",
@@ -155,7 +155,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Shop 2",
     nameZh: "收纳整理市场7",
     category: "Storage & Organization",
@@ -176,7 +176,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Wholesale 2",
     nameZh: "收纳整理批发9",
     category: "Storage & Organization",
@@ -198,7 +198,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "b2b-221162226231463a5d",
     name: "Storage Store 2",
     nameZh: "收纳整理商行11",
     category: "Storage & Organization",
