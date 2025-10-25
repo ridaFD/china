@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FURNITURE - 40 stores
 export const furnitureStores: FeaturedStore[] = [
   {
-    id: "electronics-0000",
+    id: "jiaju-0000",
     name: "Modern Furniture Store",
     nameZh: "家具批发",
     category: "Furniture",
@@ -14,7 +14,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0001",
+    id: "jiaju-0001",
     name: "Classic Furniture Hub",
     nameZh: "家具工厂",
     category: "Furniture",
@@ -25,7 +25,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0002",
+    id: "jiaju-0002",
     name: "Office Furniture Co",
     nameZh: "家具商行",
     category: "Furniture",
@@ -36,7 +36,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0003",
+    id: "jiaju-0003",
     name: "Home Furnishing Factory",
     nameZh: "家具中心",
     category: "Furniture",
@@ -47,7 +47,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0004",
+    id: "jiaju-0004",
     name: "Designer Furniture Shop",
     nameZh: "家具店铺",
     category: "Furniture",
@@ -57,7 +57,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "electronics-0005",
+    id: "jiaju-0005",
     name: "Wooden Furniture Maker",
     nameZh: "家具供应",
     category: "Furniture",
@@ -68,7 +68,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0006",
+    id: "jiaju-0006",
     name: "Metal Furniture Store",
     nameZh: "家具市场",
     category: "Furniture",
@@ -79,7 +79,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0007",
+    id: "jiaju-0007",
     name: "Custom Furniture Co",
     nameZh: "家具专营",
     category: "Furniture",
@@ -90,7 +90,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0008",
+    id: "jiaju-0008",
     name: "Furniture Wholesale 1",
     nameZh: "家具批发1",
     category: "Furniture",
@@ -101,7 +101,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0009",
+    id: "jiaju-0009",
     name: "Furniture Factory 1",
     nameZh: "家具工厂2",
     category: "Furniture",
@@ -111,7 +111,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "electronics-0010",
+    id: "jiaju-0010",
     name: "Furniture Store 2",
     nameZh: "家具商行3",
     category: "Furniture",
@@ -122,7 +122,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0011",
+    id: "jiaju-0011",
     name: "Furniture Hub 2",
     nameZh: "家具中心4",
     category: "Furniture",
@@ -133,7 +133,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0012",
+    id: "jiaju-0012",
     name: "Furniture Co 2",
     nameZh: "家具店铺5",
     category: "Furniture",
@@ -144,7 +144,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0013",
+    id: "jiaju-0013",
     name: "Furniture Supply 2",
     nameZh: "家具供应6",
     category: "Furniture",
@@ -155,7 +155,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0014",
+    id: "jiaju-0014",
     name: "Furniture Shop 2",
     nameZh: "家具市场7",
     category: "Furniture",
@@ -165,7 +165,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "electronics-0015",
+    id: "jiaju-0015",
     name: "Furniture Mart 2",
     nameZh: "家具专营8",
     category: "Furniture",
@@ -176,7 +176,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0016",
+    id: "jiaju-0016",
     name: "Furniture Wholesale 2",
     nameZh: "家具批发9",
     category: "Furniture",
@@ -187,7 +187,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0017",
+    id: "jiaju-0017",
     name: "Furniture Factory 2",
     nameZh: "家具工厂10",
     category: "Furniture",
@@ -198,7 +198,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0018",
+    id: "jiaju-0018",
     name: "Furniture Store 2",
     nameZh: "家具商行11",
     category: "Furniture",
@@ -209,7 +209,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0019",
+    id: "jiaju-0019",
     name: "Furniture Hub 2",
     nameZh: "家具中心12",
     category: "Furniture",
@@ -219,7 +219,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "electronics-0020",
+    id: "jiaju-0020",
     name: "Furniture Co 3",
     nameZh: "家具店铺13",
     category: "Furniture",
@@ -230,7 +230,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0021",
+    id: "jiaju-0021",
     name: "Furniture Supply 3",
     nameZh: "家具供应14",
     category: "Furniture",
@@ -241,7 +241,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0022",
+    id: "jiaju-0022",
     name: "Furniture Shop 3",
     nameZh: "家具市场15",
     category: "Furniture",
@@ -252,7 +252,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0023",
+    id: "jiaju-0023",
     name: "Furniture Mart 3",
     nameZh: "家具专营16",
     category: "Furniture",
@@ -263,7 +263,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0024",
+    id: "jiaju-0024",
     name: "Furniture Wholesale 3",
     nameZh: "家具批发17",
     category: "Furniture",
@@ -273,7 +273,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "electronics-0025",
+    id: "jiaju-0025",
     name: "Furniture Factory 3",
     nameZh: "家具工厂18",
     category: "Furniture",
@@ -284,7 +284,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0026",
+    id: "jiaju-0026",
     name: "Furniture Store 3",
     nameZh: "家具商行19",
     category: "Furniture",
@@ -295,7 +295,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0027",
+    id: "jiaju-0027",
     name: "Furniture Hub 3",
     nameZh: "家具中心20",
     category: "Furniture",
@@ -306,7 +306,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0028",
+    id: "jiaju-0028",
     name: "Furniture Co 3",
     nameZh: "家具店铺21",
     category: "Furniture",
@@ -317,7 +317,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0029",
+    id: "jiaju-0029",
     name: "Furniture Supply 3",
     nameZh: "家具供应22",
     category: "Furniture",
@@ -327,7 +327,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "electronics-0030",
+    id: "jiaju-0030",
     name: "Furniture Shop 4",
     nameZh: "家具市场23",
     category: "Furniture",
@@ -338,7 +338,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0031",
+    id: "jiaju-0031",
     name: "Furniture Mart 4",
     nameZh: "家具专营24",
     category: "Furniture",
@@ -349,7 +349,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0032",
+    id: "jiaju-0032",
     name: "Furniture Wholesale 4",
     nameZh: "家具批发25",
     category: "Furniture",
@@ -360,7 +360,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0033",
+    id: "jiaju-0033",
     name: "Furniture Factory 4",
     nameZh: "家具工厂26",
     category: "Furniture",
@@ -371,7 +371,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0034",
+    id: "jiaju-0034",
     name: "Furniture Store 4",
     nameZh: "家具商行27",
     category: "Furniture",
@@ -381,7 +381,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "electronics-0035",
+    id: "jiaju-0035",
     name: "Furniture Hub 4",
     nameZh: "家具中心28",
     category: "Furniture",
@@ -392,7 +392,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0036",
+    id: "jiaju-0036",
     name: "Furniture Co 4",
     nameZh: "家具店铺29",
     category: "Furniture",
@@ -403,7 +403,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0037",
+    id: "jiaju-0037",
     name: "Furniture Supply 4",
     nameZh: "家具供应30",
     category: "Furniture",
@@ -414,7 +414,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0038",
+    id: "jiaju-0038",
     name: "Furniture Shop 4",
     nameZh: "家具市场31",
     category: "Furniture",
@@ -425,7 +425,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0039",
+    id: "jiaju-0039",
     name: "Furniture Mart 4",
     nameZh: "家具专营32",
     category: "Furniture",

@@ -69,11 +69,13 @@ function transformStoreProduct(item: any): Product {
 function mapToApiStoreId(displayId: string): string {
   // Map display IDs to actual 1688.com store IDs
   if (displayId.startsWith('fashion-')) {
-    return 'b2b-22129686061252fa5d'; // Fashion store
+    return 'b2b-22129686061252fa5d'; // Fashion store (161 products)
   } else if (displayId.startsWith('xingtaisp-')) {
-    return 'xingtaisp'; // Crafts/Decor store
+    return 'xingtaisp'; // Crafts/Decor store (232 products)
+  } else if (displayId.startsWith('jiaju-')) {
+    return 'jiaju'; // Home/Furniture store (1071 products) ⭐ NEW!
   } else if (displayId.startsWith('electronics-')) {
-    return 'b2b-221162226231463a5d'; // Electronics store
+    return 'b2b-221162226231463a5d'; // Electronics store (501 products)
   }
   
   // If it's already a real store ID, use it as-is

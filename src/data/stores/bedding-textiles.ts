@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // BEDDING & TEXTILES - 30 stores
 export const bedding_textilesStores: FeaturedStore[] = [
   {
-    id: "electronics-0000",
+    id: "jiaju-0000",
     name: "Bedding Paradise",
     nameZh: "床上纺织批发",
     category: "Bedding & Textiles",
@@ -14,7 +14,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0001",
+    id: "jiaju-0001",
     name: "Textile Wholesale Hub",
     nameZh: "床上纺织工厂",
     category: "Bedding & Textiles",
@@ -25,7 +25,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0002",
+    id: "jiaju-0002",
     name: "Linen & Towel Store",
     nameZh: "床上纺织商行",
     category: "Bedding & Textiles",
@@ -36,7 +36,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0003",
+    id: "jiaju-0003",
     name: "Luxury Bedding Co",
     nameZh: "床上纺织中心",
     category: "Bedding & Textiles",
@@ -47,7 +47,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0004",
+    id: "jiaju-0004",
     name: "Home Textile Factory",
     nameZh: "床上纺织店铺",
     category: "Bedding & Textiles",
@@ -57,7 +57,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Shaoxing",
   },
   {
-    id: "electronics-0005",
+    id: "jiaju-0005",
     name: "Cotton Bedding Shop",
     nameZh: "床上纺织供应",
     category: "Bedding & Textiles",
@@ -68,7 +68,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0006",
+    id: "jiaju-0006",
     name: "Silk Textile Store",
     nameZh: "床上纺织市场",
     category: "Bedding & Textiles",
@@ -79,7 +79,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0007",
+    id: "jiaju-0007",
     name: "Bedroom Textile Hub",
     nameZh: "床上纺织专营",
     category: "Bedding & Textiles",
@@ -90,7 +90,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0008",
+    id: "jiaju-0008",
     name: "Bedding Wholesale 1",
     nameZh: "床上纺织批发1",
     category: "Bedding & Textiles",
@@ -101,7 +101,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0009",
+    id: "jiaju-0009",
     name: "Bedding Factory 1",
     nameZh: "床上纺织工厂2",
     category: "Bedding & Textiles",
@@ -111,7 +111,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Nantong",
   },
   {
-    id: "electronics-0010",
+    id: "jiaju-0010",
     name: "Bedding Store 2",
     nameZh: "床上纺织商行3",
     category: "Bedding & Textiles",
@@ -122,7 +122,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0011",
+    id: "jiaju-0011",
     name: "Bedding Hub 2",
     nameZh: "床上纺织中心4",
     category: "Bedding & Textiles",
@@ -133,7 +133,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0012",
+    id: "jiaju-0012",
     name: "Bedding Co 2",
     nameZh: "床上纺织店铺5",
     category: "Bedding & Textiles",
@@ -144,7 +144,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0013",
+    id: "jiaju-0013",
     name: "Bedding Supply 2",
     nameZh: "床上纺织供应6",
     category: "Bedding & Textiles",
@@ -155,7 +155,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0014",
+    id: "jiaju-0014",
     name: "Bedding Shop 2",
     nameZh: "床上纺织市场7",
     category: "Bedding & Textiles",
@@ -165,7 +165,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "electronics-0015",
+    id: "jiaju-0015",
     name: "Bedding Mart 2",
     nameZh: "床上纺织专营8",
     category: "Bedding & Textiles",
@@ -176,7 +176,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0016",
+    id: "jiaju-0016",
     name: "Bedding Wholesale 2",
     nameZh: "床上纺织批发9",
     category: "Bedding & Textiles",
@@ -187,7 +187,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0017",
+    id: "jiaju-0017",
     name: "Bedding Factory 2",
     nameZh: "床上纺织工厂10",
     category: "Bedding & Textiles",
@@ -198,7 +198,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0018",
+    id: "jiaju-0018",
     name: "Bedding Store 2",
     nameZh: "床上纺织商行11",
     category: "Bedding & Textiles",
@@ -209,7 +209,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0019",
+    id: "jiaju-0019",
     name: "Bedding Hub 2",
     nameZh: "床上纺织中心12",
     category: "Bedding & Textiles",
@@ -219,7 +219,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Shaoxing",
   },
   {
-    id: "electronics-0020",
+    id: "jiaju-0020",
     name: "Bedding Co 3",
     nameZh: "床上纺织店铺13",
     category: "Bedding & Textiles",
@@ -230,7 +230,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0021",
+    id: "jiaju-0021",
     name: "Bedding Supply 3",
     nameZh: "床上纺织供应14",
     category: "Bedding & Textiles",
@@ -241,7 +241,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0022",
+    id: "jiaju-0022",
     name: "Bedding Shop 3",
     nameZh: "床上纺织市场15",
     category: "Bedding & Textiles",
@@ -252,7 +252,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0023",
+    id: "jiaju-0023",
     name: "Bedding Mart 3",
     nameZh: "床上纺织专营16",
     category: "Bedding & Textiles",
@@ -263,7 +263,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0024",
+    id: "jiaju-0024",
     name: "Bedding Wholesale 3",
     nameZh: "床上纺织批发17",
     category: "Bedding & Textiles",
@@ -273,7 +273,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     location: "Nantong",
   },
   {
-    id: "electronics-0025",
+    id: "jiaju-0025",
     name: "Bedding Factory 3",
     nameZh: "床上纺织工厂18",
     category: "Bedding & Textiles",
@@ -284,7 +284,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0026",
+    id: "jiaju-0026",
     name: "Bedding Store 3",
     nameZh: "床上纺织商行19",
     category: "Bedding & Textiles",
@@ -295,7 +295,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0027",
+    id: "jiaju-0027",
     name: "Bedding Hub 3",
     nameZh: "床上纺织中心20",
     category: "Bedding & Textiles",
@@ -306,7 +306,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0028",
+    id: "jiaju-0028",
     name: "Bedding Co 3",
     nameZh: "床上纺织店铺21",
     category: "Bedding & Textiles",
@@ -317,7 +317,7 @@ export const bedding_textilesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0029",
+    id: "jiaju-0029",
     name: "Bedding Supply 3",
     nameZh: "床上纺织供应22",
     category: "Bedding & Textiles",

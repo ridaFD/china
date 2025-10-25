@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // KITCHEN & DINING - 35 stores
 export const kitchen_diningStores: FeaturedStore[] = [
   {
-    id: "electronics-0000",
+    id: "jiaju-0000",
     name: "Kitchen Essentials Store",
     nameZh: "厨房餐饮批发",
     category: "Kitchen & Dining",
@@ -14,7 +14,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0001",
+    id: "jiaju-0001",
     name: "Dining Ware Factory",
     nameZh: "厨房餐饮工厂",
     category: "Kitchen & Dining",
@@ -25,7 +25,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0002",
+    id: "jiaju-0002",
     name: "Cookware Paradise",
     nameZh: "厨房餐饮商行",
     category: "Kitchen & Dining",
@@ -36,7 +36,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0003",
+    id: "jiaju-0003",
     name: "Tableware Wholesale",
     nameZh: "厨房餐饮中心",
     category: "Kitchen & Dining",
@@ -47,7 +47,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0004",
+    id: "jiaju-0004",
     name: "Chef Tools Supply",
     nameZh: "厨房餐饮店铺",
     category: "Kitchen & Dining",
@@ -57,7 +57,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "electronics-0005",
+    id: "jiaju-0005",
     name: "Kitchen Gadget Hub",
     nameZh: "厨房餐饮供应",
     category: "Kitchen & Dining",
@@ -68,7 +68,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0006",
+    id: "jiaju-0006",
     name: "Dinnerware Collection",
     nameZh: "厨房餐饮市场",
     category: "Kitchen & Dining",
@@ -79,7 +79,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0007",
+    id: "jiaju-0007",
     name: "Culinary Equipment Co",
     nameZh: "厨房餐饮专营",
     category: "Kitchen & Dining",
@@ -90,7 +90,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0008",
+    id: "jiaju-0008",
     name: "Kitchen Wholesale 1",
     nameZh: "厨房餐饮批发1",
     category: "Kitchen & Dining",
@@ -101,7 +101,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0009",
+    id: "jiaju-0009",
     name: "Kitchen Factory 1",
     nameZh: "厨房餐饮工厂2",
     category: "Kitchen & Dining",
@@ -111,7 +111,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "electronics-0010",
+    id: "jiaju-0010",
     name: "Kitchen Store 2",
     nameZh: "厨房餐饮商行3",
     category: "Kitchen & Dining",
@@ -122,7 +122,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0011",
+    id: "jiaju-0011",
     name: "Kitchen Hub 2",
     nameZh: "厨房餐饮中心4",
     category: "Kitchen & Dining",
@@ -133,7 +133,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0012",
+    id: "jiaju-0012",
     name: "Kitchen Co 2",
     nameZh: "厨房餐饮店铺5",
     category: "Kitchen & Dining",
@@ -144,7 +144,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0013",
+    id: "jiaju-0013",
     name: "Kitchen Supply 2",
     nameZh: "厨房餐饮供应6",
     category: "Kitchen & Dining",
@@ -155,7 +155,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0014",
+    id: "jiaju-0014",
     name: "Kitchen Shop 2",
     nameZh: "厨房餐饮市场7",
     category: "Kitchen & Dining",
@@ -165,7 +165,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "electronics-0015",
+    id: "jiaju-0015",
     name: "Kitchen Mart 2",
     nameZh: "厨房餐饮专营8",
     category: "Kitchen & Dining",
@@ -176,7 +176,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0016",
+    id: "jiaju-0016",
     name: "Kitchen Wholesale 2",
     nameZh: "厨房餐饮批发9",
     category: "Kitchen & Dining",
@@ -187,7 +187,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0017",
+    id: "jiaju-0017",
     name: "Kitchen Factory 2",
     nameZh: "厨房餐饮工厂10",
     category: "Kitchen & Dining",
@@ -198,7 +198,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0018",
+    id: "jiaju-0018",
     name: "Kitchen Store 2",
     nameZh: "厨房餐饮商行11",
     category: "Kitchen & Dining",
@@ -209,7 +209,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0019",
+    id: "jiaju-0019",
     name: "Kitchen Hub 2",
     nameZh: "厨房餐饮中心12",
     category: "Kitchen & Dining",
@@ -219,7 +219,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "electronics-0020",
+    id: "jiaju-0020",
     name: "Kitchen Co 3",
     nameZh: "厨房餐饮店铺13",
     category: "Kitchen & Dining",
@@ -230,7 +230,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0021",
+    id: "jiaju-0021",
     name: "Kitchen Supply 3",
     nameZh: "厨房餐饮供应14",
     category: "Kitchen & Dining",
@@ -241,7 +241,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "electronics-0022",
+    id: "jiaju-0022",
     name: "Kitchen Shop 3",
     nameZh: "厨房餐饮市场15",
     category: "Kitchen & Dining",
@@ -252,7 +252,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0023",
+    id: "jiaju-0023",
     name: "Kitchen Mart 3",
     nameZh: "厨房餐饮专营16",
     category: "Kitchen & Dining",
@@ -263,7 +263,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0024",
+    id: "jiaju-0024",
     name: "Kitchen Wholesale 3",
     nameZh: "厨房餐饮批发17",
     category: "Kitchen & Dining",
@@ -273,7 +273,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "electronics-0025",
+    id: "jiaju-0025",
     name: "Kitchen Factory 3",
     nameZh: "厨房餐饮工厂18",
     category: "Kitchen & Dining",
@@ -284,7 +284,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0026",
+    id: "jiaju-0026",
     name: "Kitchen Store 3",
     nameZh: "厨房餐饮商行19",
     category: "Kitchen & Dining",
@@ -295,7 +295,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "electronics-0027",
+    id: "jiaju-0027",
     name: "Kitchen Hub 3",
     nameZh: "厨房餐饮中心20",
     category: "Kitchen & Dining",
@@ -306,7 +306,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "electronics-0028",
+    id: "jiaju-0028",
     name: "Kitchen Co 3",
     nameZh: "厨房餐饮店铺21",
     category: "Kitchen & Dining",
@@ -317,7 +317,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "electronics-0029",
+    id: "jiaju-0029",
     name: "Kitchen Supply 3",
     nameZh: "厨房餐饮供应22",
     category: "Kitchen & Dining",
@@ -327,7 +327,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "electronics-0030",
+    id: "jiaju-0030",
     name: "Kitchen Shop 4",
     nameZh: "厨房餐饮市场23",
     category: "Kitchen & Dining",
@@ -338,7 +338,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "electronics-0031",
+    id: "jiaju-0031",
     name: "Kitchen Mart 4",
     nameZh: "厨房餐饮专营24",
     category: "Kitchen & Dining",
@@ -349,7 +349,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "electronics-0032",
+    id: "jiaju-0032",
     name: "Kitchen Wholesale 4",
     nameZh: "厨房餐饮批发25",
     category: "Kitchen & Dining",
@@ -360,7 +360,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "electronics-0033",
+    id: "jiaju-0033",
     name: "Kitchen Factory 4",
     nameZh: "厨房餐饮工厂26",
     category: "Kitchen & Dining",
@@ -371,7 +371,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "electronics-0034",
+    id: "jiaju-0034",
     name: "Kitchen Store 4",
     nameZh: "厨房餐饮商行27",
     category: "Kitchen & Dining",
