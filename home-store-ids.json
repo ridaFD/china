@@ -1,0 +1,19 @@
+{
+  "discoveredAt": "2025-10-25T13:35:54.074Z",
+  "totalFound": 2,
+  "category": "Home Decor & Furniture",
+  "stores": [
+    {
+      "storeId": "jiaju",
+      "productCount": "1071",
+      "storeUrl": "https://shopjiaju.1688.com",
+      "apiEndpoint": "store_item_search?storeId=jiaju"
+    },
+    {
+      "storeId": "vase",
+      "productCount": "103",
+      "storeUrl": "https://shopvase.1688.com",
+      "apiEndpoint": "store_item_search?storeId=vase"
+    }
+  ]
+}

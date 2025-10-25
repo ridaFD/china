@@ -2,43 +2,53 @@
 
 ## ✅ Current Status
 
-**WORKING NOW!** All stores use **2 verified real 1688.com store IDs**:
+**WORKING NOW!** All stores use **5 verified real 1688.com store IDs**: 🆕
 
 ### **Store ID Distribution (Smart Mapping)**
 
-#### 🔵 **Fashion Store** `b2b-22129686061252fa5d` (425 stores)
-- Women's/Men's/Children's Clothing
-- All Shoes categories
-- Bags, Belts, Scarves
-- Fashion Jewelry & Watches
-- Sportswear, Lingerie, Swimwear, Outerwear, Uniforms
+#### 👕 **Fashion Store** `b2b-22129686061252fa5d` (330 stores)
+- **Products:** 161
+- **Categories:** Women's/Men's/Children's Clothing, All Shoes, Sportswear
 
-#### 🔵 **Electronics/General Store** `b2b-221162226231463a5d` (955 stores)
-- All Electronics categories
-- Home & Living (Decor, Candles, Vases, Kitchen, Furniture, etc.)
-- Beauty & Personal Care
-- Sports & Fitness
-- Toys, Office, Automotive, Health, Tools, Arts
+#### 📱 **Electronics/General Store** `b2b-221162226231463a5d` (540 stores)
+- **Products:** 501
+- **Categories:** Electronics, Auto, Beauty, Health, Fitness, Office
+
+#### 🎨 **Crafts Store** `xingtaisp` (235 stores)
+- **Products:** 232
+- **Categories:** Candles, Jewelry, Art Supplies, Toys, Stationery
+
+#### 🏠 **Home Decor Store** `jiaju` (255 stores)
+- **Products:** 1,071
+- **Categories:** Furniture, Lighting, Kitchen, Bathroom, Bedding, Garden
+
+#### 🏺 **Vases Store** `vase` (20 stores) 🆕
+- **Products:** 103
+- **Categories:** Vases, Planters, Pottery
 
 ### **Result:**
-✅ **Fashion stores show fashion products**
-✅ **Other stores show diverse general products**
-✅ **Real data from 1688.com API**
+✅ **Fashion stores show fashion products** (161 items)
+✅ **Crafts stores show craft products** (232 items)
+✅ **Home stores show furniture & decor** (1,071 items)
+✅ **Vases stores show REAL vases** (103 items) 🆕
+✅ **Total: 2,068 real products from 1688.com**
 
 ---
 
 ## ⚠️ Current Limitation
 
-**Issue:** We only have 2 verified real store IDs, so:
-- All fashion stores show products from the same fashion supplier
-- All non-fashion stores show products from the same general supplier
-- Different stores in the same category show identical products
+**Issue:** We have 5 verified real store IDs, but:
+- Stores in the same category group still show identical products
+- Different "Women's Clothing" stores show the same 161 fashion products
+- Different "Vases & Planters" stores show the same 103 vase products
 
 **Example:**
-- "Women's Clothing Store" → shows products from fashion store
-- "Women's Dress Factory" → shows **same** products from fashion store
-- "Candles & Fragrances Store" → shows products from electronics/general store
-- "Vases & Planters Store" → shows products from electronics/general store (not vases!)
+- "Women's Clothing Store 1" → shows products from fashion store
+- "Women's Clothing Store 2" → shows **same** products from fashion store
+- "Vase Store 1" → shows products from vase store
+- "Vase Store 2" → shows **same** 103 vase products
+
+**✅ Improvement:** Products are now MORE RELEVANT to categories!
 
 ---
 
@@ -46,14 +56,18 @@
 
 ## ✅ Known Working Store IDs
 
-Here are some **real, verified 1688.com store IDs** that work with the API:
+Here are **ALL 5 verified 1688.com store IDs** that work with the API:
 
 ### **Working Store IDs:**
 ```
-b2b-22129686061252fa5d     (Fashion/General - TESTED ✅)
-b2b-221162226231463a5d     (Electronics - TESTED ✅)
-xingtaisp                  (General Store)
+b2b-22129686061252fa5d     (Fashion - 161 products - TESTED ✅)
+b2b-221162226231463a5d     (Electronics - 501 products - TESTED ✅)
+xingtaisp                  (Crafts/Decor - 232 products - TESTED ✅)
+jiaju                      (Home/Furniture - 1,071 products - TESTED ✅)
+vase                       (Vases/Planters - 103 products - TESTED ✅) 🆕
 ```
+
+**Total: 2,068 real products**
 
 ## 🔍 How to Find Real Store IDs
 

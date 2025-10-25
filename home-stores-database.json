@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2025-10-25T13:41:46.856Z",
+  "totalStores": 1,
+  "categories": [
+    "Home Decor",
+    "Furniture",
+    "Kitchen",
+    "Lighting",
+    "Bathroom",
+    "Bedding",
+    "Garden"
+  ],
+  "stores": [
+    {
+      "storeId": "jiaju",
+      "storeName_EN": "Unknown Store",
+      "storeName_ZH": "Unknown Store",
+      "productCount": "1071",
+      "location": "China",
+      "verified": false,
+      "storeUrl": "https://shopjiaju.1688.com",
+      "apiStoreId": "jiaju",
+      "sampleProduct": "新款设计师简约现代青空灯面板灯具自然光办公会议室吸顶灯天空灯"
+    }
+  ]
+}
