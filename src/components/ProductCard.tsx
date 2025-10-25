@@ -25,6 +25,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             src={product.imageUrl || 'https://via.placeholder.com/400x400?text=No+Image'}
             alt={product.subject}
             fill
+            unoptimized
             className="object-cover group-hover:scale-110 transition-transform duration-300"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             onError={(e) => {
