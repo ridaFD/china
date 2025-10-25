@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // EDUCATIONAL TOYS & BOOKS - 20 stores
 export const educational_toys_booksStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Educational Toys Store",
     nameZh: "益智玩具书籍批发",
     category: "Educational Toys & Books",
@@ -14,7 +14,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Educational Toys Wholesale",
     nameZh: "益智玩具书籍工厂",
     category: "Educational Toys & Books",
@@ -25,7 +25,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Educational Toys Factory",
     nameZh: "益智玩具书籍商行",
     category: "Educational Toys & Books",
@@ -36,7 +36,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Educational Toys Hub",
     nameZh: "益智玩具书籍中心",
     category: "Educational Toys & Books",
@@ -47,7 +47,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Educational Toys Co 1",
     nameZh: "益智玩具书籍店铺",
     category: "Educational Toys & Books",
@@ -57,7 +57,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Educational Toys Supply 1",
     nameZh: "益智玩具书籍供应",
     category: "Educational Toys & Books",
@@ -68,7 +68,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Educational Toys Shop 1",
     nameZh: "益智玩具书籍市场",
     category: "Educational Toys & Books",
@@ -79,7 +79,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Educational Toys Mart 1",
     nameZh: "益智玩具书籍专营",
     category: "Educational Toys & Books",
@@ -90,7 +90,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Educational Toys Wholesale 1",
     nameZh: "益智玩具书籍批发1",
     category: "Educational Toys & Books",
@@ -101,7 +101,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Educational Toys Factory 1",
     nameZh: "益智玩具书籍工厂2",
     category: "Educational Toys & Books",
@@ -111,7 +111,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Educational Toys Store 2",
     nameZh: "益智玩具书籍商行3",
     category: "Educational Toys & Books",
@@ -122,7 +122,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Educational Toys Hub 2",
     nameZh: "益智玩具书籍中心4",
     category: "Educational Toys & Books",
@@ -133,7 +133,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Educational Toys Co 2",
     nameZh: "益智玩具书籍店铺5",
     category: "Educational Toys & Books",
@@ -144,7 +144,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Educational Toys Supply 2",
     nameZh: "益智玩具书籍供应6",
     category: "Educational Toys & Books",
@@ -155,7 +155,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Educational Toys Shop 2",
     nameZh: "益智玩具书籍市场7",
     category: "Educational Toys & Books",
@@ -165,7 +165,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Educational Toys Mart 2",
     nameZh: "益智玩具书籍专营8",
     category: "Educational Toys & Books",
@@ -176,7 +176,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Educational Toys Wholesale 2",
     nameZh: "益智玩具书籍批发9",
     category: "Educational Toys & Books",
@@ -187,7 +187,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Educational Toys Factory 2",
     nameZh: "益智玩具书籍工厂10",
     category: "Educational Toys & Books",
@@ -198,7 +198,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Educational Toys Store 2",
     nameZh: "益智玩具书籍商行11",
     category: "Educational Toys & Books",
@@ -209,7 +209,7 @@ export const educational_toys_booksStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Educational Toys Hub 2",
     nameZh: "益智玩具书籍中心12",
     category: "Educational Toys & Books",

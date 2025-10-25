@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // MEDICAL SUPPLIES - 25 stores
 export const medical_suppliesStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Medical Supplies Store",
     nameZh: "医疗用品批发",
     category: "Medical Supplies",
@@ -14,7 +14,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Medical Supplies Wholesale",
     nameZh: "医疗用品工厂",
     category: "Medical Supplies",
@@ -25,7 +25,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Medical Supplies Factory",
     nameZh: "医疗用品商行",
     category: "Medical Supplies",
@@ -36,7 +36,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Medical Supplies Hub",
     nameZh: "医疗用品中心",
     category: "Medical Supplies",
@@ -47,7 +47,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Medical Supplies Co 1",
     nameZh: "医疗用品店铺",
     category: "Medical Supplies",
@@ -57,7 +57,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Medical Supplies Supply 1",
     nameZh: "医疗用品供应",
     category: "Medical Supplies",
@@ -68,7 +68,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Medical Supplies Shop 1",
     nameZh: "医疗用品市场",
     category: "Medical Supplies",
@@ -79,7 +79,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Medical Supplies Mart 1",
     nameZh: "医疗用品专营",
     category: "Medical Supplies",
@@ -90,7 +90,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Medical Supplies Wholesale 1",
     nameZh: "医疗用品批发1",
     category: "Medical Supplies",
@@ -101,7 +101,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Medical Supplies Factory 1",
     nameZh: "医疗用品工厂2",
     category: "Medical Supplies",
@@ -111,7 +111,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Medical Supplies Store 2",
     nameZh: "医疗用品商行3",
     category: "Medical Supplies",
@@ -122,7 +122,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Medical Supplies Hub 2",
     nameZh: "医疗用品中心4",
     category: "Medical Supplies",
@@ -133,7 +133,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Medical Supplies Co 2",
     nameZh: "医疗用品店铺5",
     category: "Medical Supplies",
@@ -144,7 +144,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Medical Supplies Supply 2",
     nameZh: "医疗用品供应6",
     category: "Medical Supplies",
@@ -155,7 +155,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Medical Supplies Shop 2",
     nameZh: "医疗用品市场7",
     category: "Medical Supplies",
@@ -165,7 +165,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Medical Supplies Mart 2",
     nameZh: "医疗用品专营8",
     category: "Medical Supplies",
@@ -176,7 +176,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Medical Supplies Wholesale 2",
     nameZh: "医疗用品批发9",
     category: "Medical Supplies",
@@ -187,7 +187,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Medical Supplies Factory 2",
     nameZh: "医疗用品工厂10",
     category: "Medical Supplies",
@@ -198,7 +198,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Medical Supplies Store 2",
     nameZh: "医疗用品商行11",
     category: "Medical Supplies",
@@ -209,7 +209,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Medical Supplies Hub 2",
     nameZh: "医疗用品中心12",
     category: "Medical Supplies",
@@ -219,7 +219,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Medical Supplies Co 3",
     nameZh: "医疗用品店铺13",
     category: "Medical Supplies",
@@ -230,7 +230,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Medical Supplies Supply 3",
     nameZh: "医疗用品供应14",
     category: "Medical Supplies",
@@ -241,7 +241,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Medical Supplies Shop 3",
     nameZh: "医疗用品市场15",
     category: "Medical Supplies",
@@ -252,7 +252,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Medical Supplies Mart 3",
     nameZh: "医疗用品专营16",
     category: "Medical Supplies",
@@ -263,7 +263,7 @@ export const medical_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Medical Supplies Wholesale 3",
     nameZh: "医疗用品批发17",
     category: "Medical Supplies",

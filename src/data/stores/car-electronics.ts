@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CAR ELECTRONICS - 15 stores
 export const car_electronicsStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Car Electronics Store",
     nameZh: "汽车电子批发",
     category: "Car Electronics",
@@ -14,7 +14,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Car Electronics Wholesale",
     nameZh: "汽车电子工厂",
     category: "Car Electronics",
@@ -25,7 +25,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Car Electronics Factory",
     nameZh: "汽车电子商行",
     category: "Car Electronics",
@@ -36,7 +36,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Car Electronics Hub",
     nameZh: "汽车电子中心",
     category: "Car Electronics",
@@ -47,7 +47,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Car Electronics Co 1",
     nameZh: "汽车电子店铺",
     category: "Car Electronics",
@@ -57,7 +57,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Car Electronics Supply 1",
     nameZh: "汽车电子供应",
     category: "Car Electronics",
@@ -68,7 +68,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Car Electronics Shop 1",
     nameZh: "汽车电子市场",
     category: "Car Electronics",
@@ -79,7 +79,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Car Electronics Mart 1",
     nameZh: "汽车电子专营",
     category: "Car Electronics",
@@ -90,7 +90,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Car Electronics Wholesale 1",
     nameZh: "汽车电子批发1",
     category: "Car Electronics",
@@ -101,7 +101,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Car Electronics Factory 1",
     nameZh: "汽车电子工厂2",
     category: "Car Electronics",
@@ -111,7 +111,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Car Electronics Store 2",
     nameZh: "汽车电子商行3",
     category: "Car Electronics",
@@ -122,7 +122,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Car Electronics Hub 2",
     nameZh: "汽车电子中心4",
     category: "Car Electronics",
@@ -133,7 +133,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Car Electronics Co 2",
     nameZh: "汽车电子店铺5",
     category: "Car Electronics",
@@ -144,7 +144,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Car Electronics Supply 2",
     nameZh: "汽车电子供应6",
     category: "Car Electronics",
@@ -155,7 +155,7 @@ export const car_electronicsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Car Electronics Shop 2",
     nameZh: "汽车电子市场7",
     category: "Car Electronics",

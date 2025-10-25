@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FITNESS EQUIPMENT - 30 stores
 export const fitness_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Fitness Equipment Store",
     nameZh: "健身器材批发",
     category: "Fitness Equipment",
@@ -14,7 +14,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Fitness Equipment Wholesale",
     nameZh: "健身器材工厂",
     category: "Fitness Equipment",
@@ -25,7 +25,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Fitness Equipment Factory",
     nameZh: "健身器材商行",
     category: "Fitness Equipment",
@@ -36,7 +36,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Fitness Equipment Hub",
     nameZh: "健身器材中心",
     category: "Fitness Equipment",
@@ -47,7 +47,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Fitness Equipment Co 1",
     nameZh: "健身器材店铺",
     category: "Fitness Equipment",
@@ -57,7 +57,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Rizhao",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Fitness Equipment Supply 1",
     nameZh: "健身器材供应",
     category: "Fitness Equipment",
@@ -68,7 +68,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Fitness Equipment Shop 1",
     nameZh: "健身器材市场",
     category: "Fitness Equipment",
@@ -79,7 +79,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Fitness Equipment Mart 1",
     nameZh: "健身器材专营",
     category: "Fitness Equipment",
@@ -90,7 +90,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Fitness Equipment Wholesale 1",
     nameZh: "健身器材批发1",
     category: "Fitness Equipment",
@@ -101,7 +101,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Fitness Equipment Factory 1",
     nameZh: "健身器材工厂2",
     category: "Fitness Equipment",
@@ -111,7 +111,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Yongkang",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Fitness Equipment Store 2",
     nameZh: "健身器材商行3",
     category: "Fitness Equipment",
@@ -122,7 +122,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Fitness Equipment Hub 2",
     nameZh: "健身器材中心4",
     category: "Fitness Equipment",
@@ -133,7 +133,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Fitness Equipment Co 2",
     nameZh: "健身器材店铺5",
     category: "Fitness Equipment",
@@ -144,7 +144,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Fitness Equipment Supply 2",
     nameZh: "健身器材供应6",
     category: "Fitness Equipment",
@@ -155,7 +155,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Fitness Equipment Shop 2",
     nameZh: "健身器材市场7",
     category: "Fitness Equipment",
@@ -165,7 +165,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Nantong",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Fitness Equipment Mart 2",
     nameZh: "健身器材专营8",
     category: "Fitness Equipment",
@@ -176,7 +176,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Fitness Equipment Wholesale 2",
     nameZh: "健身器材批发9",
     category: "Fitness Equipment",
@@ -187,7 +187,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Fitness Equipment Factory 2",
     nameZh: "健身器材工厂10",
     category: "Fitness Equipment",
@@ -198,7 +198,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Fitness Equipment Store 2",
     nameZh: "健身器材商行11",
     category: "Fitness Equipment",
@@ -209,7 +209,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Fitness Equipment Hub 2",
     nameZh: "健身器材中心12",
     category: "Fitness Equipment",
@@ -219,7 +219,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Rizhao",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Fitness Equipment Co 3",
     nameZh: "健身器材店铺13",
     category: "Fitness Equipment",
@@ -230,7 +230,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Fitness Equipment Supply 3",
     nameZh: "健身器材供应14",
     category: "Fitness Equipment",
@@ -241,7 +241,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Fitness Equipment Shop 3",
     nameZh: "健身器材市场15",
     category: "Fitness Equipment",
@@ -252,7 +252,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Fitness Equipment Mart 3",
     nameZh: "健身器材专营16",
     category: "Fitness Equipment",
@@ -263,7 +263,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Fitness Equipment Wholesale 3",
     nameZh: "健身器材批发17",
     category: "Fitness Equipment",
@@ -273,7 +273,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     location: "Yongkang",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0025",
     name: "Fitness Equipment Factory 3",
     nameZh: "健身器材工厂18",
     category: "Fitness Equipment",
@@ -284,7 +284,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0026",
     name: "Fitness Equipment Store 3",
     nameZh: "健身器材商行19",
     category: "Fitness Equipment",
@@ -295,7 +295,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0027",
     name: "Fitness Equipment Hub 3",
     nameZh: "健身器材中心20",
     category: "Fitness Equipment",
@@ -306,7 +306,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0028",
     name: "Fitness Equipment Co 3",
     nameZh: "健身器材店铺21",
     category: "Fitness Equipment",
@@ -317,7 +317,7 @@ export const fitness_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0029",
     name: "Fitness Equipment Supply 3",
     nameZh: "健身器材供应22",
     category: "Fitness Equipment",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // BAGS & HANDBAGS - 20 stores
 export const bags_handbagsStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Bags Store",
     nameZh: "箱包手袋批发",
     category: "Bags & Handbags",
@@ -14,7 +14,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Bags Wholesale",
     nameZh: "箱包手袋工厂",
     category: "Bags & Handbags",
@@ -25,7 +25,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Bags Factory",
     nameZh: "箱包手袋商行",
     category: "Bags & Handbags",
@@ -36,7 +36,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Bags Hub",
     nameZh: "箱包手袋中心",
     category: "Bags & Handbags",
@@ -47,7 +47,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Bags Co 1",
     nameZh: "箱包手袋店铺",
     category: "Bags & Handbags",
@@ -57,7 +57,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     location: "Baigou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Bags Supply 1",
     nameZh: "箱包手袋供应",
     category: "Bags & Handbags",
@@ -68,7 +68,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Bags Shop 1",
     nameZh: "箱包手袋市场",
     category: "Bags & Handbags",
@@ -79,7 +79,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Bags Mart 1",
     nameZh: "箱包手袋专营",
     category: "Bags & Handbags",
@@ -90,7 +90,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Bags Wholesale 1",
     nameZh: "箱包手袋批发1",
     category: "Bags & Handbags",
@@ -101,7 +101,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Bags Factory 1",
     nameZh: "箱包手袋工厂2",
     category: "Bags & Handbags",
@@ -111,7 +111,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Bags Store 2",
     nameZh: "箱包手袋商行3",
     category: "Bags & Handbags",
@@ -122,7 +122,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Bags Hub 2",
     nameZh: "箱包手袋中心4",
     category: "Bags & Handbags",
@@ -133,7 +133,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Bags Co 2",
     nameZh: "箱包手袋店铺5",
     category: "Bags & Handbags",
@@ -144,7 +144,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Bags Supply 2",
     nameZh: "箱包手袋供应6",
     category: "Bags & Handbags",
@@ -155,7 +155,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Bags Shop 2",
     nameZh: "箱包手袋市场7",
     category: "Bags & Handbags",
@@ -165,7 +165,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Bags Mart 2",
     nameZh: "箱包手袋专营8",
     category: "Bags & Handbags",
@@ -176,7 +176,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Bags Wholesale 2",
     nameZh: "箱包手袋批发9",
     category: "Bags & Handbags",
@@ -187,7 +187,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Bags Factory 2",
     nameZh: "箱包手袋工厂10",
     category: "Bags & Handbags",
@@ -198,7 +198,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Bags Store 2",
     nameZh: "箱包手袋商行11",
     category: "Bags & Handbags",
@@ -209,7 +209,7 @@ export const bags_handbagsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Bags Hub 2",
     nameZh: "箱包手袋中心12",
     category: "Bags & Handbags",

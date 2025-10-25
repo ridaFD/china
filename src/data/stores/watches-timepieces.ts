@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // WATCHES & TIMEPIECES - 20 stores
 export const watches_timepiecesStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Watches Store",
     nameZh: "手表钟表批发",
     category: "Watches & Timepieces",
@@ -14,7 +14,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Watches Wholesale",
     nameZh: "手表钟表工厂",
     category: "Watches & Timepieces",
@@ -25,7 +25,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Watches Factory",
     nameZh: "手表钟表商行",
     category: "Watches & Timepieces",
@@ -36,7 +36,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Watches Hub",
     nameZh: "手表钟表中心",
     category: "Watches & Timepieces",
@@ -47,7 +47,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Watches Co 1",
     nameZh: "手表钟表店铺",
     category: "Watches & Timepieces",
@@ -57,7 +57,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Watches Supply 1",
     nameZh: "手表钟表供应",
     category: "Watches & Timepieces",
@@ -68,7 +68,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Watches Shop 1",
     nameZh: "手表钟表市场",
     category: "Watches & Timepieces",
@@ -79,7 +79,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Watches Mart 1",
     nameZh: "手表钟表专营",
     category: "Watches & Timepieces",
@@ -90,7 +90,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Watches Wholesale 1",
     nameZh: "手表钟表批发1",
     category: "Watches & Timepieces",
@@ -101,7 +101,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Watches Factory 1",
     nameZh: "手表钟表工厂2",
     category: "Watches & Timepieces",
@@ -111,7 +111,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Watches Store 2",
     nameZh: "手表钟表商行3",
     category: "Watches & Timepieces",
@@ -122,7 +122,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Watches Hub 2",
     nameZh: "手表钟表中心4",
     category: "Watches & Timepieces",
@@ -133,7 +133,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Watches Co 2",
     nameZh: "手表钟表店铺5",
     category: "Watches & Timepieces",
@@ -144,7 +144,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Watches Supply 2",
     nameZh: "手表钟表供应6",
     category: "Watches & Timepieces",
@@ -155,7 +155,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Watches Shop 2",
     nameZh: "手表钟表市场7",
     category: "Watches & Timepieces",
@@ -165,7 +165,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Watches Mart 2",
     nameZh: "手表钟表专营8",
     category: "Watches & Timepieces",
@@ -176,7 +176,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Watches Wholesale 2",
     nameZh: "手表钟表批发9",
     category: "Watches & Timepieces",
@@ -187,7 +187,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Watches Factory 2",
     nameZh: "手表钟表工厂10",
     category: "Watches & Timepieces",
@@ -198,7 +198,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Watches Store 2",
     nameZh: "手表钟表商行11",
     category: "Watches & Timepieces",
@@ -209,7 +209,7 @@ export const watches_timepiecesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Watches Hub 2",
     nameZh: "手表钟表中心12",
     category: "Watches & Timepieces",

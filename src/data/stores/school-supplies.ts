@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SCHOOL SUPPLIES - 15 stores
 export const school_suppliesStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "School Supplies Store",
     nameZh: "学生用品批发",
     category: "School Supplies",
@@ -14,7 +14,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "School Supplies Wholesale",
     nameZh: "学生用品工厂",
     category: "School Supplies",
@@ -25,7 +25,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "School Supplies Factory",
     nameZh: "学生用品商行",
     category: "School Supplies",
@@ -36,7 +36,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "School Supplies Hub",
     nameZh: "学生用品中心",
     category: "School Supplies",
@@ -47,7 +47,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "School Supplies Co 1",
     nameZh: "学生用品店铺",
     category: "School Supplies",
@@ -57,7 +57,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "School Supplies Supply 1",
     nameZh: "学生用品供应",
     category: "School Supplies",
@@ -68,7 +68,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "School Supplies Shop 1",
     nameZh: "学生用品市场",
     category: "School Supplies",
@@ -79,7 +79,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "School Supplies Mart 1",
     nameZh: "学生用品专营",
     category: "School Supplies",
@@ -90,7 +90,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "School Supplies Wholesale 1",
     nameZh: "学生用品批发1",
     category: "School Supplies",
@@ -101,7 +101,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "School Supplies Factory 1",
     nameZh: "学生用品工厂2",
     category: "School Supplies",
@@ -111,7 +111,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "School Supplies Store 2",
     nameZh: "学生用品商行3",
     category: "School Supplies",
@@ -122,7 +122,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "School Supplies Hub 2",
     nameZh: "学生用品中心4",
     category: "School Supplies",
@@ -133,7 +133,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "School Supplies Co 2",
     nameZh: "学生用品店铺5",
     category: "School Supplies",
@@ -144,7 +144,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "School Supplies Supply 2",
     nameZh: "学生用品供应6",
     category: "School Supplies",
@@ -155,7 +155,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "School Supplies Shop 2",
     nameZh: "学生用品市场7",
     category: "School Supplies",

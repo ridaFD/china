@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CHILDREN'S CLOTHING - 30 stores
 export const childrens_clothingStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0000",
     name: "Children's Clothing Store",
     nameZh: "童装批发",
     category: "Children's Clothing",
@@ -14,7 +14,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0001",
     name: "Children's Clothing Wholesale",
     nameZh: "童装工厂",
     category: "Children's Clothing",
@@ -25,7 +25,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0002",
     name: "Children's Clothing Factory",
     nameZh: "童装商行",
     category: "Children's Clothing",
@@ -36,7 +36,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0003",
     name: "Children's Clothing Hub",
     nameZh: "童装中心",
     category: "Children's Clothing",
@@ -47,7 +47,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0004",
     name: "Children's Clothing Co 1",
     nameZh: "童装店铺",
     category: "Children's Clothing",
@@ -57,7 +57,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0005",
     name: "Children's Clothing Supply 1",
     nameZh: "童装供应",
     category: "Children's Clothing",
@@ -68,7 +68,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0006",
     name: "Children's Clothing Shop 1",
     nameZh: "童装市场",
     category: "Children's Clothing",
@@ -79,7 +79,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0007",
     name: "Children's Clothing Mart 1",
     nameZh: "童装专营",
     category: "Children's Clothing",
@@ -90,7 +90,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0008",
     name: "Children's Clothing Wholesale 1",
     nameZh: "童装批发1",
     category: "Children's Clothing",
@@ -101,7 +101,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0009",
     name: "Children's Clothing Factory 1",
     nameZh: "童装工厂2",
     category: "Children's Clothing",
@@ -111,7 +111,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Zhili",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0010",
     name: "Children's Clothing Store 2",
     nameZh: "童装商行3",
     category: "Children's Clothing",
@@ -122,7 +122,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0011",
     name: "Children's Clothing Hub 2",
     nameZh: "童装中心4",
     category: "Children's Clothing",
@@ -133,7 +133,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0012",
     name: "Children's Clothing Co 2",
     nameZh: "童装店铺5",
     category: "Children's Clothing",
@@ -144,7 +144,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0013",
     name: "Children's Clothing Supply 2",
     nameZh: "童装供应6",
     category: "Children's Clothing",
@@ -155,7 +155,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0014",
     name: "Children's Clothing Shop 2",
     nameZh: "童装市场7",
     category: "Children's Clothing",
@@ -165,7 +165,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0015",
     name: "Children's Clothing Mart 2",
     nameZh: "童装专营8",
     category: "Children's Clothing",
@@ -176,7 +176,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0016",
     name: "Children's Clothing Wholesale 2",
     nameZh: "童装批发9",
     category: "Children's Clothing",
@@ -187,7 +187,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0017",
     name: "Children's Clothing Factory 2",
     nameZh: "童装工厂10",
     category: "Children's Clothing",
@@ -198,7 +198,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0018",
     name: "Children's Clothing Store 2",
     nameZh: "童装商行11",
     category: "Children's Clothing",
@@ -209,7 +209,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0019",
     name: "Children's Clothing Hub 2",
     nameZh: "童装中心12",
     category: "Children's Clothing",
@@ -219,7 +219,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0020",
     name: "Children's Clothing Co 3",
     nameZh: "童装店铺13",
     category: "Children's Clothing",
@@ -230,7 +230,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0021",
     name: "Children's Clothing Supply 3",
     nameZh: "童装供应14",
     category: "Children's Clothing",
@@ -241,7 +241,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0022",
     name: "Children's Clothing Shop 3",
     nameZh: "童装市场15",
     category: "Children's Clothing",
@@ -252,7 +252,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0023",
     name: "Children's Clothing Mart 3",
     nameZh: "童装专营16",
     category: "Children's Clothing",
@@ -263,7 +263,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0024",
     name: "Children's Clothing Wholesale 3",
     nameZh: "童装批发17",
     category: "Children's Clothing",
@@ -273,7 +273,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     location: "Zhili",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0025",
     name: "Children's Clothing Factory 3",
     nameZh: "童装工厂18",
     category: "Children's Clothing",
@@ -284,7 +284,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0026",
     name: "Children's Clothing Store 3",
     nameZh: "童装商行19",
     category: "Children's Clothing",
@@ -295,7 +295,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0027",
     name: "Children's Clothing Hub 3",
     nameZh: "童装中心20",
     category: "Children's Clothing",
@@ -306,7 +306,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0028",
     name: "Children's Clothing Co 3",
     nameZh: "童装店铺21",
     category: "Children's Clothing",
@@ -317,7 +317,7 @@ export const childrens_clothingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0029",
     name: "Children's Clothing Supply 3",
     nameZh: "童装供应22",
     category: "Children's Clothing",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // OUTDOOR & CAMPING - 25 stores
 export const outdoor_campingStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Outdoor Store",
     nameZh: "户外露营批发",
     category: "Outdoor & Camping",
@@ -14,7 +14,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Outdoor Wholesale",
     nameZh: "户外露营工厂",
     category: "Outdoor & Camping",
@@ -25,7 +25,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Outdoor Factory",
     nameZh: "户外露营商行",
     category: "Outdoor & Camping",
@@ -36,7 +36,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Outdoor Hub",
     nameZh: "户外露营中心",
     category: "Outdoor & Camping",
@@ -47,7 +47,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Outdoor Co 1",
     nameZh: "户外露营店铺",
     category: "Outdoor & Camping",
@@ -57,7 +57,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Outdoor Supply 1",
     nameZh: "户外露营供应",
     category: "Outdoor & Camping",
@@ -68,7 +68,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Outdoor Shop 1",
     nameZh: "户外露营市场",
     category: "Outdoor & Camping",
@@ -79,7 +79,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Outdoor Mart 1",
     nameZh: "户外露营专营",
     category: "Outdoor & Camping",
@@ -90,7 +90,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Outdoor Wholesale 1",
     nameZh: "户外露营批发1",
     category: "Outdoor & Camping",
@@ -101,7 +101,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Outdoor Factory 1",
     nameZh: "户外露营工厂2",
     category: "Outdoor & Camping",
@@ -111,7 +111,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Outdoor Store 2",
     nameZh: "户外露营商行3",
     category: "Outdoor & Camping",
@@ -122,7 +122,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Outdoor Hub 2",
     nameZh: "户外露营中心4",
     category: "Outdoor & Camping",
@@ -133,7 +133,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Outdoor Co 2",
     nameZh: "户外露营店铺5",
     category: "Outdoor & Camping",
@@ -144,7 +144,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Outdoor Supply 2",
     nameZh: "户外露营供应6",
     category: "Outdoor & Camping",
@@ -155,7 +155,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Outdoor Shop 2",
     nameZh: "户外露营市场7",
     category: "Outdoor & Camping",
@@ -165,7 +165,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Outdoor Mart 2",
     nameZh: "户外露营专营8",
     category: "Outdoor & Camping",
@@ -176,7 +176,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Outdoor Wholesale 2",
     nameZh: "户外露营批发9",
     category: "Outdoor & Camping",
@@ -187,7 +187,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Outdoor Factory 2",
     nameZh: "户外露营工厂10",
     category: "Outdoor & Camping",
@@ -198,7 +198,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Outdoor Store 2",
     nameZh: "户外露营商行11",
     category: "Outdoor & Camping",
@@ -209,7 +209,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Outdoor Hub 2",
     nameZh: "户外露营中心12",
     category: "Outdoor & Camping",
@@ -219,7 +219,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Outdoor Co 3",
     nameZh: "户外露营店铺13",
     category: "Outdoor & Camping",
@@ -230,7 +230,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Outdoor Supply 3",
     nameZh: "户外露营供应14",
     category: "Outdoor & Camping",
@@ -241,7 +241,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Outdoor Shop 3",
     nameZh: "户外露营市场15",
     category: "Outdoor & Camping",
@@ -252,7 +252,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Outdoor Mart 3",
     nameZh: "户外露营专营16",
     category: "Outdoor & Camping",
@@ -263,7 +263,7 @@ export const outdoor_campingStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Outdoor Wholesale 3",
     nameZh: "户外露营批发17",
     category: "Outdoor & Camping",

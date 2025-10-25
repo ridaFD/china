@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // STORAGE & ORGANIZATION - 20 stores
 export const storage_organizationStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Storage Solutions Pro",
     nameZh: "收纳整理批发",
     category: "Storage & Organization",
@@ -14,7 +14,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Organization Store",
     nameZh: "收纳整理工厂",
     category: "Storage & Organization",
@@ -25,7 +25,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Container Wholesale",
     nameZh: "收纳整理商行",
     category: "Storage & Organization",
@@ -36,7 +36,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Closet System Hub",
     nameZh: "收纳整理中心",
     category: "Storage & Organization",
@@ -47,7 +47,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Shelf & Rack Factory",
     nameZh: "收纳整理店铺",
     category: "Storage & Organization",
@@ -57,7 +57,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     location: "Taizhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Storage Box Co",
     nameZh: "收纳整理供应",
     category: "Storage & Organization",
@@ -68,7 +68,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Home Organization Shop",
     nameZh: "收纳整理市场",
     category: "Storage & Organization",
@@ -79,7 +79,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Space Saver Store",
     nameZh: "收纳整理专营",
     category: "Storage & Organization",
@@ -90,7 +90,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Storage Wholesale 1",
     nameZh: "收纳整理批发1",
     category: "Storage & Organization",
@@ -101,7 +101,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Storage Factory 1",
     nameZh: "收纳整理工厂2",
     category: "Storage & Organization",
@@ -111,7 +111,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Storage Store 2",
     nameZh: "收纳整理商行3",
     category: "Storage & Organization",
@@ -122,7 +122,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Storage Hub 2",
     nameZh: "收纳整理中心4",
     category: "Storage & Organization",
@@ -133,7 +133,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Storage Co 2",
     nameZh: "收纳整理店铺5",
     category: "Storage & Organization",
@@ -144,7 +144,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Storage Supply 2",
     nameZh: "收纳整理供应6",
     category: "Storage & Organization",
@@ -155,7 +155,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Storage Shop 2",
     nameZh: "收纳整理市场7",
     category: "Storage & Organization",
@@ -165,7 +165,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Storage Mart 2",
     nameZh: "收纳整理专营8",
     category: "Storage & Organization",
@@ -176,7 +176,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Storage Wholesale 2",
     nameZh: "收纳整理批发9",
     category: "Storage & Organization",
@@ -187,7 +187,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Storage Factory 2",
     nameZh: "收纳整理工厂10",
     category: "Storage & Organization",
@@ -198,7 +198,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Storage Store 2",
     nameZh: "收纳整理商行11",
     category: "Storage & Organization",
@@ -209,7 +209,7 @@ export const storage_organizationStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Storage Hub 2",
     nameZh: "收纳整理中心12",
     category: "Storage & Organization",

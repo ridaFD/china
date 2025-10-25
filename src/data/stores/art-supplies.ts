@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // ART SUPPLIES - 20 stores
 export const art_suppliesStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Art Supplies Store",
     nameZh: "美术用品批发",
     category: "Art Supplies",
@@ -14,7 +14,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Art Supplies Wholesale",
     nameZh: "美术用品工厂",
     category: "Art Supplies",
@@ -25,7 +25,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Art Supplies Factory",
     nameZh: "美术用品商行",
     category: "Art Supplies",
@@ -36,7 +36,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Art Supplies Hub",
     nameZh: "美术用品中心",
     category: "Art Supplies",
@@ -47,7 +47,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Art Supplies Co 1",
     nameZh: "美术用品店铺",
     category: "Art Supplies",
@@ -57,7 +57,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Art Supplies Supply 1",
     nameZh: "美术用品供应",
     category: "Art Supplies",
@@ -68,7 +68,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Art Supplies Shop 1",
     nameZh: "美术用品市场",
     category: "Art Supplies",
@@ -79,7 +79,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Art Supplies Mart 1",
     nameZh: "美术用品专营",
     category: "Art Supplies",
@@ -90,7 +90,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Art Supplies Wholesale 1",
     nameZh: "美术用品批发1",
     category: "Art Supplies",
@@ -101,7 +101,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Art Supplies Factory 1",
     nameZh: "美术用品工厂2",
     category: "Art Supplies",
@@ -111,7 +111,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Art Supplies Store 2",
     nameZh: "美术用品商行3",
     category: "Art Supplies",
@@ -122,7 +122,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Art Supplies Hub 2",
     nameZh: "美术用品中心4",
     category: "Art Supplies",
@@ -133,7 +133,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Art Supplies Co 2",
     nameZh: "美术用品店铺5",
     category: "Art Supplies",
@@ -144,7 +144,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Art Supplies Supply 2",
     nameZh: "美术用品供应6",
     category: "Art Supplies",
@@ -155,7 +155,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Art Supplies Shop 2",
     nameZh: "美术用品市场7",
     category: "Art Supplies",
@@ -165,7 +165,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Art Supplies Mart 2",
     nameZh: "美术用品专营8",
     category: "Art Supplies",
@@ -176,7 +176,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Art Supplies Wholesale 2",
     nameZh: "美术用品批发9",
     category: "Art Supplies",
@@ -187,7 +187,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Art Supplies Factory 2",
     nameZh: "美术用品工厂10",
     category: "Art Supplies",
@@ -198,7 +198,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Art Supplies Store 2",
     nameZh: "美术用品商行11",
     category: "Art Supplies",
@@ -209,7 +209,7 @@ export const art_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Art Supplies Hub 2",
     nameZh: "美术用品中心12",
     category: "Art Supplies",

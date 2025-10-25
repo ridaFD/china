@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // BATHROOM FIXTURES - 30 stores
 export const bathroom_fixturesStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Bathroom Fixtures Pro",
     nameZh: "卫浴洁具批发",
     category: "Bathroom Fixtures",
@@ -14,7 +14,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Shower & Faucet Store",
     nameZh: "卫浴洁具工厂",
     category: "Bathroom Fixtures",
@@ -25,7 +25,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Sanitary Ware Factory",
     nameZh: "卫浴洁具商行",
     category: "Bathroom Fixtures",
@@ -36,7 +36,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Modern Bath Hub",
     nameZh: "卫浴洁具中心",
     category: "Bathroom Fixtures",
@@ -47,7 +47,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Bathroom Accessories Co",
     nameZh: "卫浴洁具店铺",
     category: "Bathroom Fixtures",
@@ -57,7 +57,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Plumbing Fixtures Shop",
     nameZh: "卫浴洁具供应",
     category: "Bathroom Fixtures",
@@ -68,7 +68,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Luxury Bath Supplies",
     nameZh: "卫浴洁具市场",
     category: "Bathroom Fixtures",
@@ -79,7 +79,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Bath Hardware Store",
     nameZh: "卫浴洁具专营",
     category: "Bathroom Fixtures",
@@ -90,7 +90,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Bathroom Fixtures Wholesale 1",
     nameZh: "卫浴洁具批发1",
     category: "Bathroom Fixtures",
@@ -101,7 +101,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Bathroom Fixtures Factory 1",
     nameZh: "卫浴洁具工厂2",
     category: "Bathroom Fixtures",
@@ -111,7 +111,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Bathroom Fixtures Store 2",
     nameZh: "卫浴洁具商行3",
     category: "Bathroom Fixtures",
@@ -122,7 +122,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Bathroom Fixtures Hub 2",
     nameZh: "卫浴洁具中心4",
     category: "Bathroom Fixtures",
@@ -133,7 +133,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Bathroom Fixtures Co 2",
     nameZh: "卫浴洁具店铺5",
     category: "Bathroom Fixtures",
@@ -144,7 +144,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Bathroom Fixtures Supply 2",
     nameZh: "卫浴洁具供应6",
     category: "Bathroom Fixtures",
@@ -155,7 +155,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Bathroom Fixtures Shop 2",
     nameZh: "卫浴洁具市场7",
     category: "Bathroom Fixtures",
@@ -165,7 +165,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     location: "Guangdong",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Bathroom Fixtures Mart 2",
     nameZh: "卫浴洁具专营8",
     category: "Bathroom Fixtures",
@@ -176,7 +176,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Bathroom Fixtures Wholesale 2",
     nameZh: "卫浴洁具批发9",
     category: "Bathroom Fixtures",
@@ -187,7 +187,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Bathroom Fixtures Factory 2",
     nameZh: "卫浴洁具工厂10",
     category: "Bathroom Fixtures",
@@ -198,7 +198,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Bathroom Fixtures Store 2",
     nameZh: "卫浴洁具商行11",
     category: "Bathroom Fixtures",
@@ -209,7 +209,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Bathroom Fixtures Hub 2",
     nameZh: "卫浴洁具中心12",
     category: "Bathroom Fixtures",
@@ -219,7 +219,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Bathroom Fixtures Co 3",
     nameZh: "卫浴洁具店铺13",
     category: "Bathroom Fixtures",
@@ -230,7 +230,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Bathroom Fixtures Supply 3",
     nameZh: "卫浴洁具供应14",
     category: "Bathroom Fixtures",
@@ -241,7 +241,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Bathroom Fixtures Shop 3",
     nameZh: "卫浴洁具市场15",
     category: "Bathroom Fixtures",
@@ -252,7 +252,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Bathroom Fixtures Mart 3",
     nameZh: "卫浴洁具专营16",
     category: "Bathroom Fixtures",
@@ -263,7 +263,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Bathroom Fixtures Wholesale 3",
     nameZh: "卫浴洁具批发17",
     category: "Bathroom Fixtures",
@@ -273,7 +273,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0025",
     name: "Bathroom Fixtures Factory 3",
     nameZh: "卫浴洁具工厂18",
     category: "Bathroom Fixtures",
@@ -284,7 +284,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0026",
     name: "Bathroom Fixtures Store 3",
     nameZh: "卫浴洁具商行19",
     category: "Bathroom Fixtures",
@@ -295,7 +295,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0027",
     name: "Bathroom Fixtures Hub 3",
     nameZh: "卫浴洁具中心20",
     category: "Bathroom Fixtures",
@@ -306,7 +306,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0028",
     name: "Bathroom Fixtures Co 3",
     nameZh: "卫浴洁具店铺21",
     category: "Bathroom Fixtures",
@@ -317,7 +317,7 @@ export const bathroom_fixturesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0029",
     name: "Bathroom Fixtures Supply 3",
     nameZh: "卫浴洁具供应22",
     category: "Bathroom Fixtures",

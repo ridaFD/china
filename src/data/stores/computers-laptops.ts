@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // COMPUTERS & LAPTOPS - 25 stores
 export const computers_laptopsStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Computers Store",
     nameZh: "电脑笔记本批发",
     category: "Computers & Laptops",
@@ -14,7 +14,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Computers Wholesale",
     nameZh: "电脑笔记本工厂",
     category: "Computers & Laptops",
@@ -25,7 +25,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Computers Factory",
     nameZh: "电脑笔记本商行",
     category: "Computers & Laptops",
@@ -36,7 +36,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Computers Hub",
     nameZh: "电脑笔记本中心",
     category: "Computers & Laptops",
@@ -47,7 +47,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Computers Co 1",
     nameZh: "电脑笔记本店铺",
     category: "Computers & Laptops",
@@ -57,7 +57,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Computers Supply 1",
     nameZh: "电脑笔记本供应",
     category: "Computers & Laptops",
@@ -68,7 +68,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Computers Shop 1",
     nameZh: "电脑笔记本市场",
     category: "Computers & Laptops",
@@ -79,7 +79,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Computers Mart 1",
     nameZh: "电脑笔记本专营",
     category: "Computers & Laptops",
@@ -90,7 +90,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Computers Wholesale 1",
     nameZh: "电脑笔记本批发1",
     category: "Computers & Laptops",
@@ -101,7 +101,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Computers Factory 1",
     nameZh: "电脑笔记本工厂2",
     category: "Computers & Laptops",
@@ -111,7 +111,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Computers Store 2",
     nameZh: "电脑笔记本商行3",
     category: "Computers & Laptops",
@@ -122,7 +122,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Computers Hub 2",
     nameZh: "电脑笔记本中心4",
     category: "Computers & Laptops",
@@ -133,7 +133,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Computers Co 2",
     nameZh: "电脑笔记本店铺5",
     category: "Computers & Laptops",
@@ -144,7 +144,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Computers Supply 2",
     nameZh: "电脑笔记本供应6",
     category: "Computers & Laptops",
@@ -155,7 +155,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Computers Shop 2",
     nameZh: "电脑笔记本市场7",
     category: "Computers & Laptops",
@@ -165,7 +165,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Computers Mart 2",
     nameZh: "电脑笔记本专营8",
     category: "Computers & Laptops",
@@ -176,7 +176,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Computers Wholesale 2",
     nameZh: "电脑笔记本批发9",
     category: "Computers & Laptops",
@@ -187,7 +187,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Computers Factory 2",
     nameZh: "电脑笔记本工厂10",
     category: "Computers & Laptops",
@@ -198,7 +198,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Computers Store 2",
     nameZh: "电脑笔记本商行11",
     category: "Computers & Laptops",
@@ -209,7 +209,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Computers Hub 2",
     nameZh: "电脑笔记本中心12",
     category: "Computers & Laptops",
@@ -219,7 +219,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Computers Co 3",
     nameZh: "电脑笔记本店铺13",
     category: "Computers & Laptops",
@@ -230,7 +230,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Computers Supply 3",
     nameZh: "电脑笔记本供应14",
     category: "Computers & Laptops",
@@ -241,7 +241,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Computers Shop 3",
     nameZh: "电脑笔记本市场15",
     category: "Computers & Laptops",
@@ -252,7 +252,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Computers Mart 3",
     nameZh: "电脑笔记本专营16",
     category: "Computers & Laptops",
@@ -263,7 +263,7 @@ export const computers_laptopsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Computers Wholesale 3",
     nameZh: "电脑笔记本批发17",
     category: "Computers & Laptops",

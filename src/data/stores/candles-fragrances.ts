@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CANDLES & FRAGRANCES - 25 stores
 export const candles_fragrancesStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Scented Candle Factory",
     nameZh: "蜡烛香薰批发",
     category: "Candles & Fragrances",
@@ -14,7 +14,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Aromatherapy Heaven",
     nameZh: "蜡烛香薰工厂",
     category: "Candles & Fragrances",
@@ -25,7 +25,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Luxury Candle Shop",
     nameZh: "蜡烛香薰商行",
     category: "Candles & Fragrances",
@@ -36,7 +36,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Fragrance World",
     nameZh: "蜡烛香薰中心",
     category: "Candles & Fragrances",
@@ -47,7 +47,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Essential Oil Store",
     nameZh: "蜡烛香薰店铺",
     category: "Candles & Fragrances",
@@ -57,7 +57,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Candle Art Studio",
     nameZh: "蜡烛香薰供应",
     category: "Candles & Fragrances",
@@ -68,7 +68,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Perfume Candle Hub",
     nameZh: "蜡烛香薰市场",
     category: "Candles & Fragrances",
@@ -79,7 +79,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Natural Scents Co",
     nameZh: "蜡烛香薰专营",
     category: "Candles & Fragrances",
@@ -90,7 +90,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Candles Wholesale 1",
     nameZh: "蜡烛香薰批发1",
     category: "Candles & Fragrances",
@@ -101,7 +101,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Candles Factory 1",
     nameZh: "蜡烛香薰工厂2",
     category: "Candles & Fragrances",
@@ -111,7 +111,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Candles Store 2",
     nameZh: "蜡烛香薰商行3",
     category: "Candles & Fragrances",
@@ -122,7 +122,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Candles Hub 2",
     nameZh: "蜡烛香薰中心4",
     category: "Candles & Fragrances",
@@ -133,7 +133,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Candles Co 2",
     nameZh: "蜡烛香薰店铺5",
     category: "Candles & Fragrances",
@@ -144,7 +144,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Candles Supply 2",
     nameZh: "蜡烛香薰供应6",
     category: "Candles & Fragrances",
@@ -155,7 +155,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Candles Shop 2",
     nameZh: "蜡烛香薰市场7",
     category: "Candles & Fragrances",
@@ -165,7 +165,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Candles Mart 2",
     nameZh: "蜡烛香薰专营8",
     category: "Candles & Fragrances",
@@ -176,7 +176,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Candles Wholesale 2",
     nameZh: "蜡烛香薰批发9",
     category: "Candles & Fragrances",
@@ -187,7 +187,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Candles Factory 2",
     nameZh: "蜡烛香薰工厂10",
     category: "Candles & Fragrances",
@@ -198,7 +198,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Candles Store 2",
     nameZh: "蜡烛香薰商行11",
     category: "Candles & Fragrances",
@@ -209,7 +209,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Candles Hub 2",
     nameZh: "蜡烛香薰中心12",
     category: "Candles & Fragrances",
@@ -219,7 +219,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0020",
     name: "Candles Co 3",
     nameZh: "蜡烛香薰店铺13",
     category: "Candles & Fragrances",
@@ -230,7 +230,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0021",
     name: "Candles Supply 3",
     nameZh: "蜡烛香薰供应14",
     category: "Candles & Fragrances",
@@ -241,7 +241,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0022",
     name: "Candles Shop 3",
     nameZh: "蜡烛香薰市场15",
     category: "Candles & Fragrances",
@@ -252,7 +252,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0023",
     name: "Candles Mart 3",
     nameZh: "蜡烛香薰专营16",
     category: "Candles & Fragrances",
@@ -263,7 +263,7 @@ export const candles_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0024",
     name: "Candles Wholesale 3",
     nameZh: "蜡烛香薰批发17",
     category: "Candles & Fragrances",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FASHION JEWELRY - 25 stores
 export const fashion_jewelryStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Fashion Jewelry Store",
     nameZh: "时尚饰品批发",
     category: "Fashion Jewelry",
@@ -14,7 +14,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Fashion Jewelry Wholesale",
     nameZh: "时尚饰品工厂",
     category: "Fashion Jewelry",
@@ -25,7 +25,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Fashion Jewelry Factory",
     nameZh: "时尚饰品商行",
     category: "Fashion Jewelry",
@@ -36,7 +36,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Fashion Jewelry Hub",
     nameZh: "时尚饰品中心",
     category: "Fashion Jewelry",
@@ -47,7 +47,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Fashion Jewelry Co 1",
     nameZh: "时尚饰品店铺",
     category: "Fashion Jewelry",
@@ -57,7 +57,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Fashion Jewelry Supply 1",
     nameZh: "时尚饰品供应",
     category: "Fashion Jewelry",
@@ -68,7 +68,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Fashion Jewelry Shop 1",
     nameZh: "时尚饰品市场",
     category: "Fashion Jewelry",
@@ -79,7 +79,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Fashion Jewelry Mart 1",
     nameZh: "时尚饰品专营",
     category: "Fashion Jewelry",
@@ -90,7 +90,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Fashion Jewelry Wholesale 1",
     nameZh: "时尚饰品批发1",
     category: "Fashion Jewelry",
@@ -101,7 +101,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Fashion Jewelry Factory 1",
     nameZh: "时尚饰品工厂2",
     category: "Fashion Jewelry",
@@ -111,7 +111,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Fashion Jewelry Store 2",
     nameZh: "时尚饰品商行3",
     category: "Fashion Jewelry",
@@ -122,7 +122,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Fashion Jewelry Hub 2",
     nameZh: "时尚饰品中心4",
     category: "Fashion Jewelry",
@@ -133,7 +133,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Fashion Jewelry Co 2",
     nameZh: "时尚饰品店铺5",
     category: "Fashion Jewelry",
@@ -144,7 +144,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Fashion Jewelry Supply 2",
     nameZh: "时尚饰品供应6",
     category: "Fashion Jewelry",
@@ -155,7 +155,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Fashion Jewelry Shop 2",
     nameZh: "时尚饰品市场7",
     category: "Fashion Jewelry",
@@ -165,7 +165,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Fashion Jewelry Mart 2",
     nameZh: "时尚饰品专营8",
     category: "Fashion Jewelry",
@@ -176,7 +176,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Fashion Jewelry Wholesale 2",
     nameZh: "时尚饰品批发9",
     category: "Fashion Jewelry",
@@ -187,7 +187,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Fashion Jewelry Factory 2",
     nameZh: "时尚饰品工厂10",
     category: "Fashion Jewelry",
@@ -198,7 +198,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Fashion Jewelry Store 2",
     nameZh: "时尚饰品商行11",
     category: "Fashion Jewelry",
@@ -209,7 +209,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Fashion Jewelry Hub 2",
     nameZh: "时尚饰品中心12",
     category: "Fashion Jewelry",
@@ -219,7 +219,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0020",
     name: "Fashion Jewelry Co 3",
     nameZh: "时尚饰品店铺13",
     category: "Fashion Jewelry",
@@ -230,7 +230,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0021",
     name: "Fashion Jewelry Supply 3",
     nameZh: "时尚饰品供应14",
     category: "Fashion Jewelry",
@@ -241,7 +241,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0022",
     name: "Fashion Jewelry Shop 3",
     nameZh: "时尚饰品市场15",
     category: "Fashion Jewelry",
@@ -252,7 +252,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0023",
     name: "Fashion Jewelry Mart 3",
     nameZh: "时尚饰品专营16",
     category: "Fashion Jewelry",
@@ -263,7 +263,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0024",
     name: "Fashion Jewelry Wholesale 3",
     nameZh: "时尚饰品批发17",
     category: "Fashion Jewelry",

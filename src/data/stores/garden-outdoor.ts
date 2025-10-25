@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // GARDEN & OUTDOOR - 25 stores
 export const garden_outdoorStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Garden Tools Store",
     nameZh: "园艺户外批发",
     category: "Garden & Outdoor",
@@ -14,7 +14,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Outdoor Living Hub",
     nameZh: "园艺户外工厂",
     category: "Garden & Outdoor",
@@ -25,7 +25,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Patio Furniture Co",
     nameZh: "园艺户外商行",
     category: "Garden & Outdoor",
@@ -36,7 +36,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Gardening Supply Shop",
     nameZh: "园艺户外中心",
     category: "Garden & Outdoor",
@@ -47,7 +47,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Lawn Equipment Store",
     nameZh: "园艺户外店铺",
     category: "Garden & Outdoor",
@@ -57,7 +57,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Outdoor Decor Factory",
     nameZh: "园艺户外供应",
     category: "Garden & Outdoor",
@@ -68,7 +68,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Garden Accessories Hub",
     nameZh: "园艺户外市场",
     category: "Garden & Outdoor",
@@ -79,7 +79,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Landscape Supply Co",
     nameZh: "园艺户外专营",
     category: "Garden & Outdoor",
@@ -90,7 +90,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Garden Wholesale 1",
     nameZh: "园艺户外批发1",
     category: "Garden & Outdoor",
@@ -101,7 +101,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Garden Factory 1",
     nameZh: "园艺户外工厂2",
     category: "Garden & Outdoor",
@@ -111,7 +111,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Garden Store 2",
     nameZh: "园艺户外商行3",
     category: "Garden & Outdoor",
@@ -122,7 +122,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Garden Hub 2",
     nameZh: "园艺户外中心4",
     category: "Garden & Outdoor",
@@ -133,7 +133,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Garden Co 2",
     nameZh: "园艺户外店铺5",
     category: "Garden & Outdoor",
@@ -144,7 +144,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Garden Supply 2",
     nameZh: "园艺户外供应6",
     category: "Garden & Outdoor",
@@ -155,7 +155,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Garden Shop 2",
     nameZh: "园艺户外市场7",
     category: "Garden & Outdoor",
@@ -165,7 +165,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0015",
     name: "Garden Mart 2",
     nameZh: "园艺户外专营8",
     category: "Garden & Outdoor",
@@ -176,7 +176,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0016",
     name: "Garden Wholesale 2",
     nameZh: "园艺户外批发9",
     category: "Garden & Outdoor",
@@ -187,7 +187,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0017",
     name: "Garden Factory 2",
     nameZh: "园艺户外工厂10",
     category: "Garden & Outdoor",
@@ -198,7 +198,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0018",
     name: "Garden Store 2",
     nameZh: "园艺户外商行11",
     category: "Garden & Outdoor",
@@ -209,7 +209,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0019",
     name: "Garden Hub 2",
     nameZh: "园艺户外中心12",
     category: "Garden & Outdoor",
@@ -219,7 +219,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0020",
     name: "Garden Co 3",
     nameZh: "园艺户外店铺13",
     category: "Garden & Outdoor",
@@ -230,7 +230,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0021",
     name: "Garden Supply 3",
     nameZh: "园艺户外供应14",
     category: "Garden & Outdoor",
@@ -241,7 +241,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0022",
     name: "Garden Shop 3",
     nameZh: "园艺户外市场15",
     category: "Garden & Outdoor",
@@ -252,7 +252,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0023",
     name: "Garden Mart 3",
     nameZh: "园艺户外专营16",
     category: "Garden & Outdoor",
@@ -263,7 +263,7 @@ export const garden_outdoorStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0024",
     name: "Garden Wholesale 3",
     nameZh: "园艺户外批发17",
     category: "Garden & Outdoor",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // STATIONERY & PAPER - 25 stores
 export const stationery_paperStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Stationery Store",
     nameZh: "文具纸品批发",
     category: "Stationery & Paper",
@@ -14,7 +14,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Stationery Wholesale",
     nameZh: "文具纸品工厂",
     category: "Stationery & Paper",
@@ -25,7 +25,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Stationery Factory",
     nameZh: "文具纸品商行",
     category: "Stationery & Paper",
@@ -36,7 +36,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Stationery Hub",
     nameZh: "文具纸品中心",
     category: "Stationery & Paper",
@@ -47,7 +47,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Stationery Co 1",
     nameZh: "文具纸品店铺",
     category: "Stationery & Paper",
@@ -57,7 +57,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Stationery Supply 1",
     nameZh: "文具纸品供应",
     category: "Stationery & Paper",
@@ -68,7 +68,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Stationery Shop 1",
     nameZh: "文具纸品市场",
     category: "Stationery & Paper",
@@ -79,7 +79,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Stationery Mart 1",
     nameZh: "文具纸品专营",
     category: "Stationery & Paper",
@@ -90,7 +90,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Stationery Wholesale 1",
     nameZh: "文具纸品批发1",
     category: "Stationery & Paper",
@@ -101,7 +101,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Stationery Factory 1",
     nameZh: "文具纸品工厂2",
     category: "Stationery & Paper",
@@ -111,7 +111,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Stationery Store 2",
     nameZh: "文具纸品商行3",
     category: "Stationery & Paper",
@@ -122,7 +122,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Stationery Hub 2",
     nameZh: "文具纸品中心4",
     category: "Stationery & Paper",
@@ -133,7 +133,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Stationery Co 2",
     nameZh: "文具纸品店铺5",
     category: "Stationery & Paper",
@@ -144,7 +144,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Stationery Supply 2",
     nameZh: "文具纸品供应6",
     category: "Stationery & Paper",
@@ -155,7 +155,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Stationery Shop 2",
     nameZh: "文具纸品市场7",
     category: "Stationery & Paper",
@@ -165,7 +165,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Stationery Mart 2",
     nameZh: "文具纸品专营8",
     category: "Stationery & Paper",
@@ -176,7 +176,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Stationery Wholesale 2",
     nameZh: "文具纸品批发9",
     category: "Stationery & Paper",
@@ -187,7 +187,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Stationery Factory 2",
     nameZh: "文具纸品工厂10",
     category: "Stationery & Paper",
@@ -198,7 +198,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Stationery Store 2",
     nameZh: "文具纸品商行11",
     category: "Stationery & Paper",
@@ -209,7 +209,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Stationery Hub 2",
     nameZh: "文具纸品中心12",
     category: "Stationery & Paper",
@@ -219,7 +219,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0020",
     name: "Stationery Co 3",
     nameZh: "文具纸品店铺13",
     category: "Stationery & Paper",
@@ -230,7 +230,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0021",
     name: "Stationery Supply 3",
     nameZh: "文具纸品供应14",
     category: "Stationery & Paper",
@@ -241,7 +241,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0022",
     name: "Stationery Shop 3",
     nameZh: "文具纸品市场15",
     category: "Stationery & Paper",
@@ -252,7 +252,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0023",
     name: "Stationery Mart 3",
     nameZh: "文具纸品专营16",
     category: "Stationery & Paper",
@@ -263,7 +263,7 @@ export const stationery_paperStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0024",
     name: "Stationery Wholesale 3",
     nameZh: "文具纸品批发17",
     category: "Stationery & Paper",

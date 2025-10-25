@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // HEALTH SUPPLEMENTS - 15 stores
 export const health_supplementsStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Health Supplements Store",
     nameZh: "保健品批发",
     category: "Health Supplements",
@@ -14,7 +14,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Health Supplements Wholesale",
     nameZh: "保健品工厂",
     category: "Health Supplements",
@@ -25,7 +25,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Health Supplements Factory",
     nameZh: "保健品商行",
     category: "Health Supplements",
@@ -36,7 +36,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Health Supplements Hub",
     nameZh: "保健品中心",
     category: "Health Supplements",
@@ -47,7 +47,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Health Supplements Co 1",
     nameZh: "保健品店铺",
     category: "Health Supplements",
@@ -57,7 +57,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Health Supplements Supply 1",
     nameZh: "保健品供应",
     category: "Health Supplements",
@@ -68,7 +68,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Health Supplements Shop 1",
     nameZh: "保健品市场",
     category: "Health Supplements",
@@ -79,7 +79,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Health Supplements Mart 1",
     nameZh: "保健品专营",
     category: "Health Supplements",
@@ -90,7 +90,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Health Supplements Wholesale 1",
     nameZh: "保健品批发1",
     category: "Health Supplements",
@@ -101,7 +101,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Health Supplements Factory 1",
     nameZh: "保健品工厂2",
     category: "Health Supplements",
@@ -111,7 +111,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Health Supplements Store 2",
     nameZh: "保健品商行3",
     category: "Health Supplements",
@@ -122,7 +122,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Health Supplements Hub 2",
     nameZh: "保健品中心4",
     category: "Health Supplements",
@@ -133,7 +133,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Health Supplements Co 2",
     nameZh: "保健品店铺5",
     category: "Health Supplements",
@@ -144,7 +144,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Health Supplements Supply 2",
     nameZh: "保健品供应6",
     category: "Health Supplements",
@@ -155,7 +155,7 @@ export const health_supplementsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Health Supplements Shop 2",
     nameZh: "保健品市场7",
     category: "Health Supplements",

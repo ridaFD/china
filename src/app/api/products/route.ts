@@ -63,15 +63,33 @@ function transformStoreProduct(item: any): Product {
   };
 }
 
+/**
+ * Map display store IDs to real API store IDs
+ */
+function mapToApiStoreId(displayId: string): string {
+  // Map display IDs to actual 1688.com store IDs
+  if (displayId.startsWith('fashion-')) {
+    return 'b2b-22129686061252fa5d'; // Fashion store
+  } else if (displayId.startsWith('xingtaisp-')) {
+    return 'xingtaisp'; // Crafts/Decor store
+  } else if (displayId.startsWith('electronics-')) {
+    return 'b2b-221162226231463a5d'; // Electronics store
+  }
+  
+  // If it's already a real store ID, use it as-is
+  return displayId;
+}
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const storeId = searchParams.get('storeId') || searchParams.get('categoryId') || defaultStoreId;
+    const displayStoreId = searchParams.get('storeId') || searchParams.get('categoryId') || defaultStoreId;
+    const storeId = mapToApiStoreId(displayStoreId); // Map to real API store ID
     const keyword = searchParams.get('keyword') || '';
     const page = parseInt(searchParams.get('page') || '1');
     const pageSize = parseInt(searchParams.get('pageSize') || '20');
 
-    console.log(`Fetching products from store: ${storeId}, keyword: "${keyword}", page: ${page}`);
+    console.log(`Fetching products from store: ${displayStoreId} (API: ${storeId}), keyword: "${keyword}", page: ${page}`);
 
     // Call RapidAPI store_item_search endpoint with keyword support
     const response = await searchStoreProducts({
@@ -111,7 +129,7 @@ export async function GET(request: NextRequest) {
       totalPages,
       message,
       isRealData: true,
-      storeId,
+      storeId: displayStoreId, // Use display ID for frontend
       keyword: keyword || undefined,
     };
 
@@ -120,7 +138,7 @@ export async function GET(request: NextRequest) {
     console.error('Error in /api/products:', error);
     
     const searchParams = request.nextUrl.searchParams;
-    const storeId = searchParams.get('storeId') || defaultStoreId;
+    const displayStoreId = searchParams.get('storeId') || defaultStoreId;
     const page = parseInt(searchParams.get('page') || '1');
 
     // Generate helpful fallback products with clear messaging
@@ -139,8 +157,8 @@ export async function GET(request: NextRequest) {
         imageUrl: `https://picsum.photos/seed/${productNum}/400/400`,
         images: [`https://picsum.photos/seed/${productNum}/400/400`],
         description: 'Sample product. The store_item_search API encountered an error.',
-        supplierName: `Store ${storeId}`,
-        supplierId: storeId,
+        supplierName: `Store ${displayStoreId}`,
+        supplierId: displayStoreId,
         moq: 50,
         unit: 'piece',
         saleInfo: {

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SPORTS APPAREL & SHOES - 20 stores
 export const sports_apparel_shoesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0000",
     name: "Sports Apparel Store",
     nameZh: "运动服饰鞋批发",
     category: "Sports Apparel & Shoes",
@@ -14,7 +14,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0001",
     name: "Sports Apparel Wholesale",
     nameZh: "运动服饰鞋工厂",
     category: "Sports Apparel & Shoes",
@@ -25,7 +25,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0002",
     name: "Sports Apparel Factory",
     nameZh: "运动服饰鞋商行",
     category: "Sports Apparel & Shoes",
@@ -36,7 +36,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0003",
     name: "Sports Apparel Hub",
     nameZh: "运动服饰鞋中心",
     category: "Sports Apparel & Shoes",
@@ -47,7 +47,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0004",
     name: "Sports Apparel Co 1",
     nameZh: "运动服饰鞋店铺",
     category: "Sports Apparel & Shoes",
@@ -57,7 +57,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     location: "Quanzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0005",
     name: "Sports Apparel Supply 1",
     nameZh: "运动服饰鞋供应",
     category: "Sports Apparel & Shoes",
@@ -68,7 +68,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0006",
     name: "Sports Apparel Shop 1",
     nameZh: "运动服饰鞋市场",
     category: "Sports Apparel & Shoes",
@@ -79,7 +79,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0007",
     name: "Sports Apparel Mart 1",
     nameZh: "运动服饰鞋专营",
     category: "Sports Apparel & Shoes",
@@ -90,7 +90,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0008",
     name: "Sports Apparel Wholesale 1",
     nameZh: "运动服饰鞋批发1",
     category: "Sports Apparel & Shoes",
@@ -101,7 +101,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0009",
     name: "Sports Apparel Factory 1",
     nameZh: "运动服饰鞋工厂2",
     category: "Sports Apparel & Shoes",
@@ -111,7 +111,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     location: "Jinjiang",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0010",
     name: "Sports Apparel Store 2",
     nameZh: "运动服饰鞋商行3",
     category: "Sports Apparel & Shoes",
@@ -122,7 +122,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0011",
     name: "Sports Apparel Hub 2",
     nameZh: "运动服饰鞋中心4",
     category: "Sports Apparel & Shoes",
@@ -133,7 +133,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0012",
     name: "Sports Apparel Co 2",
     nameZh: "运动服饰鞋店铺5",
     category: "Sports Apparel & Shoes",
@@ -144,7 +144,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0013",
     name: "Sports Apparel Supply 2",
     nameZh: "运动服饰鞋供应6",
     category: "Sports Apparel & Shoes",
@@ -155,7 +155,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0014",
     name: "Sports Apparel Shop 2",
     nameZh: "运动服饰鞋市场7",
     category: "Sports Apparel & Shoes",
@@ -165,7 +165,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     location: "Putian",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0015",
     name: "Sports Apparel Mart 2",
     nameZh: "运动服饰鞋专营8",
     category: "Sports Apparel & Shoes",
@@ -176,7 +176,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0016",
     name: "Sports Apparel Wholesale 2",
     nameZh: "运动服饰鞋批发9",
     category: "Sports Apparel & Shoes",
@@ -187,7 +187,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0017",
     name: "Sports Apparel Factory 2",
     nameZh: "运动服饰鞋工厂10",
     category: "Sports Apparel & Shoes",
@@ -198,7 +198,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0018",
     name: "Sports Apparel Store 2",
     nameZh: "运动服饰鞋商行11",
     category: "Sports Apparel & Shoes",
@@ -209,7 +209,7 @@ export const sports_apparel_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0019",
     name: "Sports Apparel Hub 2",
     nameZh: "运动服饰鞋中心12",
     category: "Sports Apparel & Shoes",

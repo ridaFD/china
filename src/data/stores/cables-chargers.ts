@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CABLES & CHARGERS - 15 stores
 export const cables_chargersStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Cables Store",
     nameZh: "线材充电器批发",
     category: "Cables & Chargers",
@@ -14,7 +14,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Cables Wholesale",
     nameZh: "线材充电器工厂",
     category: "Cables & Chargers",
@@ -25,7 +25,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Cables Factory",
     nameZh: "线材充电器商行",
     category: "Cables & Chargers",
@@ -36,7 +36,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Cables Hub",
     nameZh: "线材充电器中心",
     category: "Cables & Chargers",
@@ -47,7 +47,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Cables Co 1",
     nameZh: "线材充电器店铺",
     category: "Cables & Chargers",
@@ -57,7 +57,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Cables Supply 1",
     nameZh: "线材充电器供应",
     category: "Cables & Chargers",
@@ -68,7 +68,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Cables Shop 1",
     nameZh: "线材充电器市场",
     category: "Cables & Chargers",
@@ -79,7 +79,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Cables Mart 1",
     nameZh: "线材充电器专营",
     category: "Cables & Chargers",
@@ -90,7 +90,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Cables Wholesale 1",
     nameZh: "线材充电器批发1",
     category: "Cables & Chargers",
@@ -101,7 +101,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Cables Factory 1",
     nameZh: "线材充电器工厂2",
     category: "Cables & Chargers",
@@ -111,7 +111,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Cables Store 2",
     nameZh: "线材充电器商行3",
     category: "Cables & Chargers",
@@ -122,7 +122,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Cables Hub 2",
     nameZh: "线材充电器中心4",
     category: "Cables & Chargers",
@@ -133,7 +133,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Cables Co 2",
     nameZh: "线材充电器店铺5",
     category: "Cables & Chargers",
@@ -144,7 +144,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Cables Supply 2",
     nameZh: "线材充电器供应6",
     category: "Cables & Chargers",
@@ -155,7 +155,7 @@ export const cables_chargersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Cables Shop 2",
     nameZh: "线材充电器市场7",
     category: "Cables & Chargers",

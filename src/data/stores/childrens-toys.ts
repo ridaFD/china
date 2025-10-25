@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CHILDREN'S TOYS - 30 stores
 export const childrens_toysStores: FeaturedStore[] = [
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0000",
     name: "Children's Toys Store",
     nameZh: "儿童玩具批发",
     category: "Children's Toys",
@@ -14,7 +14,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0001",
     name: "Children's Toys Wholesale",
     nameZh: "儿童玩具工厂",
     category: "Children's Toys",
@@ -25,7 +25,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0002",
     name: "Children's Toys Factory",
     nameZh: "儿童玩具商行",
     category: "Children's Toys",
@@ -36,7 +36,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0003",
     name: "Children's Toys Hub",
     nameZh: "儿童玩具中心",
     category: "Children's Toys",
@@ -47,7 +47,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0004",
     name: "Children's Toys Co 1",
     nameZh: "儿童玩具店铺",
     category: "Children's Toys",
@@ -57,7 +57,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0005",
     name: "Children's Toys Supply 1",
     nameZh: "儿童玩具供应",
     category: "Children's Toys",
@@ -68,7 +68,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0006",
     name: "Children's Toys Shop 1",
     nameZh: "儿童玩具市场",
     category: "Children's Toys",
@@ -79,7 +79,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0007",
     name: "Children's Toys Mart 1",
     nameZh: "儿童玩具专营",
     category: "Children's Toys",
@@ -90,7 +90,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0008",
     name: "Children's Toys Wholesale 1",
     nameZh: "儿童玩具批发1",
     category: "Children's Toys",
@@ -101,7 +101,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0009",
     name: "Children's Toys Factory 1",
     nameZh: "儿童玩具工厂2",
     category: "Children's Toys",
@@ -111,7 +111,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Chenghai",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0010",
     name: "Children's Toys Store 2",
     nameZh: "儿童玩具商行3",
     category: "Children's Toys",
@@ -122,7 +122,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0011",
     name: "Children's Toys Hub 2",
     nameZh: "儿童玩具中心4",
     category: "Children's Toys",
@@ -133,7 +133,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0012",
     name: "Children's Toys Co 2",
     nameZh: "儿童玩具店铺5",
     category: "Children's Toys",
@@ -144,7 +144,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0013",
     name: "Children's Toys Supply 2",
     nameZh: "儿童玩具供应6",
     category: "Children's Toys",
@@ -155,7 +155,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0014",
     name: "Children's Toys Shop 2",
     nameZh: "儿童玩具市场7",
     category: "Children's Toys",
@@ -165,7 +165,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0015",
     name: "Children's Toys Mart 2",
     nameZh: "儿童玩具专营8",
     category: "Children's Toys",
@@ -176,7 +176,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0016",
     name: "Children's Toys Wholesale 2",
     nameZh: "儿童玩具批发9",
     category: "Children's Toys",
@@ -187,7 +187,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0017",
     name: "Children's Toys Factory 2",
     nameZh: "儿童玩具工厂10",
     category: "Children's Toys",
@@ -198,7 +198,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0018",
     name: "Children's Toys Store 2",
     nameZh: "儿童玩具商行11",
     category: "Children's Toys",
@@ -209,7 +209,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0019",
     name: "Children's Toys Hub 2",
     nameZh: "儿童玩具中心12",
     category: "Children's Toys",
@@ -219,7 +219,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0020",
     name: "Children's Toys Co 3",
     nameZh: "儿童玩具店铺13",
     category: "Children's Toys",
@@ -230,7 +230,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0021",
     name: "Children's Toys Supply 3",
     nameZh: "儿童玩具供应14",
     category: "Children's Toys",
@@ -241,7 +241,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0022",
     name: "Children's Toys Shop 3",
     nameZh: "儿童玩具市场15",
     category: "Children's Toys",
@@ -252,7 +252,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0023",
     name: "Children's Toys Mart 3",
     nameZh: "儿童玩具专营16",
     category: "Children's Toys",
@@ -263,7 +263,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0024",
     name: "Children's Toys Wholesale 3",
     nameZh: "儿童玩具批发17",
     category: "Children's Toys",
@@ -273,7 +273,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     location: "Chenghai",
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0025",
     name: "Children's Toys Factory 3",
     nameZh: "儿童玩具工厂18",
     category: "Children's Toys",
@@ -284,7 +284,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0026",
     name: "Children's Toys Store 3",
     nameZh: "儿童玩具商行19",
     category: "Children's Toys",
@@ -295,7 +295,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0027",
     name: "Children's Toys Hub 3",
     nameZh: "儿童玩具中心20",
     category: "Children's Toys",
@@ -306,7 +306,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0028",
     name: "Children's Toys Co 3",
     nameZh: "儿童玩具店铺21",
     category: "Children's Toys",
@@ -317,7 +317,7 @@ export const childrens_toysStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "xingtaisp",
+    id: "xingtaisp-0029",
     name: "Children's Toys Supply 3",
     nameZh: "儿童玩具供应22",
     category: "Children's Toys",

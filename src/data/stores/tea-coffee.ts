@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // TEA & COFFEE - 15 stores
 export const tea_coffeeStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0000",
     name: "Tea Store",
     nameZh: "茶叶咖啡批发",
     category: "Tea & Coffee",
@@ -14,7 +14,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0001",
     name: "Tea Wholesale",
     nameZh: "茶叶咖啡工厂",
     category: "Tea & Coffee",
@@ -25,7 +25,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0002",
     name: "Tea Factory",
     nameZh: "茶叶咖啡商行",
     category: "Tea & Coffee",
@@ -36,7 +36,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0003",
     name: "Tea Hub",
     nameZh: "茶叶咖啡中心",
     category: "Tea & Coffee",
@@ -47,7 +47,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0004",
     name: "Tea Co 1",
     nameZh: "茶叶咖啡店铺",
     category: "Tea & Coffee",
@@ -57,7 +57,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     location: "Fujian",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0005",
     name: "Tea Supply 1",
     nameZh: "茶叶咖啡供应",
     category: "Tea & Coffee",
@@ -68,7 +68,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0006",
     name: "Tea Shop 1",
     nameZh: "茶叶咖啡市场",
     category: "Tea & Coffee",
@@ -79,7 +79,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0007",
     name: "Tea Mart 1",
     nameZh: "茶叶咖啡专营",
     category: "Tea & Coffee",
@@ -90,7 +90,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0008",
     name: "Tea Wholesale 1",
     nameZh: "茶叶咖啡批发1",
     category: "Tea & Coffee",
@@ -101,7 +101,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0009",
     name: "Tea Factory 1",
     nameZh: "茶叶咖啡工厂2",
     category: "Tea & Coffee",
@@ -111,7 +111,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0010",
     name: "Tea Store 2",
     nameZh: "茶叶咖啡商行3",
     category: "Tea & Coffee",
@@ -122,7 +122,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0011",
     name: "Tea Hub 2",
     nameZh: "茶叶咖啡中心4",
     category: "Tea & Coffee",
@@ -133,7 +133,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0012",
     name: "Tea Co 2",
     nameZh: "茶叶咖啡店铺5",
     category: "Tea & Coffee",
@@ -144,7 +144,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0013",
     name: "Tea Supply 2",
     nameZh: "茶叶咖啡供应6",
     category: "Tea & Coffee",
@@ -155,7 +155,7 @@ export const tea_coffeeStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "electronics-0014",
     name: "Tea Shop 2",
     nameZh: "茶叶咖啡市场7",
     category: "Tea & Coffee",

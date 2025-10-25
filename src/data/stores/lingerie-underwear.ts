@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // LINGERIE & UNDERWEAR - 25 stores
 export const lingerie_underwearStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0000",
     name: "Lingerie Store",
     nameZh: "内衣内裤批发",
     category: "Lingerie & Underwear",
@@ -14,7 +14,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0001",
     name: "Lingerie Wholesale",
     nameZh: "内衣内裤工厂",
     category: "Lingerie & Underwear",
@@ -25,7 +25,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0002",
     name: "Lingerie Factory",
     nameZh: "内衣内裤商行",
     category: "Lingerie & Underwear",
@@ -36,7 +36,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0003",
     name: "Lingerie Hub",
     nameZh: "内衣内裤中心",
     category: "Lingerie & Underwear",
@@ -47,7 +47,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0004",
     name: "Lingerie Co 1",
     nameZh: "内衣内裤店铺",
     category: "Lingerie & Underwear",
@@ -57,7 +57,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0005",
     name: "Lingerie Supply 1",
     nameZh: "内衣内裤供应",
     category: "Lingerie & Underwear",
@@ -68,7 +68,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0006",
     name: "Lingerie Shop 1",
     nameZh: "内衣内裤市场",
     category: "Lingerie & Underwear",
@@ -79,7 +79,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0007",
     name: "Lingerie Mart 1",
     nameZh: "内衣内裤专营",
     category: "Lingerie & Underwear",
@@ -90,7 +90,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0008",
     name: "Lingerie Wholesale 1",
     nameZh: "内衣内裤批发1",
     category: "Lingerie & Underwear",
@@ -101,7 +101,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0009",
     name: "Lingerie Factory 1",
     nameZh: "内衣内裤工厂2",
     category: "Lingerie & Underwear",
@@ -111,7 +111,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     location: "Shantou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0010",
     name: "Lingerie Store 2",
     nameZh: "内衣内裤商行3",
     category: "Lingerie & Underwear",
@@ -122,7 +122,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0011",
     name: "Lingerie Hub 2",
     nameZh: "内衣内裤中心4",
     category: "Lingerie & Underwear",
@@ -133,7 +133,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0012",
     name: "Lingerie Co 2",
     nameZh: "内衣内裤店铺5",
     category: "Lingerie & Underwear",
@@ -144,7 +144,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0013",
     name: "Lingerie Supply 2",
     nameZh: "内衣内裤供应6",
     category: "Lingerie & Underwear",
@@ -155,7 +155,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0014",
     name: "Lingerie Shop 2",
     nameZh: "内衣内裤市场7",
     category: "Lingerie & Underwear",
@@ -165,7 +165,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0015",
     name: "Lingerie Mart 2",
     nameZh: "内衣内裤专营8",
     category: "Lingerie & Underwear",
@@ -176,7 +176,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0016",
     name: "Lingerie Wholesale 2",
     nameZh: "内衣内裤批发9",
     category: "Lingerie & Underwear",
@@ -187,7 +187,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0017",
     name: "Lingerie Factory 2",
     nameZh: "内衣内裤工厂10",
     category: "Lingerie & Underwear",
@@ -198,7 +198,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0018",
     name: "Lingerie Store 2",
     nameZh: "内衣内裤商行11",
     category: "Lingerie & Underwear",
@@ -209,7 +209,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0019",
     name: "Lingerie Hub 2",
     nameZh: "内衣内裤中心12",
     category: "Lingerie & Underwear",
@@ -219,7 +219,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0020",
     name: "Lingerie Co 3",
     nameZh: "内衣内裤店铺13",
     category: "Lingerie & Underwear",
@@ -230,7 +230,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0021",
     name: "Lingerie Supply 3",
     nameZh: "内衣内裤供应14",
     category: "Lingerie & Underwear",
@@ -241,7 +241,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0022",
     name: "Lingerie Shop 3",
     nameZh: "内衣内裤市场15",
     category: "Lingerie & Underwear",
@@ -252,7 +252,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0023",
     name: "Lingerie Mart 3",
     nameZh: "内衣内裤专营16",
     category: "Lingerie & Underwear",
@@ -263,7 +263,7 @@ export const lingerie_underwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0024",
     name: "Lingerie Wholesale 3",
     nameZh: "内衣内裤批发17",
     category: "Lingerie & Underwear",

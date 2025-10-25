@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CHILDREN'S SHOES - 15 stores
 export const childrens_shoesStores: FeaturedStore[] = [
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0000",
     name: "Children's Shoes Store",
     nameZh: "童鞋批发",
     category: "Children's Shoes",
@@ -14,7 +14,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0001",
     name: "Children's Shoes Wholesale",
     nameZh: "童鞋工厂",
     category: "Children's Shoes",
@@ -25,7 +25,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0002",
     name: "Children's Shoes Factory",
     nameZh: "童鞋商行",
     category: "Children's Shoes",
@@ -36,7 +36,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0003",
     name: "Children's Shoes Hub",
     nameZh: "童鞋中心",
     category: "Children's Shoes",
@@ -47,7 +47,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0004",
     name: "Children's Shoes Co 1",
     nameZh: "童鞋店铺",
     category: "Children's Shoes",
@@ -57,7 +57,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0005",
     name: "Children's Shoes Supply 1",
     nameZh: "童鞋供应",
     category: "Children's Shoes",
@@ -68,7 +68,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0006",
     name: "Children's Shoes Shop 1",
     nameZh: "童鞋市场",
     category: "Children's Shoes",
@@ -79,7 +79,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0007",
     name: "Children's Shoes Mart 1",
     nameZh: "童鞋专营",
     category: "Children's Shoes",
@@ -90,7 +90,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0008",
     name: "Children's Shoes Wholesale 1",
     nameZh: "童鞋批发1",
     category: "Children's Shoes",
@@ -101,7 +101,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0009",
     name: "Children's Shoes Factory 1",
     nameZh: "童鞋工厂2",
     category: "Children's Shoes",
@@ -111,7 +111,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     location: "Jinjiang",
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0010",
     name: "Children's Shoes Store 2",
     nameZh: "童鞋商行3",
     category: "Children's Shoes",
@@ -122,7 +122,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0011",
     name: "Children's Shoes Hub 2",
     nameZh: "童鞋中心4",
     category: "Children's Shoes",
@@ -133,7 +133,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0012",
     name: "Children's Shoes Co 2",
     nameZh: "童鞋店铺5",
     category: "Children's Shoes",
@@ -144,7 +144,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0013",
     name: "Children's Shoes Supply 2",
     nameZh: "童鞋供应6",
     category: "Children's Shoes",
@@ -155,7 +155,7 @@ export const childrens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-22129686061252fa5d",
+    id: "fashion-0014",
     name: "Children's Shoes Shop 2",
     nameZh: "童鞋市场7",
     category: "Children's Shoes",
