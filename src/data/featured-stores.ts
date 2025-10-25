@@ -1,37 +1,38 @@
 /**
  * Featured 1688.com Stores - Comprehensive Catalog
- * Now organized in separate files by category for better maintainability
+ * Now organized by 55+ SPECIFIC SUBCATEGORIES matching real 1688.com
  * 
- * Store data is split into:
- * - src/data/stores/electronics.ts (90 stores)
- * - src/data/stores/fashion.ts (100 stores)
- * - src/data/stores/home.ts (80 stores)
- * - src/data/stores/beauty.ts (60 stores)
- * - src/data/stores/sports.ts (60 stores)
- * - src/data/stores/toys.ts (60 stores)
- * - src/data/stores/office.ts (50 stores)
- * - src/data/stores/automotive.ts (70 stores)
- * - src/data/stores/jewelry.ts (80 stores)
- * - src/data/stores/food.ts (50 stores)
- * - src/data/stores/health.ts (45 stores)
- * - src/data/stores/tools.ts (65 stores)
- * - src/data/stores/arts.ts (55 stores)
- * - src/data/stores/bags.ts (60 stores)
- * - src/data/stores/footwear.ts (69 stores)
+ * Store data is split into subcategories like:
  * 
- * Total: 1000 stores across 15 categories
+ * HOME & LIVING (300 stores):
+ * - Home Decor & Decorations, Candles & Fragrances, Vases & Planters
+ * - Kitchen & Dining, Bathroom Fixtures, Lighting & Lamps, Furniture
+ * - Garden & Outdoor, Bedding & Textiles, Storage & Organization
+ * 
+ * FASHION & CLOTHING (250 stores):
+ * - Women's Clothing, Men's Clothing, Children's Clothing
+ * - Sportswear & Activewear, Lingerie & Underwear, Swimwear & Beachwear
+ * - Outerwear & Coats, Uniforms & Workwear
+ * 
+ * ELECTRONICS & TECH (150 stores):
+ * - Mobile Phones & Tablets, Computers & Laptops, Audio & Video Equipment
+ * - Smart Home Devices, Phone & Computer Accessories, Cables & Chargers
+ * 
+ * And 40+ more specific subcategories...
+ * 
+ * Total: 1380+ stores across 55+ subcategories (like real 1688.com)
  */
 
-import { allStores, FeaturedStore, storeCategories } from './stores';
+import { allStores, FeaturedStore, storeCategories, categoryGroups } from './stores';
 
-// Re-export types for backward compatibility
+// Re-export types and categories
 export type { FeaturedStore };
-export { storeCategories };
+export { storeCategories, categoryGroups };
 
-// Use stores from organized category files
+// Use stores from organized subcategory files
 export const featuredStores: FeaturedStore[] = allStores;
 
-// Default store ID (first electronics store)
+// Default store ID (first store)
 export const defaultStoreId = featuredStores[0]?.id || 'b2b-2211234567890123a5d';
 
 /**
@@ -42,17 +43,32 @@ export function getStoreById(storeId: string): FeaturedStore | undefined {
 }
 
 /**
- * Get stores by category
+ * Get stores by subcategory
  */
 export function getStoresByCategory(category: string): FeaturedStore[] {
   return featuredStores.filter(store => store.category === category);
 }
 
 /**
- * Get all unique categories
+ * Get stores by main category group (e.g., "Home & Living", "Fashion & Clothing")
+ */
+export function getStoresByCategoryGroup(groupName: string): FeaturedStore[] {
+  const categories = categoryGroups[groupName as keyof typeof categoryGroups] || [];
+  return featuredStores.filter(store => (categories as readonly string[]).includes(store.category));
+}
+
+/**
+ * Get all unique subcategories
  */
 export function getAllCategories(): string[] {
   return [...new Set(featuredStores.map(store => store.category))].sort();
+}
+
+/**
+ * Get all main category groups
+ */
+export function getCategoryGroups(): string[] {
+  return Object.keys(categoryGroups);
 }
 
 /**
@@ -63,7 +79,7 @@ export function getStoreCount(): number {
 }
 
 /**
- * Get category count
+ * Get subcategory count
  */
 export function getCategoryCount(): number {
   return getAllCategories().length;

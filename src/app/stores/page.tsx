@@ -1,13 +1,22 @@
 /**
- * Featured Stores Page - Organized by Category
- * Browse products by store across 15 categories
+ * Featured Stores Page - Organized by Subcategories
+ * Browse products by store across 55+ specific subcategories
+ * Matching real 1688.com marketplace structure
  */
 
 'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { featuredStores, getAllCategories, getStoresByCategory, getStoreCount, getCategoryCount } from '@/data/featured-stores';
+import { 
+  featuredStores, 
+  getAllCategories, 
+  getStoresByCategory, 
+  getStoreCount, 
+  getCategoryCount,
+  getCategoryGroups,
+  categoryGroups
+} from '@/data/featured-stores';
 
 const STORES_PER_PAGE = 12;
 
@@ -70,22 +79,81 @@ export default function StoresPage() {
     return pages;
   };
 
-  const categoryEmojis: Record<string, string> = {
-    'Electronics & Digital': '📱',
-    'Fashion & Apparel': '👕',
-    'Home & Garden': '🏠',
+  // Category group emojis
+  const categoryGroupEmojis: Record<string, string> = {
+    'Home & Living': '🏠',
+    'Fashion & Clothing': '👕',
+    'Electronics & Tech': '📱',
     'Beauty & Personal Care': '💄',
-    'Sports & Outdoors': '⚽',
-    'Toys & Baby Products': '🧸',
-    'Office & School Supplies': '📚',
-    'Automotive & Motorcycle': '🚗',
+    'Sports & Fitness': '⚽',
+    'Toys & Baby': '🧸',
+    'Office & School': '📚',
+    'Automotive': '🚗',
     'Jewelry & Accessories': '💎',
-    'Food & Beverages': '🍜',
+    'Footwear': '👟',
+    'Food & Beverage': '🍜',
     'Health & Medical': '⚕️',
     'Tools & Hardware': '🔧',
     'Arts & Crafts': '🎨',
-    'Bags & Luggage': '🎒',
-    'Footwear': '👟',
+  };
+
+  // Subcategory emojis
+  const subcategoryEmojis: Record<string, string> = {
+    'Home Decor & Decorations': '🎨',
+    'Candles & Fragrances': '🕯️',
+    'Vases & Planters': '🏺',
+    'Kitchen & Dining': '🍴',
+    'Bathroom Fixtures': '🚿',
+    'Lighting & Lamps': '💡',
+    'Furniture': '🛋️',
+    'Garden & Outdoor': '🌱',
+    'Bedding & Textiles': '🛏️',
+    'Storage & Organization': '📦',
+    'Women\'s Clothing': '👗',
+    'Men\'s Clothing': '👔',
+    'Children\'s Clothing': '👶',
+    'Sportswear & Activewear': '🏃',
+    'Lingerie & Underwear': '👙',
+    'Swimwear & Beachwear': '🩱',
+    'Outerwear & Coats': '🧥',
+    'Uniforms & Workwear': '👷',
+    'Mobile Phones & Tablets': '📱',
+    'Computers & Laptops': '💻',
+    'Audio & Video Equipment': '🎧',
+    'Smart Home Devices': '🏠',
+    'Phone & Computer Accessories': '🔌',
+    'Cables & Chargers': '🔋',
+    'Cosmetics & Makeup': '💅',
+    'Skincare Products': '🧴',
+    'Hair Care & Styling': '💇',
+    'Perfumes & Fragrances': '🌸',
+    'Fitness Equipment': '🏋️',
+    'Outdoor & Camping': '⛺',
+    'Sports Apparel & Shoes': '👟',
+    'Children\'s Toys': '🧸',
+    'Baby Care Products': '🍼',
+    'Educational Toys & Books': '📚',
+    'Stationery & Paper': '✏️',
+    'Office Equipment': '🖨️',
+    'School Supplies': '🎒',
+    'Auto Parts & Accessories': '🔧',
+    'Motorcycle Parts': '🏍️',
+    'Car Electronics': '📻',
+    'Fashion Jewelry': '💍',
+    'Watches & Timepieces': '⌚',
+    'Bags & Handbags': '👜',
+    'Belts & Scarves': '🧣',
+    'Women\'s Shoes': '👠',
+    'Men\'s Shoes': '👞',
+    'Children\'s Shoes': '👟',
+    'Packaged Foods & Snacks': '🍿',
+    'Tea & Coffee': '☕',
+    'Medical Supplies': '🩺',
+    'Health Supplements': '💊',
+    'Hand & Power Tools': '🔨',
+    'Industrial Equipment': '🏭',
+    'Art Supplies': '🎨',
+    'Craft Materials': '✂️',
   };
 
   return (
@@ -98,7 +166,7 @@ export default function StoresPage() {
           </Link>
           <h1 className="text-3xl font-bold text-gray-900">1688.com Store Catalog</h1>
           <p className="text-gray-600 mt-2">
-            {getStoreCount()} verified suppliers across {getCategoryCount()} categories
+            {getStoreCount()} verified suppliers across {getCategoryCount()} specific subcategories
           </p>
         </div>
       </div>
@@ -113,10 +181,10 @@ export default function StoresPage() {
             </div>
             <div>
               <div className="text-3xl font-bold">{getCategoryCount()}</div>
-              <div className="text-sm opacity-90">Categories</div>
+              <div className="text-sm opacity-90">Subcategories</div>
             </div>
             <div>
-              <div className="text-3xl font-bold">600K+</div>
+              <div className="text-3xl font-bold">1.2M+</div>
               <div className="text-sm opacity-90">Total Products</div>
             </div>
             <div>
@@ -130,8 +198,15 @@ export default function StoresPage() {
       {/* Category Filter */}
       <div className="container mx-auto px-4 pb-6">
         <div className="bg-white rounded-lg shadow-sm border p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">Filter by Category</h3>
-          <div className="flex flex-wrap gap-2">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">
+            Filter by Subcategory
+            <span className="text-sm font-normal text-gray-500 ml-2">
+              ({getCategoryCount()} specific categories)
+            </span>
+          </h3>
+          
+          {/* All Stores Button */}
+          <div className="mb-4">
             <button
               onClick={() => handleCategoryChange(null)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
@@ -140,22 +215,39 @@ export default function StoresPage() {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              All Categories ({getStoreCount()})
+              🏪 All Stores ({getStoreCount()})
             </button>
-            {allCategories.map((category) => {
-              const storeCount = getStoresByCategory(category).length;
+          </div>
+
+          {/* Organized by Category Groups */}
+          <div className="space-y-6">
+            {getCategoryGroups().map((groupName) => {
+              const subcategories = categoryGroups[groupName as keyof typeof categoryGroups] || [];
               return (
-                <button
-                  key={category}
-                  onClick={() => handleCategoryChange(category)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    selectedCategory === category
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
-                >
-                  {categoryEmojis[category] || '🏪'} {category} ({storeCount})
-                </button>
+                <div key={groupName} className="border-l-4 border-blue-500 pl-4">
+                  <h4 className="text-md font-semibold text-gray-800 mb-2 flex items-center gap-2">
+                    <span>{categoryGroupEmojis[groupName]}</span>
+                    <span>{groupName}</span>
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {subcategories.map((subcategory) => {
+                      const storeCount = getStoresByCategory(subcategory).length;
+                      return (
+                        <button
+                          key={subcategory}
+                          onClick={() => handleCategoryChange(subcategory)}
+                          className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${
+                            selectedCategory === subcategory
+                              ? 'bg-blue-600 text-white'
+                              : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border border-gray-200'
+                          }`}
+                        >
+                          {subcategoryEmojis[subcategory] || '📦'} {subcategory} ({storeCount})
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
               );
             })}
           </div>
@@ -189,7 +281,7 @@ export default function StoresPage() {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-2xl">{categoryEmojis[store.category] || '🏪'}</span>
+                    <span className="text-2xl">{subcategoryEmojis[store.category] || '🏪'}</span>
                     <h2 className="text-xl font-bold text-gray-900">
                       {store.name}
                     </h2>
