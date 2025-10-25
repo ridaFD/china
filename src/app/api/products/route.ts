@@ -21,11 +21,16 @@ function transformStoreProduct(item: any): Product {
 
   const imageUrl = processImageUrl(item.image || item.mainPic || '');
 
-  // Parse price range
+  // Parse price from SKU or direct price field
   let price = 0;
   let priceRange;
   
-  if (item.priceRange) {
+  // Priority: sku.def.price > price > priceRange
+  if (item.sku?.def?.price) {
+    price = parseFloat(item.sku.def.price);
+  } else if (item.price) {
+    price = parseFloat(item.price);
+  } else if (item.priceRange) {
     const priceStr = item.priceRange;
     if (typeof priceStr === 'string' && priceStr.includes('-')) {
       const [min, max] = priceStr.split('-').map((p: string) => parseFloat(p.trim()));
@@ -34,8 +39,6 @@ function transformStoreProduct(item: any): Product {
     } else {
       price = parseFloat(priceStr);
     }
-  } else if (item.price) {
-    price = parseFloat(item.price);
   }
 
   return {
@@ -50,8 +53,8 @@ function transformStoreProduct(item: any): Product {
     description: item.description || '',
     supplierName: item.shopName || item.sellerNick || 'Supplier',
     supplierId: item.storeId || item.shopId,
-    moq: parseInt(item.moq || 1),
-    unit: 'piece',
+    moq: parseInt(item.sku?.def?.minOrder || item.moq || 1),
+    unit: item.sku?.def?.unit || item.unit || 'piece',
     saleInfo: {
       soldQuantity: parseInt(item.sales || 0),
       reviewCount: 0,
