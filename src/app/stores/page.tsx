@@ -9,13 +9,66 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { featuredStores, getAllCategories, getStoresByCategory, getStoreCount, getCategoryCount } from '@/data/featured-stores';
 
+const STORES_PER_PAGE = 12;
+
 export default function StoresPage() {
   const allCategories = getAllCategories();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const storesToDisplay = selectedCategory 
+  // Reset to page 1 when category changes
+  const handleCategoryChange = (category: string | null) => {
+    setSelectedCategory(category);
+    setCurrentPage(1);
+  };
+
+  // Get stores to display based on category filter
+  const filteredStores = selectedCategory 
     ? getStoresByCategory(selectedCategory)
     : featuredStores;
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredStores.length / STORES_PER_PAGE);
+  const startIndex = (currentPage - 1) * STORES_PER_PAGE;
+  const endIndex = startIndex + STORES_PER_PAGE;
+  const storesToDisplay = filteredStores.slice(startIndex, endIndex);
+
+  // Generate page numbers for pagination
+  const getPageNumbers = () => {
+    const pages: (number | string)[] = [];
+    const showEllipsisAt = 5;
+
+    if (totalPages <= 7) {
+      // Show all pages if 7 or fewer
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      // Always show first page
+      pages.push(1);
+
+      if (currentPage > 3) {
+        pages.push('...');
+      }
+
+      // Show pages around current page
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+
+      for (let i = start; i <= end; i++) {
+        pages.push(i);
+      }
+
+      if (currentPage < totalPages - 2) {
+        pages.push('...');
+      }
+
+      // Always show last page
+      pages.push(totalPages);
+    }
+
+    return pages;
+  };
 
   const categoryEmojis: Record<string, string> = {
     'Electronics & Digital': '📱',
@@ -63,12 +116,12 @@ export default function StoresPage() {
               <div className="text-sm opacity-90">Categories</div>
             </div>
             <div>
-              <div className="text-3xl font-bold">50K+</div>
+              <div className="text-3xl font-bold">85K+</div>
               <div className="text-sm opacity-90">Total Products</div>
             </div>
             <div>
               <div className="text-3xl font-bold">100%</div>
-              <div className="text-sm opacity-90">Real Data</div>
+              <div className="text-sm opacity-90">Verified</div>
             </div>
           </div>
         </div>
@@ -80,7 +133,7 @@ export default function StoresPage() {
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Filter by Category</h3>
           <div className="flex flex-wrap gap-2">
             <button
-              onClick={() => setSelectedCategory(null)}
+              onClick={() => handleCategoryChange(null)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 selectedCategory === null
                   ? 'bg-blue-600 text-white'
@@ -94,7 +147,7 @@ export default function StoresPage() {
               return (
                 <button
                   key={category}
-                  onClick={() => setSelectedCategory(category)}
+                  onClick={() => handleCategoryChange(category)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     selectedCategory === category
                       ? 'bg-blue-600 text-white'
@@ -111,13 +164,18 @@ export default function StoresPage() {
 
       {/* Store Grid */}
       <div className="container mx-auto px-4 pb-12">
-        <div className="mb-6">
-          <h2 className="text-2xl font-bold text-gray-900">
-            {selectedCategory || 'All Stores'}
-          </h2>
-          <p className="text-gray-600 mt-1">
-            {storesToDisplay.length} {storesToDisplay.length === 1 ? 'store' : 'stores'} available
-          </p>
+        <div className="mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">
+              {selectedCategory || 'All Stores'}
+            </h2>
+            <p className="text-gray-600 mt-1">
+              Showing {startIndex + 1}-{Math.min(endIndex, filteredStores.length)} of {filteredStores.length} {filteredStores.length === 1 ? 'store' : 'stores'}
+            </p>
+          </div>
+          <div className="text-sm text-gray-600">
+            Page {currentPage} of {totalPages}
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -200,6 +258,77 @@ export default function StoresPage() {
         {storesToDisplay.length === 0 && (
           <div className="text-center py-12">
             <p className="text-gray-600 text-lg">No stores found in this category.</p>
+          </div>
+        )}
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="mt-12 flex justify-center items-center gap-2">
+            {/* Previous Button */}
+            <button
+              onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+              disabled={currentPage === 1}
+              className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                currentPage === 1
+                  ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600'
+              }`}
+            >
+              ← Previous
+            </button>
+
+            {/* Page Numbers */}
+            <div className="hidden sm:flex gap-2">
+              {getPageNumbers().map((page, index) => (
+                page === '...' ? (
+                  <span key={`ellipsis-${index}`} className="px-3 py-2 text-gray-400">
+                    ...
+                  </span>
+                ) : (
+                  <button
+                    key={page}
+                    onClick={() => setCurrentPage(page as number)}
+                    className={`min-w-[40px] px-3 py-2 rounded-lg font-medium transition-colors ${
+                      currentPage === page
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600'
+                    }`}
+                  >
+                    {page}
+                  </button>
+                )
+              ))}
+            </div>
+
+            {/* Mobile Page Indicator */}
+            <div className="sm:hidden px-4 py-2 text-gray-700 font-medium">
+              {currentPage} / {totalPages}
+            </div>
+
+            {/* Next Button */}
+            <button
+              onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+              disabled={currentPage === totalPages}
+              className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                currentPage === totalPages
+                  ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600'
+              }`}
+            >
+              Next →
+            </button>
+          </div>
+        )}
+
+        {/* Scroll to Top Button */}
+        {currentPage > 1 && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+            >
+              ↑ Back to Top
+            </button>
           </div>
         )}
       </div>
