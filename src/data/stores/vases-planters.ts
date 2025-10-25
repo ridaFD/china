@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // VASES & PLANTERS - 20 stores
 export const vases_plantersStores: FeaturedStore[] = [
   {
-    id: "b2b-20000kpzttw",
+    id: "b2b-22129686061252fa5d",
     name: "Ceramic Vase Factory",
     nameZh: "花瓶花盆批发",
     category: "Vases & Planters",
@@ -14,7 +14,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-20001q1a5d5",
+    id: "b2b-221162226231463a5d",
     name: "Porcelain Planter Store",
     nameZh: "花瓶花盆工厂",
     category: "Vases & Planters",
@@ -25,7 +25,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-20002a52c3o",
+    id: "b2b-22129686061252fa5d",
     name: "Garden Pot Wholesale",
     nameZh: "花瓶花盆商行",
     category: "Vases & Planters",
@@ -36,7 +36,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-20003xjpu6h",
+    id: "b2b-221162226231463a5d",
     name: "Decorative Vase Hub",
     nameZh: "花瓶花盆中心",
     category: "Vases & Planters",
@@ -47,7 +47,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-20004fs1zpk",
+    id: "b2b-22129686061252fa5d",
     name: "Terracotta Pottery Shop",
     nameZh: "花瓶花盆店铺",
     category: "Vases & Planters",
@@ -57,7 +57,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     location: "Yixing",
   },
   {
-    id: "b2b-20005zhy9w9",
+    id: "b2b-221162226231463a5d",
     name: "Modern Planter Co",
     nameZh: "花瓶花盆供应",
     category: "Vases & Planters",
@@ -68,7 +68,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-20006vhfmmz",
+    id: "b2b-22129686061252fa5d",
     name: "Classic Vase Collection",
     nameZh: "花瓶花盆市场",
     category: "Vases & Planters",
@@ -79,7 +79,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-200079h96ap",
+    id: "b2b-221162226231463a5d",
     name: "Plant Container Store",
     nameZh: "花瓶花盆专营",
     category: "Vases & Planters",
@@ -90,7 +90,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-200083go2j9",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Wholesale 1",
     nameZh: "花瓶花盆批发1",
     category: "Vases & Planters",
@@ -101,7 +101,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-20009phamf8",
+    id: "b2b-221162226231463a5d",
     name: "Vases Factory 1",
     nameZh: "花瓶花盆工厂2",
     category: "Vases & Planters",
@@ -111,7 +111,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     location: "Jingdezhen",
   },
   {
-    id: "b2b-200106pl5mx",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Store 2",
     nameZh: "花瓶花盆商行3",
     category: "Vases & Planters",
@@ -122,7 +122,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-20011qr12il",
+    id: "b2b-221162226231463a5d",
     name: "Vases Hub 2",
     nameZh: "花瓶花盆中心4",
     category: "Vases & Planters",
@@ -133,7 +133,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-200121y5enu",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Co 2",
     nameZh: "花瓶花盆店铺5",
     category: "Vases & Planters",
@@ -144,7 +144,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-20013i60bmf",
+    id: "b2b-221162226231463a5d",
     name: "Vases Supply 2",
     nameZh: "花瓶花盆供应6",
     category: "Vases & Planters",
@@ -155,7 +155,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-200143crxgn",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Shop 2",
     nameZh: "花瓶花盆市场7",
     category: "Vases & Planters",
@@ -165,7 +165,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-20015fwqnz0",
+    id: "b2b-221162226231463a5d",
     name: "Vases Mart 2",
     nameZh: "花瓶花盆专营8",
     category: "Vases & Planters",
@@ -176,7 +176,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-20016uiq8lc",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Wholesale 2",
     nameZh: "花瓶花盆批发9",
     category: "Vases & Planters",
@@ -187,7 +187,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-20017kjdt0u",
+    id: "b2b-221162226231463a5d",
     name: "Vases Factory 2",
     nameZh: "花瓶花盆工厂10",
     category: "Vases & Planters",
@@ -198,7 +198,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-20018jg7th7",
+    id: "b2b-22129686061252fa5d",
     name: "Vases Store 2",
     nameZh: "花瓶花盆商行11",
     category: "Vases & Planters",
@@ -209,7 +209,7 @@ export const vases_plantersStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-20019flprro",
+    id: "b2b-221162226231463a5d",
     name: "Vases Hub 2",
     nameZh: "花瓶花盆中心12",
     category: "Vases & Planters",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // WOMEN'S SHOES - 25 stores
 export const womens_shoesStores: FeaturedStore[] = [
   {
-    id: "b2b-440000egedeu",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Store",
     nameZh: "女鞋批发",
     category: "Women's Shoes",
@@ -14,7 +14,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-440001sly8qj",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Wholesale",
     nameZh: "女鞋工厂",
     category: "Women's Shoes",
@@ -25,7 +25,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-440002acgydl",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Factory",
     nameZh: "女鞋商行",
     category: "Women's Shoes",
@@ -36,7 +36,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-440003s9nvlo",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Hub",
     nameZh: "女鞋中心",
     category: "Women's Shoes",
@@ -47,7 +47,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-440004nuzvuo",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Co 1",
     nameZh: "女鞋店铺",
     category: "Women's Shoes",
@@ -57,7 +57,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-440005fuikcn",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Supply 1",
     nameZh: "女鞋供应",
     category: "Women's Shoes",
@@ -68,7 +68,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-440006kxqvu0",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Shop 1",
     nameZh: "女鞋市场",
     category: "Women's Shoes",
@@ -79,7 +79,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-440007hd2w0s",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Mart 1",
     nameZh: "女鞋专营",
     category: "Women's Shoes",
@@ -90,7 +90,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-440008206lad",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Wholesale 1",
     nameZh: "女鞋批发1",
     category: "Women's Shoes",
@@ -101,7 +101,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-440009ecoy2v",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Factory 1",
     nameZh: "女鞋工厂2",
     category: "Women's Shoes",
@@ -111,7 +111,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-440010kwhz5a",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Store 2",
     nameZh: "女鞋商行3",
     category: "Women's Shoes",
@@ -122,7 +122,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-440011h3sa7x",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Hub 2",
     nameZh: "女鞋中心4",
     category: "Women's Shoes",
@@ -133,7 +133,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-440012kg1hsf",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Co 2",
     nameZh: "女鞋店铺5",
     category: "Women's Shoes",
@@ -144,7 +144,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-440013p3m0az",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Supply 2",
     nameZh: "女鞋供应6",
     category: "Women's Shoes",
@@ -155,7 +155,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-4400141omwv6",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Shop 2",
     nameZh: "女鞋市场7",
     category: "Women's Shoes",
@@ -165,7 +165,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     location: "Jinjiang",
   },
   {
-    id: "b2b-440015ff8l69",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Mart 2",
     nameZh: "女鞋专营8",
     category: "Women's Shoes",
@@ -176,7 +176,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-440016sll2wq",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Wholesale 2",
     nameZh: "女鞋批发9",
     category: "Women's Shoes",
@@ -187,7 +187,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-440017zfi7pr",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Factory 2",
     nameZh: "女鞋工厂10",
     category: "Women's Shoes",
@@ -198,7 +198,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-4400186ivac7",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Store 2",
     nameZh: "女鞋商行11",
     category: "Women's Shoes",
@@ -209,7 +209,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-4400198trqoe",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Hub 2",
     nameZh: "女鞋中心12",
     category: "Women's Shoes",
@@ -219,7 +219,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-440020laxwrl",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Co 3",
     nameZh: "女鞋店铺13",
     category: "Women's Shoes",
@@ -230,7 +230,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-4400219o9ini",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Supply 3",
     nameZh: "女鞋供应14",
     category: "Women's Shoes",
@@ -241,7 +241,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-440022t8c21s",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Shop 3",
     nameZh: "女鞋市场15",
     category: "Women's Shoes",
@@ -252,7 +252,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-440023d5p4dv",
+    id: "b2b-221162226231463a5d",
     name: "Women's Shoes Mart 3",
     nameZh: "女鞋专营16",
     category: "Women's Shoes",
@@ -263,7 +263,7 @@ export const womens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-440024h7rf3r",
+    id: "b2b-22129686061252fa5d",
     name: "Women's Shoes Wholesale 3",
     nameZh: "女鞋批发17",
     category: "Women's Shoes",

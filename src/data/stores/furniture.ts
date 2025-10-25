@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FURNITURE - 40 stores
 export const furnitureStores: FeaturedStore[] = [
   {
-    id: "b2b-600008a49up",
+    id: "b2b-22129686061252fa5d",
     name: "Modern Furniture Store",
     nameZh: "家具批发",
     category: "Furniture",
@@ -14,7 +14,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-600018ee5u9",
+    id: "b2b-221162226231463a5d",
     name: "Classic Furniture Hub",
     nameZh: "家具工厂",
     category: "Furniture",
@@ -25,7 +25,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-60002je96kd",
+    id: "b2b-22129686061252fa5d",
     name: "Office Furniture Co",
     nameZh: "家具商行",
     category: "Furniture",
@@ -36,7 +36,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-60003l1f0rp",
+    id: "b2b-221162226231463a5d",
     name: "Home Furnishing Factory",
     nameZh: "家具中心",
     category: "Furniture",
@@ -47,7 +47,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-60004cbtpm0",
+    id: "b2b-22129686061252fa5d",
     name: "Designer Furniture Shop",
     nameZh: "家具店铺",
     category: "Furniture",
@@ -57,7 +57,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-600055brh34",
+    id: "b2b-221162226231463a5d",
     name: "Wooden Furniture Maker",
     nameZh: "家具供应",
     category: "Furniture",
@@ -68,7 +68,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-60006uev9bz",
+    id: "b2b-22129686061252fa5d",
     name: "Metal Furniture Store",
     nameZh: "家具市场",
     category: "Furniture",
@@ -79,7 +79,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-60007vu4kps",
+    id: "b2b-221162226231463a5d",
     name: "Custom Furniture Co",
     nameZh: "家具专营",
     category: "Furniture",
@@ -90,7 +90,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-600083h942m",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Wholesale 1",
     nameZh: "家具批发1",
     category: "Furniture",
@@ -101,7 +101,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-60009pqxwsq",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Factory 1",
     nameZh: "家具工厂2",
     category: "Furniture",
@@ -111,7 +111,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-600108gyhoi",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Store 2",
     nameZh: "家具商行3",
     category: "Furniture",
@@ -122,7 +122,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-60011z23xy8",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Hub 2",
     nameZh: "家具中心4",
     category: "Furniture",
@@ -133,7 +133,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-60012wiljx9",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Co 2",
     nameZh: "家具店铺5",
     category: "Furniture",
@@ -144,7 +144,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-60013td6ivf",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Supply 2",
     nameZh: "家具供应6",
     category: "Furniture",
@@ -155,7 +155,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-60014hhr1l1",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Shop 2",
     nameZh: "家具市场7",
     category: "Furniture",
@@ -165,7 +165,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-60015pb0dh2",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Mart 2",
     nameZh: "家具专营8",
     category: "Furniture",
@@ -176,7 +176,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-60016g4bim8",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Wholesale 2",
     nameZh: "家具批发9",
     category: "Furniture",
@@ -187,7 +187,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-600179rr1gu",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Factory 2",
     nameZh: "家具工厂10",
     category: "Furniture",
@@ -198,7 +198,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-600189ywzxd",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Store 2",
     nameZh: "家具商行11",
     category: "Furniture",
@@ -209,7 +209,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-60019r1tmtg",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Hub 2",
     nameZh: "家具中心12",
     category: "Furniture",
@@ -219,7 +219,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-60020u2r25j",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Co 3",
     nameZh: "家具店铺13",
     category: "Furniture",
@@ -230,7 +230,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-60021lk0zng",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Supply 3",
     nameZh: "家具供应14",
     category: "Furniture",
@@ -241,7 +241,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-60022906ma1",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Shop 3",
     nameZh: "家具市场15",
     category: "Furniture",
@@ -252,7 +252,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-60023e9sv6o",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Mart 3",
     nameZh: "家具专营16",
     category: "Furniture",
@@ -263,7 +263,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-600243qnvho",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Wholesale 3",
     nameZh: "家具批发17",
     category: "Furniture",
@@ -273,7 +273,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-60025zgenv3",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Factory 3",
     nameZh: "家具工厂18",
     category: "Furniture",
@@ -284,7 +284,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-60026h6axii",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Store 3",
     nameZh: "家具商行19",
     category: "Furniture",
@@ -295,7 +295,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-60027cnss0y",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Hub 3",
     nameZh: "家具中心20",
     category: "Furniture",
@@ -306,7 +306,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-60028z63cgd",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Co 3",
     nameZh: "家具店铺21",
     category: "Furniture",
@@ -317,7 +317,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-60029d7s020",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Supply 3",
     nameZh: "家具供应22",
     category: "Furniture",
@@ -327,7 +327,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-60030i2hm9p",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Shop 4",
     nameZh: "家具市场23",
     category: "Furniture",
@@ -338,7 +338,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-60031pljjxh",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Mart 4",
     nameZh: "家具专营24",
     category: "Furniture",
@@ -349,7 +349,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-6003266tebg",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Wholesale 4",
     nameZh: "家具批发25",
     category: "Furniture",
@@ -360,7 +360,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-600337i16g9",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Factory 4",
     nameZh: "家具工厂26",
     category: "Furniture",
@@ -371,7 +371,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-600342y7d1w",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Store 4",
     nameZh: "家具商行27",
     category: "Furniture",
@@ -381,7 +381,7 @@ export const furnitureStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-6003556hezq",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Hub 4",
     nameZh: "家具中心28",
     category: "Furniture",
@@ -392,7 +392,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-60036ae299u",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Co 4",
     nameZh: "家具店铺29",
     category: "Furniture",
@@ -403,7 +403,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-60037tspkk6",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Supply 4",
     nameZh: "家具供应30",
     category: "Furniture",
@@ -414,7 +414,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-60038a3qy9w",
+    id: "b2b-22129686061252fa5d",
     name: "Furniture Shop 4",
     nameZh: "家具市场31",
     category: "Furniture",
@@ -425,7 +425,7 @@ export const furnitureStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-60039ztl43w",
+    id: "b2b-221162226231463a5d",
     name: "Furniture Mart 4",
     nameZh: "家具专营32",
     category: "Furniture",

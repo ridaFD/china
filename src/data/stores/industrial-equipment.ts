@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // INDUSTRIAL EQUIPMENT - 20 stores
 export const industrial_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-5200005d4at6",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Store",
     nameZh: "工业设备批发",
     category: "Industrial Equipment",
@@ -14,7 +14,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-5200016c6eo4",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Wholesale",
     nameZh: "工业设备工厂",
     category: "Industrial Equipment",
@@ -25,7 +25,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-520002ek1b30",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Factory",
     nameZh: "工业设备商行",
     category: "Industrial Equipment",
@@ -36,7 +36,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-520003nqye37",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Hub",
     nameZh: "工业设备中心",
     category: "Industrial Equipment",
@@ -47,7 +47,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-520004znzvak",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Co 1",
     nameZh: "工业设备店铺",
     category: "Industrial Equipment",
@@ -57,7 +57,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     location: "Taizhou",
   },
   {
-    id: "b2b-520005y03a0m",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Supply 1",
     nameZh: "工业设备供应",
     category: "Industrial Equipment",
@@ -68,7 +68,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-5200063a2x82",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Shop 1",
     nameZh: "工业设备市场",
     category: "Industrial Equipment",
@@ -79,7 +79,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-520007grs72x",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Mart 1",
     nameZh: "工业设备专营",
     category: "Industrial Equipment",
@@ -90,7 +90,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-52000899u90d",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Wholesale 1",
     nameZh: "工业设备批发1",
     category: "Industrial Equipment",
@@ -101,7 +101,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-520009yem3o2",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Factory 1",
     nameZh: "工业设备工厂2",
     category: "Industrial Equipment",
@@ -111,7 +111,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-5200107st3kf",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Store 2",
     nameZh: "工业设备商行3",
     category: "Industrial Equipment",
@@ -122,7 +122,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-520011tk2d6t",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Hub 2",
     nameZh: "工业设备中心4",
     category: "Industrial Equipment",
@@ -133,7 +133,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-520012guf5c4",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Co 2",
     nameZh: "工业设备店铺5",
     category: "Industrial Equipment",
@@ -144,7 +144,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-520013duv0cs",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Supply 2",
     nameZh: "工业设备供应6",
     category: "Industrial Equipment",
@@ -155,7 +155,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-520014rb22xj",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Shop 2",
     nameZh: "工业设备市场7",
     category: "Industrial Equipment",
@@ -165,7 +165,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-520015kyojzc",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Mart 2",
     nameZh: "工业设备专营8",
     category: "Industrial Equipment",
@@ -176,7 +176,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-520016dot900",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Wholesale 2",
     nameZh: "工业设备批发9",
     category: "Industrial Equipment",
@@ -187,7 +187,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-5200179zqk6f",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Factory 2",
     nameZh: "工业设备工厂10",
     category: "Industrial Equipment",
@@ -198,7 +198,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-520018f1ox9m",
+    id: "b2b-22129686061252fa5d",
     name: "Industrial Equipment Store 2",
     nameZh: "工业设备商行11",
     category: "Industrial Equipment",
@@ -209,7 +209,7 @@ export const industrial_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-520019vusvh2",
+    id: "b2b-221162226231463a5d",
     name: "Industrial Equipment Hub 2",
     nameZh: "工业设备中心12",
     category: "Industrial Equipment",

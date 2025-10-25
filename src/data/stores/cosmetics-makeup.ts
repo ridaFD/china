@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // COSMETICS & MAKEUP - 30 stores
 export const cosmetics_makeupStores: FeaturedStore[] = [
   {
-    id: "b2b-2400003hkb6t",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Store",
     nameZh: "化妆美妆批发",
     category: "Cosmetics & Makeup",
@@ -14,7 +14,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-240001j533cu",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Wholesale",
     nameZh: "化妆美妆工厂",
     category: "Cosmetics & Makeup",
@@ -25,7 +25,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-240002qhos2g",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Factory",
     nameZh: "化妆美妆商行",
     category: "Cosmetics & Makeup",
@@ -36,7 +36,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-240003qgafw9",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Hub",
     nameZh: "化妆美妆中心",
     category: "Cosmetics & Makeup",
@@ -47,7 +47,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-240004r172sj",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Co 1",
     nameZh: "化妆美妆店铺",
     category: "Cosmetics & Makeup",
@@ -57,7 +57,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-2400057gmwrr",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Supply 1",
     nameZh: "化妆美妆供应",
     category: "Cosmetics & Makeup",
@@ -68,7 +68,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-240006uv97e2",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Shop 1",
     nameZh: "化妆美妆市场",
     category: "Cosmetics & Makeup",
@@ -79,7 +79,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-240007mtstpj",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Mart 1",
     nameZh: "化妆美妆专营",
     category: "Cosmetics & Makeup",
@@ -90,7 +90,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-240008wkl3xc",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Wholesale 1",
     nameZh: "化妆美妆批发1",
     category: "Cosmetics & Makeup",
@@ -101,7 +101,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-240009bk50p9",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Factory 1",
     nameZh: "化妆美妆工厂2",
     category: "Cosmetics & Makeup",
@@ -111,7 +111,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-240010l3wplv",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Store 2",
     nameZh: "化妆美妆商行3",
     category: "Cosmetics & Makeup",
@@ -122,7 +122,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-240011g65s3q",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Hub 2",
     nameZh: "化妆美妆中心4",
     category: "Cosmetics & Makeup",
@@ -133,7 +133,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-240012o7hjj8",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Co 2",
     nameZh: "化妆美妆店铺5",
     category: "Cosmetics & Makeup",
@@ -144,7 +144,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-2400135f6np9",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Supply 2",
     nameZh: "化妆美妆供应6",
     category: "Cosmetics & Makeup",
@@ -155,7 +155,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-2400140kuszv",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Shop 2",
     nameZh: "化妆美妆市场7",
     category: "Cosmetics & Makeup",
@@ -165,7 +165,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-2400159xeqpp",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Mart 2",
     nameZh: "化妆美妆专营8",
     category: "Cosmetics & Makeup",
@@ -176,7 +176,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-240016xmf8ug",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Wholesale 2",
     nameZh: "化妆美妆批发9",
     category: "Cosmetics & Makeup",
@@ -187,7 +187,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-240017gn64sr",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Factory 2",
     nameZh: "化妆美妆工厂10",
     category: "Cosmetics & Makeup",
@@ -198,7 +198,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-240018nvin7w",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Store 2",
     nameZh: "化妆美妆商行11",
     category: "Cosmetics & Makeup",
@@ -209,7 +209,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-240019913vjk",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Hub 2",
     nameZh: "化妆美妆中心12",
     category: "Cosmetics & Makeup",
@@ -219,7 +219,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-240020bj6xug",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Co 3",
     nameZh: "化妆美妆店铺13",
     category: "Cosmetics & Makeup",
@@ -230,7 +230,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-240021pc182q",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Supply 3",
     nameZh: "化妆美妆供应14",
     category: "Cosmetics & Makeup",
@@ -241,7 +241,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-240022s3h14i",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Shop 3",
     nameZh: "化妆美妆市场15",
     category: "Cosmetics & Makeup",
@@ -252,7 +252,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-240023xb666q",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Mart 3",
     nameZh: "化妆美妆专营16",
     category: "Cosmetics & Makeup",
@@ -263,7 +263,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-240024ol8xao",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Wholesale 3",
     nameZh: "化妆美妆批发17",
     category: "Cosmetics & Makeup",
@@ -273,7 +273,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-24002555b95n",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Factory 3",
     nameZh: "化妆美妆工厂18",
     category: "Cosmetics & Makeup",
@@ -284,7 +284,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-240026ke8koe",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Store 3",
     nameZh: "化妆美妆商行19",
     category: "Cosmetics & Makeup",
@@ -295,7 +295,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-240027raf4iw",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Hub 3",
     nameZh: "化妆美妆中心20",
     category: "Cosmetics & Makeup",
@@ -306,7 +306,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-240028hxpqhs",
+    id: "b2b-22129686061252fa5d",
     name: "Cosmetics Co 3",
     nameZh: "化妆美妆店铺21",
     category: "Cosmetics & Makeup",
@@ -317,7 +317,7 @@ export const cosmetics_makeupStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-240029d2l3g0",
+    id: "b2b-221162226231463a5d",
     name: "Cosmetics Supply 3",
     nameZh: "化妆美妆供应22",
     category: "Cosmetics & Makeup",

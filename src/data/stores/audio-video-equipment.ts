@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // AUDIO & VIDEO EQUIPMENT - 25 stores
 export const audio_video_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-200000eh97g4",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Store",
     nameZh: "音视频设备批发",
     category: "Audio & Video Equipment",
@@ -14,7 +14,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-200001o3km3x",
+    id: "b2b-221162226231463a5d",
     name: "Audio Wholesale",
     nameZh: "音视频设备工厂",
     category: "Audio & Video Equipment",
@@ -25,7 +25,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-200002lsgpji",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Factory",
     nameZh: "音视频设备商行",
     category: "Audio & Video Equipment",
@@ -36,7 +36,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-200003dsgrka",
+    id: "b2b-221162226231463a5d",
     name: "Audio Hub",
     nameZh: "音视频设备中心",
     category: "Audio & Video Equipment",
@@ -47,7 +47,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-200004tfcwbr",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Co 1",
     nameZh: "音视频设备店铺",
     category: "Audio & Video Equipment",
@@ -57,7 +57,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-200005r8rjwh",
+    id: "b2b-221162226231463a5d",
     name: "Audio Supply 1",
     nameZh: "音视频设备供应",
     category: "Audio & Video Equipment",
@@ -68,7 +68,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-2000065qrm2x",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Shop 1",
     nameZh: "音视频设备市场",
     category: "Audio & Video Equipment",
@@ -79,7 +79,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-2000075e71tn",
+    id: "b2b-221162226231463a5d",
     name: "Audio Mart 1",
     nameZh: "音视频设备专营",
     category: "Audio & Video Equipment",
@@ -90,7 +90,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-200008ouzhz3",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Wholesale 1",
     nameZh: "音视频设备批发1",
     category: "Audio & Video Equipment",
@@ -101,7 +101,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-200009xyrg0z",
+    id: "b2b-221162226231463a5d",
     name: "Audio Factory 1",
     nameZh: "音视频设备工厂2",
     category: "Audio & Video Equipment",
@@ -111,7 +111,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-2000107vu0kz",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Store 2",
     nameZh: "音视频设备商行3",
     category: "Audio & Video Equipment",
@@ -122,7 +122,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-2000114n59ax",
+    id: "b2b-221162226231463a5d",
     name: "Audio Hub 2",
     nameZh: "音视频设备中心4",
     category: "Audio & Video Equipment",
@@ -133,7 +133,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-2000123v7kw1",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Co 2",
     nameZh: "音视频设备店铺5",
     category: "Audio & Video Equipment",
@@ -144,7 +144,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-200013ph993c",
+    id: "b2b-221162226231463a5d",
     name: "Audio Supply 2",
     nameZh: "音视频设备供应6",
     category: "Audio & Video Equipment",
@@ -155,7 +155,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-200014cye6j3",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Shop 2",
     nameZh: "音视频设备市场7",
     category: "Audio & Video Equipment",
@@ -165,7 +165,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-200015hhi1oc",
+    id: "b2b-221162226231463a5d",
     name: "Audio Mart 2",
     nameZh: "音视频设备专营8",
     category: "Audio & Video Equipment",
@@ -176,7 +176,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-200016brm3aq",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Wholesale 2",
     nameZh: "音视频设备批发9",
     category: "Audio & Video Equipment",
@@ -187,7 +187,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-200017ygv3dk",
+    id: "b2b-221162226231463a5d",
     name: "Audio Factory 2",
     nameZh: "音视频设备工厂10",
     category: "Audio & Video Equipment",
@@ -198,7 +198,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-2000180fpkak",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Store 2",
     nameZh: "音视频设备商行11",
     category: "Audio & Video Equipment",
@@ -209,7 +209,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-200019hpfx2r",
+    id: "b2b-221162226231463a5d",
     name: "Audio Hub 2",
     nameZh: "音视频设备中心12",
     category: "Audio & Video Equipment",
@@ -219,7 +219,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-200020ifx8vg",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Co 3",
     nameZh: "音视频设备店铺13",
     category: "Audio & Video Equipment",
@@ -230,7 +230,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-20002150h96n",
+    id: "b2b-221162226231463a5d",
     name: "Audio Supply 3",
     nameZh: "音视频设备供应14",
     category: "Audio & Video Equipment",
@@ -241,7 +241,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-200022ky9nz5",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Shop 3",
     nameZh: "音视频设备市场15",
     category: "Audio & Video Equipment",
@@ -252,7 +252,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-200023lgr2l9",
+    id: "b2b-221162226231463a5d",
     name: "Audio Mart 3",
     nameZh: "音视频设备专营16",
     category: "Audio & Video Equipment",
@@ -263,7 +263,7 @@ export const audio_video_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-200024qfig72",
+    id: "b2b-22129686061252fa5d",
     name: "Audio Wholesale 3",
     nameZh: "音视频设备批发17",
     category: "Audio & Video Equipment",

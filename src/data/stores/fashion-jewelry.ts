@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // FASHION JEWELRY - 25 stores
 export const fashion_jewelryStores: FeaturedStore[] = [
   {
-    id: "b2b-400000c7bbbv",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Store",
     nameZh: "时尚饰品批发",
     category: "Fashion Jewelry",
@@ -14,7 +14,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-400001dhqyy7",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Wholesale",
     nameZh: "时尚饰品工厂",
     category: "Fashion Jewelry",
@@ -25,7 +25,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-400002emj5bm",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Factory",
     nameZh: "时尚饰品商行",
     category: "Fashion Jewelry",
@@ -36,7 +36,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-400003enmzqm",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Hub",
     nameZh: "时尚饰品中心",
     category: "Fashion Jewelry",
@@ -47,7 +47,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-4000048dm6xe",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Co 1",
     nameZh: "时尚饰品店铺",
     category: "Fashion Jewelry",
@@ -57,7 +57,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-400005dcyrun",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Supply 1",
     nameZh: "时尚饰品供应",
     category: "Fashion Jewelry",
@@ -68,7 +68,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-400006kssfiq",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Shop 1",
     nameZh: "时尚饰品市场",
     category: "Fashion Jewelry",
@@ -79,7 +79,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-4000073of34m",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Mart 1",
     nameZh: "时尚饰品专营",
     category: "Fashion Jewelry",
@@ -90,7 +90,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-400008z57sov",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Wholesale 1",
     nameZh: "时尚饰品批发1",
     category: "Fashion Jewelry",
@@ -101,7 +101,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-4000099uerzb",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Factory 1",
     nameZh: "时尚饰品工厂2",
     category: "Fashion Jewelry",
@@ -111,7 +111,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-4000100m6okq",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Store 2",
     nameZh: "时尚饰品商行3",
     category: "Fashion Jewelry",
@@ -122,7 +122,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-4000112nc1ez",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Hub 2",
     nameZh: "时尚饰品中心4",
     category: "Fashion Jewelry",
@@ -133,7 +133,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-400012uhsmu8",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Co 2",
     nameZh: "时尚饰品店铺5",
     category: "Fashion Jewelry",
@@ -144,7 +144,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-400013dp6y8x",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Supply 2",
     nameZh: "时尚饰品供应6",
     category: "Fashion Jewelry",
@@ -155,7 +155,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-4000145yijh7",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Shop 2",
     nameZh: "时尚饰品市场7",
     category: "Fashion Jewelry",
@@ -165,7 +165,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-400015idjtd4",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Mart 2",
     nameZh: "时尚饰品专营8",
     category: "Fashion Jewelry",
@@ -176,7 +176,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-400016olz224",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Wholesale 2",
     nameZh: "时尚饰品批发9",
     category: "Fashion Jewelry",
@@ -187,7 +187,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-400017lefbp0",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Factory 2",
     nameZh: "时尚饰品工厂10",
     category: "Fashion Jewelry",
@@ -198,7 +198,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-4000187xmwn2",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Store 2",
     nameZh: "时尚饰品商行11",
     category: "Fashion Jewelry",
@@ -209,7 +209,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-40001911r9kw",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Hub 2",
     nameZh: "时尚饰品中心12",
     category: "Fashion Jewelry",
@@ -219,7 +219,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-400020z4rowk",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Co 3",
     nameZh: "时尚饰品店铺13",
     category: "Fashion Jewelry",
@@ -230,7 +230,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-400021y3lo13",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Supply 3",
     nameZh: "时尚饰品供应14",
     category: "Fashion Jewelry",
@@ -241,7 +241,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-400022cbrh4s",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Shop 3",
     nameZh: "时尚饰品市场15",
     category: "Fashion Jewelry",
@@ -252,7 +252,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-400023gek1ea",
+    id: "b2b-221162226231463a5d",
     name: "Fashion Jewelry Mart 3",
     nameZh: "时尚饰品专营16",
     category: "Fashion Jewelry",
@@ -263,7 +263,7 @@ export const fashion_jewelryStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-400024o93ljp",
+    id: "b2b-22129686061252fa5d",
     name: "Fashion Jewelry Wholesale 3",
     nameZh: "时尚饰品批发17",
     category: "Fashion Jewelry",

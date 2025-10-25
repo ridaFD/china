@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SKINCARE PRODUCTS - 30 stores
 export const skincare_productsStores: FeaturedStore[] = [
   {
-    id: "b2b-250000v5ydzq",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Store",
     nameZh: "护肤品批发",
     category: "Skincare Products",
@@ -14,7 +14,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-250001z2pe0x",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Wholesale",
     nameZh: "护肤品工厂",
     category: "Skincare Products",
@@ -25,7 +25,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-250002pugzm1",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Factory",
     nameZh: "护肤品商行",
     category: "Skincare Products",
@@ -36,7 +36,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-250003b0imln",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Hub",
     nameZh: "护肤品中心",
     category: "Skincare Products",
@@ -47,7 +47,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-250004y0h6gj",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Co 1",
     nameZh: "护肤品店铺",
     category: "Skincare Products",
@@ -57,7 +57,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-250005fo12md",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Supply 1",
     nameZh: "护肤品供应",
     category: "Skincare Products",
@@ -68,7 +68,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-250006u03wvu",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Shop 1",
     nameZh: "护肤品市场",
     category: "Skincare Products",
@@ -79,7 +79,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-250007pej1sy",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Mart 1",
     nameZh: "护肤品专营",
     category: "Skincare Products",
@@ -90,7 +90,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-250008btnc82",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Wholesale 1",
     nameZh: "护肤品批发1",
     category: "Skincare Products",
@@ -101,7 +101,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-250009ruxgfu",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Factory 1",
     nameZh: "护肤品工厂2",
     category: "Skincare Products",
@@ -111,7 +111,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-250010ur148h",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Store 2",
     nameZh: "护肤品商行3",
     category: "Skincare Products",
@@ -122,7 +122,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-2500114tfokc",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Hub 2",
     nameZh: "护肤品中心4",
     category: "Skincare Products",
@@ -133,7 +133,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-2500123cc7w1",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Co 2",
     nameZh: "护肤品店铺5",
     category: "Skincare Products",
@@ -144,7 +144,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-2500130dyuns",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Supply 2",
     nameZh: "护肤品供应6",
     category: "Skincare Products",
@@ -155,7 +155,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-250014pjp22k",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Shop 2",
     nameZh: "护肤品市场7",
     category: "Skincare Products",
@@ -165,7 +165,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-2500150egna5",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Mart 2",
     nameZh: "护肤品专营8",
     category: "Skincare Products",
@@ -176,7 +176,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-250016on8sbu",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Wholesale 2",
     nameZh: "护肤品批发9",
     category: "Skincare Products",
@@ -187,7 +187,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-250017w4hfbn",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Factory 2",
     nameZh: "护肤品工厂10",
     category: "Skincare Products",
@@ -198,7 +198,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-250018hjwuj0",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Store 2",
     nameZh: "护肤品商行11",
     category: "Skincare Products",
@@ -209,7 +209,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-250019floa0a",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Hub 2",
     nameZh: "护肤品中心12",
     category: "Skincare Products",
@@ -219,7 +219,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-2500209v9p68",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Co 3",
     nameZh: "护肤品店铺13",
     category: "Skincare Products",
@@ -230,7 +230,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-250021zzvbz8",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Supply 3",
     nameZh: "护肤品供应14",
     category: "Skincare Products",
@@ -241,7 +241,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-250022e59tsi",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Shop 3",
     nameZh: "护肤品市场15",
     category: "Skincare Products",
@@ -252,7 +252,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-25002394amg7",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Mart 3",
     nameZh: "护肤品专营16",
     category: "Skincare Products",
@@ -263,7 +263,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-250024pc5s8s",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Wholesale 3",
     nameZh: "护肤品批发17",
     category: "Skincare Products",
@@ -273,7 +273,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-250025xdxu4o",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Factory 3",
     nameZh: "护肤品工厂18",
     category: "Skincare Products",
@@ -284,7 +284,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-250026e4c4aq",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Store 3",
     nameZh: "护肤品商行19",
     category: "Skincare Products",
@@ -295,7 +295,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-2500271uw0h6",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Hub 3",
     nameZh: "护肤品中心20",
     category: "Skincare Products",
@@ -306,7 +306,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-250028fz7qts",
+    id: "b2b-22129686061252fa5d",
     name: "Skincare Products Co 3",
     nameZh: "护肤品店铺21",
     category: "Skincare Products",
@@ -317,7 +317,7 @@ export const skincare_productsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-2500298zepl6",
+    id: "b2b-221162226231463a5d",
     name: "Skincare Products Supply 3",
     nameZh: "护肤品供应22",
     category: "Skincare Products",

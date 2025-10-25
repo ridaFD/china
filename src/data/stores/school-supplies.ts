@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SCHOOL SUPPLIES - 15 stores
 export const school_suppliesStores: FeaturedStore[] = [
   {
-    id: "b2b-360000547vb1",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Store",
     nameZh: "学生用品批发",
     category: "School Supplies",
@@ -14,7 +14,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-360001y4tw8j",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Wholesale",
     nameZh: "学生用品工厂",
     category: "School Supplies",
@@ -25,7 +25,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-360002l3ho7x",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Factory",
     nameZh: "学生用品商行",
     category: "School Supplies",
@@ -36,7 +36,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-3600037cg87u",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Hub",
     nameZh: "学生用品中心",
     category: "School Supplies",
@@ -47,7 +47,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-360004gl1eoe",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Co 1",
     nameZh: "学生用品店铺",
     category: "School Supplies",
@@ -57,7 +57,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-360005qpcam7",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Supply 1",
     nameZh: "学生用品供应",
     category: "School Supplies",
@@ -68,7 +68,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-360006c3uk0k",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Shop 1",
     nameZh: "学生用品市场",
     category: "School Supplies",
@@ -79,7 +79,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-360007mgjnkc",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Mart 1",
     nameZh: "学生用品专营",
     category: "School Supplies",
@@ -90,7 +90,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-360008vythth",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Wholesale 1",
     nameZh: "学生用品批发1",
     category: "School Supplies",
@@ -101,7 +101,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-360009vst24d",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Factory 1",
     nameZh: "学生用品工厂2",
     category: "School Supplies",
@@ -111,7 +111,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-360010akpbjj",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Store 2",
     nameZh: "学生用品商行3",
     category: "School Supplies",
@@ -122,7 +122,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-360011xde1yk",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Hub 2",
     nameZh: "学生用品中心4",
     category: "School Supplies",
@@ -133,7 +133,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-360012r495p5",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Co 2",
     nameZh: "学生用品店铺5",
     category: "School Supplies",
@@ -144,7 +144,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-360013d9m3mr",
+    id: "b2b-221162226231463a5d",
     name: "School Supplies Supply 2",
     nameZh: "学生用品供应6",
     category: "School Supplies",
@@ -155,7 +155,7 @@ export const school_suppliesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-360014nrbeol",
+    id: "b2b-22129686061252fa5d",
     name: "School Supplies Shop 2",
     nameZh: "学生用品市场7",
     category: "School Supplies",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SMART HOME DEVICES - 25 stores
 export const smart_home_devicesStores: FeaturedStore[] = [
   {
-    id: "b2b-210000ptyd22",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Store",
     nameZh: "智能家居批发",
     category: "Smart Home Devices",
@@ -14,7 +14,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-210001ka7m3c",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Wholesale",
     nameZh: "智能家居工厂",
     category: "Smart Home Devices",
@@ -25,7 +25,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-210002yku36c",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Factory",
     nameZh: "智能家居商行",
     category: "Smart Home Devices",
@@ -36,7 +36,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-210003v5dche",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Hub",
     nameZh: "智能家居中心",
     category: "Smart Home Devices",
@@ -47,7 +47,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-21000446sjnr",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Co 1",
     nameZh: "智能家居店铺",
     category: "Smart Home Devices",
@@ -57,7 +57,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-2100051vzwyc",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Supply 1",
     nameZh: "智能家居供应",
     category: "Smart Home Devices",
@@ -68,7 +68,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-21000628j7cb",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Shop 1",
     nameZh: "智能家居市场",
     category: "Smart Home Devices",
@@ -79,7 +79,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-210007wvslki",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Mart 1",
     nameZh: "智能家居专营",
     category: "Smart Home Devices",
@@ -90,7 +90,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-210008qgf38y",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Wholesale 1",
     nameZh: "智能家居批发1",
     category: "Smart Home Devices",
@@ -101,7 +101,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-210009p4w5w0",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Factory 1",
     nameZh: "智能家居工厂2",
     category: "Smart Home Devices",
@@ -111,7 +111,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-2100102ll7wz",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Store 2",
     nameZh: "智能家居商行3",
     category: "Smart Home Devices",
@@ -122,7 +122,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-210011sgi1jp",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Hub 2",
     nameZh: "智能家居中心4",
     category: "Smart Home Devices",
@@ -133,7 +133,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-210012o7jeue",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Co 2",
     nameZh: "智能家居店铺5",
     category: "Smart Home Devices",
@@ -144,7 +144,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-210013jqzd1n",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Supply 2",
     nameZh: "智能家居供应6",
     category: "Smart Home Devices",
@@ -155,7 +155,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-210014ubeapw",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Shop 2",
     nameZh: "智能家居市场7",
     category: "Smart Home Devices",
@@ -165,7 +165,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-210015v43psi",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Mart 2",
     nameZh: "智能家居专营8",
     category: "Smart Home Devices",
@@ -176,7 +176,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-210016feeooa",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Wholesale 2",
     nameZh: "智能家居批发9",
     category: "Smart Home Devices",
@@ -187,7 +187,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-210017g2xq00",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Factory 2",
     nameZh: "智能家居工厂10",
     category: "Smart Home Devices",
@@ -198,7 +198,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-210018ca7cu7",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Store 2",
     nameZh: "智能家居商行11",
     category: "Smart Home Devices",
@@ -209,7 +209,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-210019go33fe",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Hub 2",
     nameZh: "智能家居中心12",
     category: "Smart Home Devices",
@@ -219,7 +219,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     location: "Hangzhou",
   },
   {
-    id: "b2b-210020vg8mfb",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Co 3",
     nameZh: "智能家居店铺13",
     category: "Smart Home Devices",
@@ -230,7 +230,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-210021qt1xgq",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Supply 3",
     nameZh: "智能家居供应14",
     category: "Smart Home Devices",
@@ -241,7 +241,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-210022isrx1g",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Shop 3",
     nameZh: "智能家居市场15",
     category: "Smart Home Devices",
@@ -252,7 +252,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-210023ev266e",
+    id: "b2b-221162226231463a5d",
     name: "Smart Home Devices Mart 3",
     nameZh: "智能家居专营16",
     category: "Smart Home Devices",
@@ -263,7 +263,7 @@ export const smart_home_devicesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-2100249jvtlo",
+    id: "b2b-22129686061252fa5d",
     name: "Smart Home Devices Wholesale 3",
     nameZh: "智能家居批发17",
     category: "Smart Home Devices",

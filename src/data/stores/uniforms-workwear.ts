@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // UNIFORMS & WORKWEAR - 30 stores
 export const uniforms_workwearStores: FeaturedStore[] = [
   {
-    id: "b2b-170000g8tlwf",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Store",
     nameZh: "制服工装批发",
     category: "Uniforms & Workwear",
@@ -14,7 +14,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-170001kok1w3",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Wholesale",
     nameZh: "制服工装工厂",
     category: "Uniforms & Workwear",
@@ -25,7 +25,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-170002xrdayb",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Factory",
     nameZh: "制服工装商行",
     category: "Uniforms & Workwear",
@@ -36,7 +36,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-1700038gab9a",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Hub",
     nameZh: "制服工装中心",
     category: "Uniforms & Workwear",
@@ -47,7 +47,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-170004lypzvt",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Co 1",
     nameZh: "制服工装店铺",
     category: "Uniforms & Workwear",
@@ -57,7 +57,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-170005z85qdi",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Supply 1",
     nameZh: "制服工装供应",
     category: "Uniforms & Workwear",
@@ -68,7 +68,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-170006i9asko",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Shop 1",
     nameZh: "制服工装市场",
     category: "Uniforms & Workwear",
@@ -79,7 +79,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-170007c1weoi",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Mart 1",
     nameZh: "制服工装专营",
     category: "Uniforms & Workwear",
@@ -90,7 +90,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-1700088989ut",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Wholesale 1",
     nameZh: "制服工装批发1",
     category: "Uniforms & Workwear",
@@ -101,7 +101,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-170009hz5h69",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Factory 1",
     nameZh: "制服工装工厂2",
     category: "Uniforms & Workwear",
@@ -111,7 +111,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-170010iya428",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Store 2",
     nameZh: "制服工装商行3",
     category: "Uniforms & Workwear",
@@ -122,7 +122,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-170011v2asvp",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Hub 2",
     nameZh: "制服工装中心4",
     category: "Uniforms & Workwear",
@@ -133,7 +133,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-170012so7s4t",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Co 2",
     nameZh: "制服工装店铺5",
     category: "Uniforms & Workwear",
@@ -144,7 +144,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-170013asn1yi",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Supply 2",
     nameZh: "制服工装供应6",
     category: "Uniforms & Workwear",
@@ -155,7 +155,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-1700141tm3ma",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Shop 2",
     nameZh: "制服工装市场7",
     category: "Uniforms & Workwear",
@@ -165,7 +165,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-17001525rax9",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Mart 2",
     nameZh: "制服工装专营8",
     category: "Uniforms & Workwear",
@@ -176,7 +176,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-170016qmocvg",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Wholesale 2",
     nameZh: "制服工装批发9",
     category: "Uniforms & Workwear",
@@ -187,7 +187,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-170017arx7mw",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Factory 2",
     nameZh: "制服工装工厂10",
     category: "Uniforms & Workwear",
@@ -198,7 +198,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-170018injcwb",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Store 2",
     nameZh: "制服工装商行11",
     category: "Uniforms & Workwear",
@@ -209,7 +209,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-1700197xqluz",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Hub 2",
     nameZh: "制服工装中心12",
     category: "Uniforms & Workwear",
@@ -219,7 +219,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     location: "Dongguan",
   },
   {
-    id: "b2b-1700209x86rj",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Co 3",
     nameZh: "制服工装店铺13",
     category: "Uniforms & Workwear",
@@ -230,7 +230,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-170021l8p7rm",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Supply 3",
     nameZh: "制服工装供应14",
     category: "Uniforms & Workwear",
@@ -241,7 +241,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-170022l91lcb",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Shop 3",
     nameZh: "制服工装市场15",
     category: "Uniforms & Workwear",
@@ -252,7 +252,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-170023hvs4qd",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Mart 3",
     nameZh: "制服工装专营16",
     category: "Uniforms & Workwear",
@@ -263,7 +263,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-170024611t7y",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Wholesale 3",
     nameZh: "制服工装批发17",
     category: "Uniforms & Workwear",
@@ -273,7 +273,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-170025mr3rar",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Factory 3",
     nameZh: "制服工装工厂18",
     category: "Uniforms & Workwear",
@@ -284,7 +284,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-1700264dcwxj",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Store 3",
     nameZh: "制服工装商行19",
     category: "Uniforms & Workwear",
@@ -295,7 +295,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-170027lq4d9z",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Hub 3",
     nameZh: "制服工装中心20",
     category: "Uniforms & Workwear",
@@ -306,7 +306,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-170028g7xoy4",
+    id: "b2b-22129686061252fa5d",
     name: "Uniforms Co 3",
     nameZh: "制服工装店铺21",
     category: "Uniforms & Workwear",
@@ -317,7 +317,7 @@ export const uniforms_workwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-17002997dbpd",
+    id: "b2b-221162226231463a5d",
     name: "Uniforms Supply 3",
     nameZh: "制服工装供应22",
     category: "Uniforms & Workwear",

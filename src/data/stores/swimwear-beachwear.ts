@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // SWIMWEAR & BEACHWEAR - 20 stores
 export const swimwear_beachwearStores: FeaturedStore[] = [
   {
-    id: "b2b-150000rce2c5",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Store",
     nameZh: "泳装沙滩装批发",
     category: "Swimwear & Beachwear",
@@ -14,7 +14,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-1500018thwgu",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Wholesale",
     nameZh: "泳装沙滩装工厂",
     category: "Swimwear & Beachwear",
@@ -25,7 +25,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-150002zwfidv",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Factory",
     nameZh: "泳装沙滩装商行",
     category: "Swimwear & Beachwear",
@@ -36,7 +36,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-150003udmh02",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Hub",
     nameZh: "泳装沙滩装中心",
     category: "Swimwear & Beachwear",
@@ -47,7 +47,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-150004le4l9l",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Co 1",
     nameZh: "泳装沙滩装店铺",
     category: "Swimwear & Beachwear",
@@ -57,7 +57,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-150005h36nvm",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Supply 1",
     nameZh: "泳装沙滩装供应",
     category: "Swimwear & Beachwear",
@@ -68,7 +68,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-150006rkxg80",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Shop 1",
     nameZh: "泳装沙滩装市场",
     category: "Swimwear & Beachwear",
@@ -79,7 +79,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-150007bzroie",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Mart 1",
     nameZh: "泳装沙滩装专营",
     category: "Swimwear & Beachwear",
@@ -90,7 +90,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-150008cqeitj",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Wholesale 1",
     nameZh: "泳装沙滩装批发1",
     category: "Swimwear & Beachwear",
@@ -101,7 +101,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-150009pqq3kb",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Factory 1",
     nameZh: "泳装沙滩装工厂2",
     category: "Swimwear & Beachwear",
@@ -111,7 +111,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-1500102rrn8c",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Store 2",
     nameZh: "泳装沙滩装商行3",
     category: "Swimwear & Beachwear",
@@ -122,7 +122,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-1500112uslsn",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Hub 2",
     nameZh: "泳装沙滩装中心4",
     category: "Swimwear & Beachwear",
@@ -133,7 +133,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-150012i5bjol",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Co 2",
     nameZh: "泳装沙滩装店铺5",
     category: "Swimwear & Beachwear",
@@ -144,7 +144,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-15001394mgq4",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Supply 2",
     nameZh: "泳装沙滩装供应6",
     category: "Swimwear & Beachwear",
@@ -155,7 +155,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-150014u1y2bs",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Shop 2",
     nameZh: "泳装沙滩装市场7",
     category: "Swimwear & Beachwear",
@@ -165,7 +165,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-150015pworz0",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Mart 2",
     nameZh: "泳装沙滩装专营8",
     category: "Swimwear & Beachwear",
@@ -176,7 +176,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-150016vlzyk0",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Wholesale 2",
     nameZh: "泳装沙滩装批发9",
     category: "Swimwear & Beachwear",
@@ -187,7 +187,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-150017nfxvm0",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Factory 2",
     nameZh: "泳装沙滩装工厂10",
     category: "Swimwear & Beachwear",
@@ -198,7 +198,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-1500186kjpum",
+    id: "b2b-22129686061252fa5d",
     name: "Swimwear Store 2",
     nameZh: "泳装沙滩装商行11",
     category: "Swimwear & Beachwear",
@@ -209,7 +209,7 @@ export const swimwear_beachwearStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-150019gbbgao",
+    id: "b2b-221162226231463a5d",
     name: "Swimwear Hub 2",
     nameZh: "泳装沙滩装中心12",
     category: "Swimwear & Beachwear",

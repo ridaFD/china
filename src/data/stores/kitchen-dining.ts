@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // KITCHEN & DINING - 35 stores
 export const kitchen_diningStores: FeaturedStore[] = [
   {
-    id: "b2b-300001z1af2",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Essentials Store",
     nameZh: "厨房餐饮批发",
     category: "Kitchen & Dining",
@@ -14,7 +14,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-30001kgtkmd",
+    id: "b2b-221162226231463a5d",
     name: "Dining Ware Factory",
     nameZh: "厨房餐饮工厂",
     category: "Kitchen & Dining",
@@ -25,7 +25,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-300025gzbh7",
+    id: "b2b-22129686061252fa5d",
     name: "Cookware Paradise",
     nameZh: "厨房餐饮商行",
     category: "Kitchen & Dining",
@@ -36,7 +36,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-30003kxn7g9",
+    id: "b2b-221162226231463a5d",
     name: "Tableware Wholesale",
     nameZh: "厨房餐饮中心",
     category: "Kitchen & Dining",
@@ -47,7 +47,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-30004k6wwec",
+    id: "b2b-22129686061252fa5d",
     name: "Chef Tools Supply",
     nameZh: "厨房餐饮店铺",
     category: "Kitchen & Dining",
@@ -57,7 +57,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "b2b-300054a1tzg",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Gadget Hub",
     nameZh: "厨房餐饮供应",
     category: "Kitchen & Dining",
@@ -68,7 +68,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-30006wz0pea",
+    id: "b2b-22129686061252fa5d",
     name: "Dinnerware Collection",
     nameZh: "厨房餐饮市场",
     category: "Kitchen & Dining",
@@ -79,7 +79,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-30007l8vhps",
+    id: "b2b-221162226231463a5d",
     name: "Culinary Equipment Co",
     nameZh: "厨房餐饮专营",
     category: "Kitchen & Dining",
@@ -90,7 +90,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-30008oupml4",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Wholesale 1",
     nameZh: "厨房餐饮批发1",
     category: "Kitchen & Dining",
@@ -101,7 +101,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-300098xyxg9",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Factory 1",
     nameZh: "厨房餐饮工厂2",
     category: "Kitchen & Dining",
@@ -111,7 +111,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-300106mvoi3",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Store 2",
     nameZh: "厨房餐饮商行3",
     category: "Kitchen & Dining",
@@ -122,7 +122,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-30011zlq3bh",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Hub 2",
     nameZh: "厨房餐饮中心4",
     category: "Kitchen & Dining",
@@ -133,7 +133,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-30012a7ujey",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Co 2",
     nameZh: "厨房餐饮店铺5",
     category: "Kitchen & Dining",
@@ -144,7 +144,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-30013gunb3s",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Supply 2",
     nameZh: "厨房餐饮供应6",
     category: "Kitchen & Dining",
@@ -155,7 +155,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-3001498f4t2",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Shop 2",
     nameZh: "厨房餐饮市场7",
     category: "Kitchen & Dining",
@@ -165,7 +165,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-30015135jo6",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Mart 2",
     nameZh: "厨房餐饮专营8",
     category: "Kitchen & Dining",
@@ -176,7 +176,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-30016qr5ova",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Wholesale 2",
     nameZh: "厨房餐饮批发9",
     category: "Kitchen & Dining",
@@ -187,7 +187,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-300171s4d9p",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Factory 2",
     nameZh: "厨房餐饮工厂10",
     category: "Kitchen & Dining",
@@ -198,7 +198,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-30018d39sux",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Store 2",
     nameZh: "厨房餐饮商行11",
     category: "Kitchen & Dining",
@@ -209,7 +209,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-300191lk407",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Hub 2",
     nameZh: "厨房餐饮中心12",
     category: "Kitchen & Dining",
@@ -219,7 +219,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Chaozhou",
   },
   {
-    id: "b2b-30020e0ws31",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Co 3",
     nameZh: "厨房餐饮店铺13",
     category: "Kitchen & Dining",
@@ -230,7 +230,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-30021ycx4ri",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Supply 3",
     nameZh: "厨房餐饮供应14",
     category: "Kitchen & Dining",
@@ -241,7 +241,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-3002218s5ds",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Shop 3",
     nameZh: "厨房餐饮市场15",
     category: "Kitchen & Dining",
@@ -252,7 +252,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-30023txt13a",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Mart 3",
     nameZh: "厨房餐饮专营16",
     category: "Kitchen & Dining",
@@ -263,7 +263,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-30024q4hxmr",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Wholesale 3",
     nameZh: "厨房餐饮批发17",
     category: "Kitchen & Dining",
@@ -273,7 +273,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-300259c8jiv",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Factory 3",
     nameZh: "厨房餐饮工厂18",
     category: "Kitchen & Dining",
@@ -284,7 +284,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-30026s853rh",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Store 3",
     nameZh: "厨房餐饮商行19",
     category: "Kitchen & Dining",
@@ -295,7 +295,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-30027e21tov",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Hub 3",
     nameZh: "厨房餐饮中心20",
     category: "Kitchen & Dining",
@@ -306,7 +306,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-30028lv4hll",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Co 3",
     nameZh: "厨房餐饮店铺21",
     category: "Kitchen & Dining",
@@ -317,7 +317,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-30029xpltkw",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Supply 3",
     nameZh: "厨房餐饮供应22",
     category: "Kitchen & Dining",
@@ -327,7 +327,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-30030dst0m2",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Shop 4",
     nameZh: "厨房餐饮市场23",
     category: "Kitchen & Dining",
@@ -338,7 +338,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-30031ultf0u",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Mart 4",
     nameZh: "厨房餐饮专营24",
     category: "Kitchen & Dining",
@@ -349,7 +349,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-30032hfijt2",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Wholesale 4",
     nameZh: "厨房餐饮批发25",
     category: "Kitchen & Dining",
@@ -360,7 +360,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-300336uep3h",
+    id: "b2b-221162226231463a5d",
     name: "Kitchen Factory 4",
     nameZh: "厨房餐饮工厂26",
     category: "Kitchen & Dining",
@@ -371,7 +371,7 @@ export const kitchen_diningStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-30034452dd0",
+    id: "b2b-22129686061252fa5d",
     name: "Kitchen Store 4",
     nameZh: "厨房餐饮商行27",
     category: "Kitchen & Dining",

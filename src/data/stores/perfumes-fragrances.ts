@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // PERFUMES & FRAGRANCES - 20 stores
 export const perfumes_fragrancesStores: FeaturedStore[] = [
   {
-    id: "b2b-270000hk5nvd",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Store",
     nameZh: "香水香氛批发",
     category: "Perfumes & Fragrances",
@@ -14,7 +14,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-270001t4k6ro",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Wholesale",
     nameZh: "香水香氛工厂",
     category: "Perfumes & Fragrances",
@@ -25,7 +25,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-270002ajegrz",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Factory",
     nameZh: "香水香氛商行",
     category: "Perfumes & Fragrances",
@@ -36,7 +36,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-2700037tkjbh",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Hub",
     nameZh: "香水香氛中心",
     category: "Perfumes & Fragrances",
@@ -47,7 +47,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-2700044l8w0p",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Co 1",
     nameZh: "香水香氛店铺",
     category: "Perfumes & Fragrances",
@@ -57,7 +57,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-270005atq2qq",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Supply 1",
     nameZh: "香水香氛供应",
     category: "Perfumes & Fragrances",
@@ -68,7 +68,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-270006yu1bs6",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Shop 1",
     nameZh: "香水香氛市场",
     category: "Perfumes & Fragrances",
@@ -79,7 +79,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-2700072jnjpe",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Mart 1",
     nameZh: "香水香氛专营",
     category: "Perfumes & Fragrances",
@@ -90,7 +90,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-270008gx2bt6",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Wholesale 1",
     nameZh: "香水香氛批发1",
     category: "Perfumes & Fragrances",
@@ -101,7 +101,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-270009w2bf0c",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Factory 1",
     nameZh: "香水香氛工厂2",
     category: "Perfumes & Fragrances",
@@ -111,7 +111,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-27001080tnpl",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Store 2",
     nameZh: "香水香氛商行3",
     category: "Perfumes & Fragrances",
@@ -122,7 +122,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-270011ozjtds",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Hub 2",
     nameZh: "香水香氛中心4",
     category: "Perfumes & Fragrances",
@@ -133,7 +133,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-270012xaay2m",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Co 2",
     nameZh: "香水香氛店铺5",
     category: "Perfumes & Fragrances",
@@ -144,7 +144,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-270013e7s8j7",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Supply 2",
     nameZh: "香水香氛供应6",
     category: "Perfumes & Fragrances",
@@ -155,7 +155,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-270014vtge88",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Shop 2",
     nameZh: "香水香氛市场7",
     category: "Perfumes & Fragrances",
@@ -165,7 +165,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-270015x8sgnz",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Mart 2",
     nameZh: "香水香氛专营8",
     category: "Perfumes & Fragrances",
@@ -176,7 +176,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-2700165bvxiq",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Wholesale 2",
     nameZh: "香水香氛批发9",
     category: "Perfumes & Fragrances",
@@ -187,7 +187,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-270017l2redh",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Factory 2",
     nameZh: "香水香氛工厂10",
     category: "Perfumes & Fragrances",
@@ -198,7 +198,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-270018dmeesm",
+    id: "b2b-22129686061252fa5d",
     name: "Perfumes Store 2",
     nameZh: "香水香氛商行11",
     category: "Perfumes & Fragrances",
@@ -209,7 +209,7 @@ export const perfumes_fragrancesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-2700190m48x3",
+    id: "b2b-221162226231463a5d",
     name: "Perfumes Hub 2",
     nameZh: "香水香氛中心12",
     category: "Perfumes & Fragrances",

@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // OFFICE EQUIPMENT - 20 stores
 export const office_equipmentStores: FeaturedStore[] = [
   {
-    id: "b2b-3500008rwsks",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Store",
     nameZh: "办公设备批发",
     category: "Office Equipment",
@@ -14,7 +14,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-3500013a219b",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Wholesale",
     nameZh: "办公设备工厂",
     category: "Office Equipment",
@@ -25,7 +25,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-350002mk3iz2",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Factory",
     nameZh: "办公设备商行",
     category: "Office Equipment",
@@ -36,7 +36,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-350003b35213",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Hub",
     nameZh: "办公设备中心",
     category: "Office Equipment",
@@ -47,7 +47,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-350004sxeav8",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Co 1",
     nameZh: "办公设备店铺",
     category: "Office Equipment",
@@ -57,7 +57,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     location: "Shanghai",
   },
   {
-    id: "b2b-3500055u7eea",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Supply 1",
     nameZh: "办公设备供应",
     category: "Office Equipment",
@@ -68,7 +68,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-350006f3oe0q",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Shop 1",
     nameZh: "办公设备市场",
     category: "Office Equipment",
@@ -79,7 +79,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-350007ch33nu",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Mart 1",
     nameZh: "办公设备专营",
     category: "Office Equipment",
@@ -90,7 +90,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-350008rl4too",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Wholesale 1",
     nameZh: "办公设备批发1",
     category: "Office Equipment",
@@ -101,7 +101,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-350009pqkj10",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Factory 1",
     nameZh: "办公设备工厂2",
     category: "Office Equipment",
@@ -111,7 +111,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     location: "Shenzhen",
   },
   {
-    id: "b2b-350010ftdwhn",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Store 2",
     nameZh: "办公设备商行3",
     category: "Office Equipment",
@@ -122,7 +122,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-350011744eru",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Hub 2",
     nameZh: "办公设备中心4",
     category: "Office Equipment",
@@ -133,7 +133,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-350012y8o2d5",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Co 2",
     nameZh: "办公设备店铺5",
     category: "Office Equipment",
@@ -144,7 +144,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-350013f6zivr",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Supply 2",
     nameZh: "办公设备供应6",
     category: "Office Equipment",
@@ -155,7 +155,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-350014mqxgau",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Shop 2",
     nameZh: "办公设备市场7",
     category: "Office Equipment",
@@ -165,7 +165,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     location: "Beijing",
   },
   {
-    id: "b2b-350015lrc9we",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Mart 2",
     nameZh: "办公设备专营8",
     category: "Office Equipment",
@@ -176,7 +176,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-350016ee18aq",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Wholesale 2",
     nameZh: "办公设备批发9",
     category: "Office Equipment",
@@ -187,7 +187,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-350017tt7js0",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Factory 2",
     nameZh: "办公设备工厂10",
     category: "Office Equipment",
@@ -198,7 +198,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-350018svwnct",
+    id: "b2b-22129686061252fa5d",
     name: "Office Equipment Store 2",
     nameZh: "办公设备商行11",
     category: "Office Equipment",
@@ -209,7 +209,7 @@ export const office_equipmentStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-350019srzkhw",
+    id: "b2b-221162226231463a5d",
     name: "Office Equipment Hub 2",
     nameZh: "办公设备中心12",
     category: "Office Equipment",

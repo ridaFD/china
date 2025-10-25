@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // HAND & POWER TOOLS - 30 stores
 export const hand_power_toolsStores: FeaturedStore[] = [
   {
-    id: "b2b-5100007ptnpb",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Store",
     nameZh: "手动电动工具批发",
     category: "Hand & Power Tools",
@@ -14,7 +14,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-510001u2fyo3",
+    id: "b2b-221162226231463a5d",
     name: "Hand Wholesale",
     nameZh: "手动电动工具工厂",
     category: "Hand & Power Tools",
@@ -25,7 +25,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-510002wd5kxz",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Factory",
     nameZh: "手动电动工具商行",
     category: "Hand & Power Tools",
@@ -36,7 +36,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-510003n4h3kj",
+    id: "b2b-221162226231463a5d",
     name: "Hand Hub",
     nameZh: "手动电动工具中心",
     category: "Hand & Power Tools",
@@ -47,7 +47,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-51000480yx3b",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Co 1",
     nameZh: "手动电动工具店铺",
     category: "Hand & Power Tools",
@@ -57,7 +57,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     location: "Taizhou",
   },
   {
-    id: "b2b-510005242gaz",
+    id: "b2b-221162226231463a5d",
     name: "Hand Supply 1",
     nameZh: "手动电动工具供应",
     category: "Hand & Power Tools",
@@ -68,7 +68,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-510006p0dfen",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Shop 1",
     nameZh: "手动电动工具市场",
     category: "Hand & Power Tools",
@@ -79,7 +79,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-5100079veupl",
+    id: "b2b-221162226231463a5d",
     name: "Hand Mart 1",
     nameZh: "手动电动工具专营",
     category: "Hand & Power Tools",
@@ -90,7 +90,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-510008is172d",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Wholesale 1",
     nameZh: "手动电动工具批发1",
     category: "Hand & Power Tools",
@@ -101,7 +101,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-51000944d1u8",
+    id: "b2b-221162226231463a5d",
     name: "Hand Factory 1",
     nameZh: "手动电动工具工厂2",
     category: "Hand & Power Tools",
@@ -111,7 +111,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     location: "Yongkang",
   },
   {
-    id: "b2b-510010ziu1dx",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Store 2",
     nameZh: "手动电动工具商行3",
     category: "Hand & Power Tools",
@@ -122,7 +122,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-510011znr1pu",
+    id: "b2b-221162226231463a5d",
     name: "Hand Hub 2",
     nameZh: "手动电动工具中心4",
     category: "Hand & Power Tools",
@@ -133,7 +133,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-510012sy2cz6",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Co 2",
     nameZh: "手动电动工具店铺5",
     category: "Hand & Power Tools",
@@ -144,7 +144,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-510013n7px41",
+    id: "b2b-221162226231463a5d",
     name: "Hand Supply 2",
     nameZh: "手动电动工具供应6",
     category: "Hand & Power Tools",
@@ -155,7 +155,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-510014g683vk",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Shop 2",
     nameZh: "手动电动工具市场7",
     category: "Hand & Power Tools",
@@ -165,7 +165,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-51001536cn3m",
+    id: "b2b-221162226231463a5d",
     name: "Hand Mart 2",
     nameZh: "手动电动工具专营8",
     category: "Hand & Power Tools",
@@ -176,7 +176,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-510016lzr3it",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Wholesale 2",
     nameZh: "手动电动工具批发9",
     category: "Hand & Power Tools",
@@ -187,7 +187,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-510017aoem8x",
+    id: "b2b-221162226231463a5d",
     name: "Hand Factory 2",
     nameZh: "手动电动工具工厂10",
     category: "Hand & Power Tools",
@@ -198,7 +198,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-510018fyw9gz",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Store 2",
     nameZh: "手动电动工具商行11",
     category: "Hand & Power Tools",
@@ -209,7 +209,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-5100191lifwl",
+    id: "b2b-221162226231463a5d",
     name: "Hand Hub 2",
     nameZh: "手动电动工具中心12",
     category: "Hand & Power Tools",
@@ -219,7 +219,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     location: "Taizhou",
   },
   {
-    id: "b2b-5100206asb60",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Co 3",
     nameZh: "手动电动工具店铺13",
     category: "Hand & Power Tools",
@@ -230,7 +230,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-510021ghobnn",
+    id: "b2b-221162226231463a5d",
     name: "Hand Supply 3",
     nameZh: "手动电动工具供应14",
     category: "Hand & Power Tools",
@@ -241,7 +241,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-510022fii810",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Shop 3",
     nameZh: "手动电动工具市场15",
     category: "Hand & Power Tools",
@@ -252,7 +252,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-510023n08r0d",
+    id: "b2b-221162226231463a5d",
     name: "Hand Mart 3",
     nameZh: "手动电动工具专营16",
     category: "Hand & Power Tools",
@@ -263,7 +263,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-5100243keto3",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Wholesale 3",
     nameZh: "手动电动工具批发17",
     category: "Hand & Power Tools",
@@ -273,7 +273,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     location: "Yongkang",
   },
   {
-    id: "b2b-510025t7px0q",
+    id: "b2b-221162226231463a5d",
     name: "Hand Factory 3",
     nameZh: "手动电动工具工厂18",
     category: "Hand & Power Tools",
@@ -284,7 +284,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-5100264uxfot",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Store 3",
     nameZh: "手动电动工具商行19",
     category: "Hand & Power Tools",
@@ -295,7 +295,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-510027hfd0js",
+    id: "b2b-221162226231463a5d",
     name: "Hand Hub 3",
     nameZh: "手动电动工具中心20",
     category: "Hand & Power Tools",
@@ -306,7 +306,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-51002847nexb",
+    id: "b2b-22129686061252fa5d",
     name: "Hand Co 3",
     nameZh: "手动电动工具店铺21",
     category: "Hand & Power Tools",
@@ -317,7 +317,7 @@ export const hand_power_toolsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-510029ngr1ch",
+    id: "b2b-221162226231463a5d",
     name: "Hand Supply 3",
     nameZh: "手动电动工具供应22",
     category: "Hand & Power Tools",

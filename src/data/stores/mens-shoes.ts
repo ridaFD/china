@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // MEN'S SHOES - 20 stores
 export const mens_shoesStores: FeaturedStore[] = [
   {
-    id: "b2b-450000otycfp",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Store",
     nameZh: "男鞋批发",
     category: "Men's Shoes",
@@ -14,7 +14,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-45000161j6jr",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Wholesale",
     nameZh: "男鞋工厂",
     category: "Men's Shoes",
@@ -25,7 +25,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-450002lzbmpc",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Factory",
     nameZh: "男鞋商行",
     category: "Men's Shoes",
@@ -36,7 +36,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-450003vyuxid",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Hub",
     nameZh: "男鞋中心",
     category: "Men's Shoes",
@@ -47,7 +47,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-450004s0xjq7",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Co 1",
     nameZh: "男鞋店铺",
     category: "Men's Shoes",
@@ -57,7 +57,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     location: "Jinjiang",
   },
   {
-    id: "b2b-450005ct81hd",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Supply 1",
     nameZh: "男鞋供应",
     category: "Men's Shoes",
@@ -68,7 +68,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-450006go9xmg",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Shop 1",
     nameZh: "男鞋市场",
     category: "Men's Shoes",
@@ -79,7 +79,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-4500075mjdnr",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Mart 1",
     nameZh: "男鞋专营",
     category: "Men's Shoes",
@@ -90,7 +90,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-450008haajuo",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Wholesale 1",
     nameZh: "男鞋批发1",
     category: "Men's Shoes",
@@ -101,7 +101,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-450009rcis7s",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Factory 1",
     nameZh: "男鞋工厂2",
     category: "Men's Shoes",
@@ -111,7 +111,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     location: "Wenzhou",
   },
   {
-    id: "b2b-4500102srr8e",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Store 2",
     nameZh: "男鞋商行3",
     category: "Men's Shoes",
@@ -122,7 +122,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-450011blanoc",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Hub 2",
     nameZh: "男鞋中心4",
     category: "Men's Shoes",
@@ -133,7 +133,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-450012hv4ix9",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Co 2",
     nameZh: "男鞋店铺5",
     category: "Men's Shoes",
@@ -144,7 +144,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-450013rk2oqa",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Supply 2",
     nameZh: "男鞋供应6",
     category: "Men's Shoes",
@@ -155,7 +155,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-450014uj6tlg",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Shop 2",
     nameZh: "男鞋市场7",
     category: "Men's Shoes",
@@ -165,7 +165,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     location: "Quanzhou",
   },
   {
-    id: "b2b-450015gq6jb6",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Mart 2",
     nameZh: "男鞋专营8",
     category: "Men's Shoes",
@@ -176,7 +176,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-450016fg5zpr",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Wholesale 2",
     nameZh: "男鞋批发9",
     category: "Men's Shoes",
@@ -187,7 +187,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-450017nba6yb",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Factory 2",
     nameZh: "男鞋工厂10",
     category: "Men's Shoes",
@@ -198,7 +198,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-450018jego0i",
+    id: "b2b-22129686061252fa5d",
     name: "Men's Shoes Store 2",
     nameZh: "男鞋商行11",
     category: "Men's Shoes",
@@ -209,7 +209,7 @@ export const mens_shoesStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-450019mjzomb",
+    id: "b2b-221162226231463a5d",
     name: "Men's Shoes Hub 2",
     nameZh: "男鞋中心12",
     category: "Men's Shoes",
