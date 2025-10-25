@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // LIGHTING & LAMPS - 35 stores
 export const lighting_lampsStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "LED Lighting Factory",
     nameZh: "灯具照明批发",
     category: "Lighting & Lamps",
@@ -14,7 +14,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Modern Lamp Store",
     nameZh: "灯具照明工厂",
     category: "Lighting & Lamps",
@@ -25,7 +25,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Chandelier Wholesale",
     nameZh: "灯具照明商行",
     category: "Lighting & Lamps",
@@ -36,7 +36,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Light Fixture Hub",
     nameZh: "灯具照明中心",
     category: "Lighting & Lamps",
@@ -47,7 +47,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Designer Lighting Co",
     nameZh: "灯具照明店铺",
     category: "Lighting & Lamps",
@@ -57,7 +57,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Guzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Smart Light Solutions",
     nameZh: "灯具照明供应",
     category: "Lighting & Lamps",
@@ -68,7 +68,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lamp & Bulb Supply",
     nameZh: "灯具照明市场",
     category: "Lighting & Lamps",
@@ -79,7 +79,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Illumination Store",
     nameZh: "灯具照明专营",
     category: "Lighting & Lamps",
@@ -90,7 +90,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Wholesale 1",
     nameZh: "灯具照明批发1",
     category: "Lighting & Lamps",
@@ -101,7 +101,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Factory 1",
     nameZh: "灯具照明工厂2",
     category: "Lighting & Lamps",
@@ -111,7 +111,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Zhongshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Store 2",
     nameZh: "灯具照明商行3",
     category: "Lighting & Lamps",
@@ -122,7 +122,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Hub 2",
     nameZh: "灯具照明中心4",
     category: "Lighting & Lamps",
@@ -133,7 +133,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Co 2",
     nameZh: "灯具照明店铺5",
     category: "Lighting & Lamps",
@@ -144,7 +144,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Supply 2",
     nameZh: "灯具照明供应6",
     category: "Lighting & Lamps",
@@ -155,7 +155,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Shop 2",
     nameZh: "灯具照明市场7",
     category: "Lighting & Lamps",
@@ -165,7 +165,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Mart 2",
     nameZh: "灯具照明专营8",
     category: "Lighting & Lamps",
@@ -176,7 +176,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Wholesale 2",
     nameZh: "灯具照明批发9",
     category: "Lighting & Lamps",
@@ -187,7 +187,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Factory 2",
     nameZh: "灯具照明工厂10",
     category: "Lighting & Lamps",
@@ -198,7 +198,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Store 2",
     nameZh: "灯具照明商行11",
     category: "Lighting & Lamps",
@@ -209,7 +209,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Hub 2",
     nameZh: "灯具照明中心12",
     category: "Lighting & Lamps",
@@ -219,7 +219,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Guzhen",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Co 3",
     nameZh: "灯具照明店铺13",
     category: "Lighting & Lamps",
@@ -230,7 +230,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Supply 3",
     nameZh: "灯具照明供应14",
     category: "Lighting & Lamps",
@@ -241,7 +241,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Shop 3",
     nameZh: "灯具照明市场15",
     category: "Lighting & Lamps",
@@ -252,7 +252,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Mart 3",
     nameZh: "灯具照明专营16",
     category: "Lighting & Lamps",
@@ -263,7 +263,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Wholesale 3",
     nameZh: "灯具照明批发17",
     category: "Lighting & Lamps",
@@ -273,7 +273,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Zhongshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Factory 3",
     nameZh: "灯具照明工厂18",
     category: "Lighting & Lamps",
@@ -284,7 +284,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Store 3",
     nameZh: "灯具照明商行19",
     category: "Lighting & Lamps",
@@ -295,7 +295,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Hub 3",
     nameZh: "灯具照明中心20",
     category: "Lighting & Lamps",
@@ -306,7 +306,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Co 3",
     nameZh: "灯具照明店铺21",
     category: "Lighting & Lamps",
@@ -317,7 +317,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Supply 3",
     nameZh: "灯具照明供应22",
     category: "Lighting & Lamps",
@@ -327,7 +327,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     location: "Foshan",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Shop 4",
     nameZh: "灯具照明市场23",
     category: "Lighting & Lamps",
@@ -338,7 +338,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Mart 4",
     nameZh: "灯具照明专营24",
     category: "Lighting & Lamps",
@@ -349,7 +349,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Wholesale 4",
     nameZh: "灯具照明批发25",
     category: "Lighting & Lamps",
@@ -360,7 +360,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Factory 4",
     nameZh: "灯具照明工厂26",
     category: "Lighting & Lamps",
@@ -371,7 +371,7 @@ export const lighting_lampsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Lighting Store 4",
     nameZh: "灯具照明商行27",
     category: "Lighting & Lamps",

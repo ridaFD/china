@@ -3,7 +3,7 @@ import { FeaturedStore } from './types';
 // CRAFT MATERIALS - 20 stores
 export const craft_materialsStores: FeaturedStore[] = [
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Store",
     nameZh: "手工材料批发",
     category: "Craft Materials",
@@ -14,7 +14,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Wholesale",
     nameZh: "手工材料工厂",
     category: "Craft Materials",
@@ -25,7 +25,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Factory",
     nameZh: "手工材料商行",
     category: "Craft Materials",
@@ -36,7 +36,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Hub",
     nameZh: "手工材料中心",
     category: "Craft Materials",
@@ -47,7 +47,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Co 1",
     nameZh: "手工材料店铺",
     category: "Craft Materials",
@@ -57,7 +57,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     location: "Ningbo",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Supply 1",
     nameZh: "手工材料供应",
     category: "Craft Materials",
@@ -68,7 +68,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Shop 1",
     nameZh: "手工材料市场",
     category: "Craft Materials",
@@ -79,7 +79,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.8,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Mart 1",
     nameZh: "手工材料专营",
     category: "Craft Materials",
@@ -90,7 +90,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Wholesale 1",
     nameZh: "手工材料批发1",
     category: "Craft Materials",
@@ -101,7 +101,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Factory 1",
     nameZh: "手工材料工厂2",
     category: "Craft Materials",
@@ -111,7 +111,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     location: "Yiwu",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Store 2",
     nameZh: "手工材料商行3",
     category: "Craft Materials",
@@ -122,7 +122,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Hub 2",
     nameZh: "手工材料中心4",
     category: "Craft Materials",
@@ -133,7 +133,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.5,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Co 2",
     nameZh: "手工材料店铺5",
     category: "Craft Materials",
@@ -144,7 +144,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.6,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Supply 2",
     nameZh: "手工材料供应6",
     category: "Craft Materials",
@@ -155,7 +155,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.7,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Shop 2",
     nameZh: "手工材料市场7",
     category: "Craft Materials",
@@ -165,7 +165,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     location: "Guangzhou",
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Mart 2",
     nameZh: "手工材料专营8",
     category: "Craft Materials",
@@ -176,7 +176,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.9,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Wholesale 2",
     nameZh: "手工材料批发9",
     category: "Craft Materials",
@@ -187,7 +187,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.2,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Factory 2",
     nameZh: "手工材料工厂10",
     category: "Craft Materials",
@@ -198,7 +198,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.3,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Store 2",
     nameZh: "手工材料商行11",
     category: "Craft Materials",
@@ -209,7 +209,7 @@ export const craft_materialsStores: FeaturedStore[] = [
     rating: 4.4,
   },
   {
-    id: "b2b-221162226231463a5d",
+    id: "xingtaisp",
     name: "Craft Materials Hub 2",
     nameZh: "手工材料中心12",
     category: "Craft Materials",
