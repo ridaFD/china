@@ -23,18 +23,36 @@ const STORES_PER_PAGE = 12;
 export default function StoresPage() {
   const allCategories = getAllCategories();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Reset to page 1 when category changes
+  // Reset to page 1 when category or search changes
   const handleCategoryChange = (category: string | null) => {
     setSelectedCategory(category);
     setCurrentPage(1);
   };
 
-  // Get stores to display based on category filter
-  const filteredStores = selectedCategory 
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    setCurrentPage(1);
+  };
+
+  // Get stores to display based on category filter and search
+  let filteredStores = selectedCategory 
     ? getStoresByCategory(selectedCategory)
     : featuredStores;
+
+  // Apply search filter
+  if (searchQuery.trim()) {
+    const query = searchQuery.toLowerCase();
+    filteredStores = filteredStores.filter(store => 
+      store.name.toLowerCase().includes(query) ||
+      store.nameZh.includes(query) ||
+      store.category.toLowerCase().includes(query) ||
+      (store.location && store.location.toLowerCase().includes(query)) ||
+      (store.description && store.description.toLowerCase().includes(query))
+    );
+  }
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredStores.length / STORES_PER_PAGE);
@@ -195,6 +213,117 @@ export default function StoresPage() {
         </div>
       </div>
 
+      {/* Search Bar */}
+      <div className="container mx-auto px-4 pb-6">
+        <div className="bg-white rounded-lg shadow-sm border p-6">
+          <div className="flex flex-col md:flex-row gap-4 items-center">
+            <div className="flex-1 w-full">
+              <label htmlFor="store-search" className="block text-sm font-medium text-gray-700 mb-2">
+                🔍 Search Stores
+              </label>
+              <div className="relative">
+                <input
+                  id="store-search"
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => handleSearchChange(e.target.value)}
+                  placeholder="Search by name, location, category... (English or 中文)"
+                  className="w-full px-4 py-3 pl-12 pr-12 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                />
+                <svg
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+                {searchQuery && (
+                  <button
+                    onClick={() => handleSearchChange('')}
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    aria-label="Clear search"
+                  >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                )}
+              </div>
+              {searchQuery && (
+                <p className="mt-2 text-sm text-gray-600">
+                  Found <span className="font-semibold text-blue-600">{filteredStores.length}</span> {filteredStores.length === 1 ? 'store' : 'stores'} matching &quot;{searchQuery}&quot;
+                </p>
+              )}
+            </div>
+            <div className="flex gap-2 w-full md:w-auto">
+              <button
+                onClick={() => {
+                  handleSearchChange('');
+                  handleCategoryChange(null);
+                }}
+                className="flex-1 md:flex-none px-4 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium text-sm"
+              >
+                Clear All
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Active Filters */}
+      {(searchQuery || selectedCategory) && (
+        <div className="container mx-auto px-4 pb-6">
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-sm font-medium text-gray-700">Active Filters:</span>
+              {searchQuery && (
+                <span className="inline-flex items-center gap-1 px-3 py-1 bg-white border border-blue-300 text-blue-700 rounded-full text-sm">
+                  🔍 &quot;{searchQuery}&quot;
+                  <button
+                    onClick={() => handleSearchChange('')}
+                    className="hover:text-blue-900"
+                    aria-label="Remove search filter"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              )}
+              {selectedCategory && (
+                <span className="inline-flex items-center gap-1 px-3 py-1 bg-white border border-blue-300 text-blue-700 rounded-full text-sm">
+                  {subcategoryEmojis[selectedCategory] || '📦'} {selectedCategory}
+                  <button
+                    onClick={() => handleCategoryChange(null)}
+                    className="hover:text-blue-900"
+                    aria-label="Remove category filter"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              )}
+              <button
+                onClick={() => {
+                  handleSearchChange('');
+                  handleCategoryChange(null);
+                }}
+                className="text-sm text-blue-600 hover:text-blue-800 font-medium ml-2"
+              >
+                Clear All Filters
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Category Filter */}
       <div className="container mx-auto px-4 pb-6">
         <div className="bg-white rounded-lg shadow-sm border p-6">
@@ -348,8 +477,47 @@ export default function StoresPage() {
 
         {/* Empty State */}
         {storesToDisplay.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-gray-600 text-lg">No stores found in this category.</p>
+          <div className="text-center py-16 bg-white rounded-lg border-2 border-dashed border-gray-300">
+            <svg className="mx-auto h-16 w-16 text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">No stores found</h3>
+            <p className="text-gray-600 mb-4">
+              {searchQuery && selectedCategory 
+                ? `No stores match "${searchQuery}" in ${selectedCategory} category`
+                : searchQuery 
+                  ? `No stores match "${searchQuery}"`
+                  : `No stores found in ${selectedCategory} category`}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              {searchQuery && (
+                <button
+                  onClick={() => handleSearchChange('')}
+                  className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                >
+                  Clear Search
+                </button>
+              )}
+              {selectedCategory && (
+                <button
+                  onClick={() => handleCategoryChange(null)}
+                  className="px-6 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+                >
+                  View All Stores
+                </button>
+              )}
+              {(searchQuery || selectedCategory) && (
+                <button
+                  onClick={() => {
+                    handleSearchChange('');
+                    handleCategoryChange(null);
+                  }}
+                  className="px-6 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+                >
+                  Reset All Filters
+                </button>
+              )}
+            </div>
           </div>
         )}
 
