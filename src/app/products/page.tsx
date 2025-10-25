@@ -37,9 +37,13 @@ function ProductsContent() {
         
         const keyword = searchParams.get('keyword') || '';
         const categoryId = searchParams.get('categoryId') || '';
+        const storeId = searchParams.get('storeId') || '';
         const page = searchParams.get('page') || '1';
         
         let url = `/api/products?page=${page}&pageSize=20`;
+        if (storeId) {
+          url += `&storeId=${encodeURIComponent(storeId)}`;
+        }
         if (keyword) {
           url += `&keyword=${encodeURIComponent(keyword)}`;
         }
@@ -96,6 +100,8 @@ function ProductsContent() {
         <h2 className="text-2xl font-bold text-gray-900">
           {searchParams.get('search') === 'image' ? (
             'Image Search Results'
+          ) : searchParams.get('storeId') ? (
+            <>🏪 Store Products</>
           ) : searchParams.get('categoryId') ? (
             <>Category: {searchParams.get('categoryId')}</>
           ) : searchParams.get('keyword') ? (
@@ -103,7 +109,7 @@ function ProductsContent() {
               Search Results for &quot;{searchParams.get('keyword')}&quot;
             </>
           ) : (
-            'All Products'
+            'Featured Products'
           )}
         </h2>
         <p className="text-gray-600 mt-1">
@@ -111,8 +117,23 @@ function ProductsContent() {
         </p>
         
         {/* Active Filters */}
-        {(searchParams.get('categoryId') || searchParams.get('keyword') || searchParams.get('search') === 'image') && (
+        {(searchParams.get('storeId') || searchParams.get('categoryId') || searchParams.get('keyword') || searchParams.get('search') === 'image') && (
           <div className="mt-3 flex flex-wrap gap-2">
+            {searchParams.get('storeId') && (
+              <span className="inline-flex items-center gap-2 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+                🏪 Store: {searchParams.get('storeId')?.substring(0, 20)}...
+                <button
+                  onClick={() => {
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.delete('storeId');
+                    window.location.href = `/products?${params.toString()}`;
+                  }}
+                  className="hover:text-green-900 font-bold"
+                >
+                  ✕
+                </button>
+              </span>
+            )}
             {searchParams.get('categoryId') && (
               <span className="inline-flex items-center gap-2 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
                 Category: {searchParams.get('categoryId')}

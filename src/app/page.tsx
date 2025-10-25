@@ -31,15 +31,15 @@ export default function Home() {
 
           {/* Features */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-8">
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
-              <div className="text-3xl mb-3">🔍</div>
+            <Link href="/stores" className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
+              <div className="text-3xl mb-3">🏪</div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Search Products
+                Browse Stores
               </h3>
               <p className="text-sm text-gray-600">
-                Search millions of wholesale products
+                Explore verified supplier catalogs
               </p>
-            </div>
+            </Link>
 
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
               <div className="text-3xl mb-3">📷</div>
@@ -138,17 +138,23 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
-                    href="/products"
+                    href="/stores"
                     className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium text-sm"
                   >
-                    Browse Products
+                    Browse Stores
+                  </Link>
+                  <Link
+                    href="/products"
+                    className="px-4 py-2 bg-white text-green-600 border-2 border-green-600 rounded-lg hover:bg-green-50 transition-colors font-medium text-sm"
+                  >
+                    View All Products
                   </Link>
                   <Link
                     href="/api/test-connection"
                     target="_blank"
-                    className="px-4 py-2 bg-white text-green-600 border-2 border-green-600 rounded-lg hover:bg-green-50 transition-colors font-medium text-sm"
+                    className="px-4 py-2 bg-gray-100 text-gray-700 border-2 border-gray-300 rounded-lg hover:bg-gray-200 transition-colors font-medium text-sm"
                   >
-                    Test Connection
+                    Test API
                   </Link>
                 </div>
               </div>
@@ -168,3 +174,4 @@ export default function Home() {
     </div>
   );
 }
+

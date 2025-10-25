@@ -1,126 +1,155 @@
 /**
  * API Route: GET /api/products
- * Fetch products from 1688.com via RapidAPI
+ * Fetch products from 1688.com via RapidAPI using store_item_search
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { searchProducts } from '@/lib/rapidapi-1688';
-import { transformSearchResponse } from '@/lib/transform-rapidapi-data';
+import { searchStoreProducts } from '@/lib/rapidapi-1688';
 import { Product, ProductListResponse } from '@/types/product';
+import { defaultStoreId } from '@/data/featured-stores';
+
+/**
+ * Transform store search response to Product format
+ */
+function transformStoreProduct(item: any): Product {
+  // Process images - ensure they have https:// protocol
+  const processImageUrl = (url: string) => {
+    if (!url) return 'https://via.placeholder.com/400';
+    if (url.startsWith('http')) return url;
+    return `https:${url}`;
+  };
+
+  const imageUrl = processImageUrl(item.image || item.mainPic || '');
+
+  // Parse price range
+  let price = 0;
+  let priceRange;
+  
+  if (item.priceRange) {
+    const priceStr = item.priceRange;
+    if (typeof priceStr === 'string' && priceStr.includes('-')) {
+      const [min, max] = priceStr.split('-').map((p: string) => parseFloat(p.trim()));
+      price = min;
+      priceRange = { min, max };
+    } else {
+      price = parseFloat(priceStr);
+    }
+  } else if (item.price) {
+    price = parseFloat(item.price);
+  }
+
+  return {
+    id: item.itemId || item.id,
+    productID: item.itemId || item.id,
+    subject: item.title || 'Product',
+    price,
+    priceRange,
+    currency: 'CNY',
+    imageUrl,
+    images: [imageUrl],
+    description: item.description || '',
+    supplierName: item.shopName || item.sellerNick || 'Supplier',
+    supplierId: item.storeId || item.shopId,
+    moq: parseInt(item.moq || 1),
+    unit: 'piece',
+    saleInfo: {
+      soldQuantity: parseInt(item.sales || 0),
+      reviewCount: 0,
+    },
+    categoryId: item.rootCatId || item.catId,
+  };
+}
 
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
+    const storeId = searchParams.get('storeId') || searchParams.get('categoryId') || defaultStoreId;
     const keyword = searchParams.get('keyword') || '';
-    const categoryId = searchParams.get('categoryId') || '';
     const page = parseInt(searchParams.get('page') || '1');
     const pageSize = parseInt(searchParams.get('pageSize') || '20');
 
-    console.log(`Fetching products from RapidAPI: keyword="${keyword}", page=${page}`);
+    console.log(`Fetching products from store: ${storeId}, page: ${page}`);
 
-    // Call RapidAPI 1688-datahub
-    const response = await searchProducts({
-      keyword,
-      categoryId,
+    // Call RapidAPI store_item_search endpoint
+    const response = await searchStoreProducts({
+      storeId,
       page,
       pageSize,
     });
 
-    // Transform RapidAPI response to our format
-    const { products, total } = transformSearchResponse(response);
+    // Check if API returned error
+    if (response?.result?.status?.code !== 200) {
+      console.error('Store search failed:', response?.result?.status);
+      throw new Error('Store search failed');
+    }
 
-    console.log(`✅ Fetched ${products.length} real products from 1688!`);
+    // Extract products from response
+    // Response structure: result.resultList[].item
+    const resultList = response.result?.resultList || [];
+    const products = resultList.map((result: any) => transformStoreProduct(result.item));
+
+    // Get total from base
+    const total = response.result?.base?.totalResults || products.length;
+    const totalPages = response.result?.base?.totalPages || 1;
+
+    console.log(`✅ Fetched ${products.length} real products from store ${storeId}!`);
 
     const result: ProductListResponse = {
       success: true,
       products,
-      total,
+      total: parseInt(total),
       page,
       pageSize,
-      message: `Showing real products from 1688.com via RapidAPI`,
+      totalPages,
+      message: `Showing real products from 1688.com store via RapidAPI`,
       isRealData: true,
+      storeId,
     };
 
     return NextResponse.json(result);
   } catch (error) {
     console.error('Error in /api/products:', error);
     
-    // Check if error is due to missing credentials
-    const errorMessage = error instanceof Error ? error.message : '';
-    const isMissingCredentials = errorMessage.includes('credentials not configured');
-    
     const searchParams = request.nextUrl.searchParams;
-    const categoryId = searchParams.get('categoryId') || '';
-    const keyword = searchParams.get('keyword') || '';
+    const storeId = searchParams.get('storeId') || defaultStoreId;
     const page = parseInt(searchParams.get('page') || '1');
-    
-    // Generate more realistic mock data
-    const mockProducts: Product[] = Array.from({ length: 20 }, (_, i) => {
-      const productNum = (page - 1) * 20 + i + 1;
+
+    // Generate helpful fallback products with clear messaging
+    const mockProducts: Product[] = Array.from({ length: 10 }, (_, i) => {
+      const productNum = (page - 1) * 10 + i + 1;
       return {
-        id: `mock-${productNum}`,
-        productID: `mock-${productNum}`,
-        subject: `${categoryId || 'Sample'} Product ${productNum} - ${keyword || 'Configure API to see real products'}`,
-        price: Math.floor(Math.random() * 500) + 50,
+        id: `sample-${productNum}`,
+        productID: `sample-${productNum}`,
+        subject: `Sample Product ${productNum} - API Error, showing fallback data`,
+        price: Math.floor(Math.random() * 500) + 10,
         priceRange: {
-          min: Math.floor(Math.random() * 300) + 50,
-          max: Math.floor(Math.random() * 500) + 400,
+          min: Math.floor(Math.random() * 300) + 10,
+          max: Math.floor(Math.random() * 500) + 300,
         },
         currency: 'CNY',
         imageUrl: `https://picsum.photos/seed/${productNum}/400/400`,
-        images: [
-          `https://picsum.photos/seed/${productNum}/400/400`,
-          `https://picsum.photos/seed/${productNum + 1000}/400/400`,
-          `https://picsum.photos/seed/${productNum + 2000}/400/400`,
-        ],
-        description: `High quality ${categoryId || 'wholesale'} product. Configure your 1688 API credentials in .env.local to see real products from 1688.com.`,
-        supplierName: `Supplier ${Math.floor(Math.random() * 100) + 1} Co., Ltd`,
-        supplierId: `supplier-${Math.floor(Math.random() * 100)}`,
-        supplierInfo: {
-          id: `supplier-${Math.floor(Math.random() * 100)}`,
-          name: `${categoryId || 'Quality'} Manufacturer ${Math.floor(Math.random() * 100) + 1}`,
-          isVerified: Math.random() > 0.3,
-          verificationLevel: ['gold', 'premium', 'basic'][Math.floor(Math.random() * 3)] as 'gold' | 'premium' | 'basic',
-          rating: Math.random() * 1.5 + 3.5,
-          totalTransactions: Math.floor(Math.random() * 50000) + 1000,
-          responseRate: Math.floor(Math.random() * 20) + 80,
-          responseTime: 'within 24 hours',
-          yearEstablished: Math.floor(Math.random() * 20) + 2004,
-          location: ['Guangzhou', 'Shenzhen', 'Shanghai', 'Yiwu', 'Hangzhou'][Math.floor(Math.random() * 5)],
-          badges: [
-            { type: 'verified', label: 'Verified Supplier' },
-            Math.random() > 0.5 ? { type: 'top-seller', label: 'Top Seller' } : { type: 'fast-shipping', label: 'Fast Shipping' },
-          ].filter(Boolean) as any,
-        },
-        moq: [50, 100, 200, 500, 1000][Math.floor(Math.random() * 5)],
+        images: [`https://picsum.photos/seed/${productNum}/400/400`],
+        description: 'Sample product. The store_item_search API encountered an error.',
+        supplierName: `Store ${storeId}`,
+        supplierId: storeId,
+        moq: 50,
         unit: 'piece',
-        categoryId: categoryId || 'general',
         saleInfo: {
-          soldQuantity: Math.floor(Math.random() * 10000) + 100,
-          reviewCount: Math.floor(Math.random() * 500) + 10,
+          soldQuantity: Math.floor(Math.random() * 1000),
+          reviewCount: Math.floor(Math.random() * 100),
         },
       };
     });
 
-    const message = isMissingCredentials
-      ? '⚠️ MOCK DATA: Real 1688.com API credentials not configured. See API_SETUP_GUIDE.md for instructions on getting real products.'
-      : '⚠️ MOCK DATA: API request failed. Using mock data as fallback.';
-
     return NextResponse.json({
       success: true,
       products: mockProducts,
-      total: 500, // Mock total
+      total: mockProducts.length,
       page,
-      pageSize: 20,
-      message,
+      pageSize: mockProducts.length,
+      message: '⚠️ API Error: Showing sample products. Please check your API connection.',
       isRealData: false,
-      howToGetRealData: {
-        step1: 'Register at https://open.1688.com',
-        step2: 'Create application and get App Key + App Secret',
-        step3: 'Add credentials to .env.local file',
-        step4: 'See API_SETUP_GUIDE.md for detailed instructions',
-      },
+      error: error instanceof Error ? error.message : 'Unknown error',
     });
   }
 }
-

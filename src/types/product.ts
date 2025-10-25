@@ -48,13 +48,18 @@ export interface ProductListResponse {
   total: number;
   page: number;
   pageSize: number;
+  totalPages?: number;
   message?: string;
+  isRealData?: boolean;
+  storeId?: string;
+  error?: string;
 }
 
 export interface ProductDetailResponse {
   success: boolean;
   product?: Product;
   message?: string;
+  isRealData?: boolean;
 }
 
 export interface SearchParams {
@@ -116,6 +121,7 @@ export interface ImageSearchResponse {
   products: Product[];
   total: number;
   message?: string;
+  isRealData?: boolean;
 }
 
 export interface PriceComparisonProduct extends Product {
